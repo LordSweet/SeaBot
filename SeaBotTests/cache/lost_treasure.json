@@ -1,0 +1,486 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "req_level": 0,
+                "max_level": 0,
+                "req_unplayed_days": 0,
+                "model_name": "lostTreasureCrate",
+                "bounds_min": "",
+                "bounds_max": "",
+                "positions": "",
+                "chests": {
+                    "chest": [
+                        {
+                            "id": 1,
+                            "name": "Default",
+                            "name_loc": "",
+                            "unlock_time": 60,
+                            "reward_count": 0,
+                            "order": 0,
+                            "thumbnail": "chest_01",
+                            "koef_min": 0,
+                            "koef_max": 0,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 0,
+                                        "chance": 0,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "name": "Lost treasure 1",
+                "req_level": 2,
+                "max_level": 5,
+                "req_unplayed_days": 0,
+                "model_name": "lostTreasureCrate",
+                "bounds_min": "-35,-31,-38",
+                "bounds_max": "35,31,38",
+                "positions": "1891,1218;2030,1268;",
+                "chests": {
+                    "chest": [
+                        {
+                            "id": 1,
+                            "name": "Truhla 1",
+                            "name_loc": "SPLT008",
+                            "unlock_time": 10,
+                            "reward_count": 1,
+                            "order": 100,
+                            "thumbnail": "chest_01",
+                            "koef_min": 0,
+                            "koef_max": 0,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 100,
+                                        "bonus": 2.85,
+                                        "chance": 100,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Truhla 2",
+                            "name_loc": "SPLT009",
+                            "unlock_time": 300,
+                            "reward_count": 2,
+                            "order": 200,
+                            "thumbnail": "chest_02",
+                            "koef_min": 0,
+                            "koef_max": 0,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 80,
+                                        "bonus": 0,
+                                        "chance": 30,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 100,
+                                        "bonus": 0,
+                                        "chance": 30,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Truhla 3",
+                            "name_loc": "SPLT010",
+                            "unlock_time": 1200,
+                            "reward_count": 2,
+                            "order": 300,
+                            "thumbnail": "chest_03",
+                            "koef_min": 0,
+                            "koef_max": 0,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 120,
+                                        "bonus": 0,
+                                        "chance": 56,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 120,
+                                        "bonus": 0,
+                                        "chance": 56,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Truhla 4",
+                            "name_loc": "SPLT011",
+                            "unlock_time": 3600,
+                            "reward_count": 3,
+                            "order": 400,
+                            "thumbnail": "chest_04",
+                            "koef_min": 0,
+                            "koef_max": 0,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 130,
+                                        "bonus": 0,
+                                        "chance": 0,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 150,
+                                        "bonus": 0,
+                                        "chance": 0,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 150,
+                                        "bonus": 0,
+                                        "chance": 0,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Truhla 5",
+                            "name_loc": "SPLT012",
+                            "unlock_time": 43200,
+                            "reward_count": 3,
+                            "order": 500,
+                            "thumbnail": "chest_05",
+                            "koef_min": 0,
+                            "koef_max": 0,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 200,
+                                        "bonus": 0,
+                                        "chance": 0,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 20,
+                                        "bonus": 0,
+                                        "chance": 0,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 50,
+                                        "bonus": 0,
+                                        "chance": 0,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 2,
+                "name": "Lost treasure 2 Oldplayer",
+                "req_level": 5,
+                "max_level": 0,
+                "req_unplayed_days": 14,
+                "model_name": "lostTreasureCrate",
+                "bounds_min": "-35,-31,-38",
+                "bounds_max": "35,31,38",
+                "positions": "1891,1218;2030,1268;",
+                "chests": {
+                    "chest": [
+                        {
+                            "id": 1,
+                            "name": "Truhla 1",
+                            "name_loc": "SPLT008",
+                            "unlock_time": 300,
+                            "reward_count": 3,
+                            "order": 100,
+                            "thumbnail": "chest_01",
+                            "koef_min": 0.26,
+                            "koef_max": 0.3,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "xp",
+                                        "amount": 0,
+                                        "bonus": 0,
+                                        "chance": 0,
+                                        "round": 100,
+                                        "min_xp_pct": 20,
+                                        "max_xp_pct": 20
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 70,
+                                        "chance": 0,
+                                        "round": 100,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 5,
+                                        "bonus": 0,
+                                        "chance": 0,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Truhla 2",
+                            "name_loc": "SPLT009",
+                            "unlock_time": 900,
+                            "reward_count": 3,
+                            "order": 200,
+                            "thumbnail": "chest_02",
+                            "koef_min": 0.26,
+                            "koef_max": 0.3,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 80,
+                                        "chance": 0,
+                                        "round": 100,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 65,
+                                        "chance": 0,
+                                        "round": 100,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 50,
+                                        "chance": 0,
+                                        "round": 100,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Truhla 3",
+                            "name_loc": "SPLT010",
+                            "unlock_time": 1800,
+                            "reward_count": 3,
+                            "order": 300,
+                            "thumbnail": "chest_03",
+                            "koef_min": 0.26,
+                            "koef_max": 0.3,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "xp",
+                                        "amount": 0,
+                                        "bonus": 0,
+                                        "chance": 0,
+                                        "round": 1000,
+                                        "min_xp_pct": 30,
+                                        "max_xp_pct": 30
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 10,
+                                        "bonus": 0,
+                                        "chance": 0,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "chance": 0,
+                                        "round": 100,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Truhla 4",
+                            "name_loc": "SPLT011",
+                            "unlock_time": 3600,
+                            "reward_count": 3,
+                            "order": 400,
+                            "thumbnail": "chest_04",
+                            "koef_min": 0.26,
+                            "koef_max": 0.3,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 100,
+                                        "chance": 0,
+                                        "round": 100,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 70,
+                                        "chance": 0,
+                                        "round": 100,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 50,
+                                        "chance": 0,
+                                        "round": 100,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Truhla 5",
+                            "name_loc": "SPLT012",
+                            "unlock_time": 43200,
+                            "reward_count": 3,
+                            "order": 500,
+                            "thumbnail": "chest_05",
+                            "koef_min": 0.26,
+                            "koef_max": 0.3,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 120,
+                                        "chance": 0,
+                                        "round": 100,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 15,
+                                        "bonus": 0,
+                                        "chance": 0,
+                                        "round": 0,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 60,
+                                        "chance": 0,
+                                        "round": 100,
+                                        "min_xp_pct": 0,
+                                        "max_xp_pct": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

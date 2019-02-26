@@ -1,0 +1,20 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "version_id": 1,
+                "name": "Default",
+                "content_version": 0,
+                "new_in_shop": 1
+            },
+            {
+                "def_id": 1,
+                "version_id": 1,
+                "name": "Current",
+                "content_version": 173,
+                "new_in_shop": 0
+            }
+        ]
+    }
+}

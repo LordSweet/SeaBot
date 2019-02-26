@@ -1,0 +1,2643 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "enabled": 0,
+                "start_time": 0,
+                "end_time": 0,
+                "items": {
+                    "item": [
+                        {
+                            "id": 0,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "name": "1. vianocna seria",
+                "enabled": 0,
+                "start_time": 1481533200,
+                "end_time": 1481878800,
+                "items": {
+                    "item": [
+                        {
+                            "id": 54,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 73,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 91,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 2,
+                "name": "2. vianocna seria",
+                "enabled": 0,
+                "start_time": 1481878800,
+                "end_time": 1482138000,
+                "items": {
+                    "item": [
+                        {
+                            "id": 76,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 89,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 288,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 3,
+                "name": "3. vianocna seria",
+                "enabled": 0,
+                "start_time": 1482138000,
+                "end_time": 1482397200,
+                "items": {
+                    "item": [
+                        {
+                            "id": 55,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 74,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 96,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 4,
+                "name": "4. vianocna seria",
+                "enabled": 0,
+                "start_time": 1482397200,
+                "end_time": 1482656400,
+                "items": {
+                    "item": [
+                        {
+                            "id": 53,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 72,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 92,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 5,
+                "name": "5. vianocna seria",
+                "enabled": 0,
+                "start_time": 1482656400,
+                "end_time": 1482915600,
+                "items": {
+                    "item": [
+                        {
+                            "id": 57,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 75,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 88,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 6,
+                "name": "6. vianocna seria",
+                "enabled": 0,
+                "start_time": 1482915600,
+                "end_time": 1483174800,
+                "items": {
+                    "item": [
+                        {
+                            "id": 78,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 93,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 289,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 7,
+                "name": "7. vianocna seria",
+                "enabled": 0,
+                "start_time": 1483174800,
+                "end_time": 1483434000,
+                "items": {
+                    "item": [
+                        {
+                            "id": 52,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 77,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 90,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 8,
+                "name": "8. vianocna seria",
+                "enabled": 0,
+                "start_time": 1483434000,
+                "end_time": 1483693200,
+                "items": {
+                    "item": [
+                        {
+                            "id": 56,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 95,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 290,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 9,
+                "name": "9. vianocna seria",
+                "enabled": 0,
+                "start_time": 1483693200,
+                "end_time": 1483952400,
+                "items": {
+                    "item": [
+                        {
+                            "id": 58,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 79,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        },
+                        {
+                            "id": 291,
+                            "type": "ship",
+                            "min_level": 0,
+                            "max_level": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 10,
+                "name": "Vintage 1",
+                "enabled": 0,
+                "start_time": 1483693200,
+                "end_time": 1514624400,
+                "items": {
+                    "item": [
+                        {
+                            "id": 172,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        },
+                        {
+                            "id": 281,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        },
+                        {
+                            "id": 321,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 377,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        },
+                        {
+                            "id": 399,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        },
+                        {
+                            "id": 429,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        },
+                        {
+                            "id": 443,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 500
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 11,
+                "name": "Vintage 2",
+                "enabled": 0,
+                "start_time": 1483693200,
+                "end_time": 1514624400,
+                "items": {
+                    "item": [
+                        {
+                            "id": 177,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 263,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        },
+                        {
+                            "id": 272,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        },
+                        {
+                            "id": 273,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 500
+                        },
+                        {
+                            "id": 317,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        },
+                        {
+                            "id": 383,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        },
+                        {
+                            "id": 432,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 12,
+                "name": "Vintage 3",
+                "enabled": 0,
+                "start_time": 1483693200,
+                "end_time": 1514624400,
+                "items": {
+                    "item": [
+                        {
+                            "id": 264,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        },
+                        {
+                            "id": 266,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        },
+                        {
+                            "id": 280,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        },
+                        {
+                            "id": 285,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 374,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        },
+                        {
+                            "id": 400,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 500
+                        },
+                        {
+                            "id": 450,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 13,
+                "name": "Vintage 4",
+                "enabled": 0,
+                "start_time": 1483693200,
+                "end_time": 1514624400,
+                "items": {
+                    "item": [
+                        {
+                            "id": 137,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        },
+                        {
+                            "id": 141,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        },
+                        {
+                            "id": 144,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        },
+                        {
+                            "id": 169,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 328,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 500
+                        },
+                        {
+                            "id": 385,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        },
+                        {
+                            "id": 439,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 14,
+                "name": "Vintage 5",
+                "enabled": 0,
+                "start_time": 1483693200,
+                "end_time": 1514624400,
+                "items": {
+                    "item": [
+                        {
+                            "id": 271,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        },
+                        {
+                            "id": 275,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        },
+                        {
+                            "id": 318,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        },
+                        {
+                            "id": 323,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        },
+                        {
+                            "id": 381,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 444,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 500
+                        },
+                        {
+                            "id": 446,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 15,
+                "name": "Vintage 6",
+                "enabled": 0,
+                "start_time": 1483693200,
+                "end_time": 1514624400,
+                "items": {
+                    "item": [
+                        {
+                            "id": 170,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        },
+                        {
+                            "id": 178,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        },
+                        {
+                            "id": 269,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 270,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        },
+                        {
+                            "id": 430,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        },
+                        {
+                            "id": 440,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        },
+                        {
+                            "id": 491,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 500
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 16,
+                "name": "Vintage 7",
+                "enabled": 0,
+                "start_time": 1483693200,
+                "end_time": 1514624400,
+                "items": {
+                    "item": [
+                        {
+                            "id": 322,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        },
+                        {
+                            "id": 325,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        },
+                        {
+                            "id": 376,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        },
+                        {
+                            "id": 389,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 500
+                        },
+                        {
+                            "id": 448,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 473,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        },
+                        {
+                            "id": 484,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 17,
+                "name": "Vintage 8",
+                "enabled": 0,
+                "start_time": 1483693200,
+                "end_time": 1514624400,
+                "items": {
+                    "item": [
+                        {
+                            "id": 268,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        },
+                        {
+                            "id": 276,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        },
+                        {
+                            "id": 279,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 314,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        },
+                        {
+                            "id": 449,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        },
+                        {
+                            "id": 480,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        },
+                        {
+                            "id": 482,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 500
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 18,
+                "name": "Vintage 9",
+                "enabled": 0,
+                "start_time": 1514538000,
+                "end_time": 1514797200,
+                "items": {
+                    "item": [
+                        {
+                            "id": 174,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 175,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        },
+                        {
+                            "id": 277,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        },
+                        {
+                            "id": 284,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 500
+                        },
+                        {
+                            "id": 327,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        },
+                        {
+                            "id": 380,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        },
+                        {
+                            "id": 487,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 19,
+                "name": "Vintage 10",
+                "enabled": 0,
+                "start_time": 1514797200,
+                "end_time": 1515056400,
+                "items": {
+                    "item": [
+                        {
+                            "id": 179,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        },
+                        {
+                            "id": 320,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 387,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        },
+                        {
+                            "id": 398,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        },
+                        {
+                            "id": 433,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        },
+                        {
+                            "id": 442,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 500
+                        },
+                        {
+                            "id": 469,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 20,
+                "name": "Vintage 11",
+                "enabled": 0,
+                "start_time": 1515056400,
+                "end_time": 1515315600,
+                "items": {
+                    "item": [
+                        {
+                            "id": 313,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        },
+                        {
+                            "id": 435,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        },
+                        {
+                            "id": 438,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        },
+                        {
+                            "id": 472,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        },
+                        {
+                            "id": 479,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        },
+                        {
+                            "id": 486,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 490,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 500
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 21,
+                "name": "Vintage 12",
+                "enabled": 0,
+                "start_time": 1515315600,
+                "end_time": 1515574800,
+                "items": {
+                    "item": [
+                        {
+                            "id": 171,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        },
+                        {
+                            "id": 176,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        },
+                        {
+                            "id": 324,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        },
+                        {
+                            "id": 396,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        },
+                        {
+                            "id": 401,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 500
+                        },
+                        {
+                            "id": 437,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 441,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 22,
+                "name": "Vintage 13",
+                "enabled": 0,
+                "start_time": 1515574800,
+                "end_time": 1515834000,
+                "items": {
+                    "item": [
+                        {
+                            "id": 386,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        },
+                        {
+                            "id": 470,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        },
+                        {
+                            "id": 471,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        },
+                        {
+                            "id": 476,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 477,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        },
+                        {
+                            "id": 481,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 5000
+                        },
+                        {
+                            "id": 485,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 23,
+                "name": "Vintage 14",
+                "enabled": 0,
+                "start_time": 1515834000,
+                "end_time": 1516093200,
+                "items": {
+                    "item": [
+                        {
+                            "id": 312,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 40
+                        },
+                        {
+                            "id": 315,
+                            "type": "ship",
+                            "min_level": 41,
+                            "max_level": 60
+                        },
+                        {
+                            "id": 326,
+                            "type": "ship",
+                            "min_level": 121,
+                            "max_level": 140
+                        },
+                        {
+                            "id": 382,
+                            "type": "ship",
+                            "min_level": 81,
+                            "max_level": 100
+                        },
+                        {
+                            "id": 384,
+                            "type": "ship",
+                            "min_level": 101,
+                            "max_level": 120
+                        },
+                        {
+                            "id": 434,
+                            "type": "ship",
+                            "min_level": 61,
+                            "max_level": 80
+                        },
+                        {
+                            "id": 451,
+                            "type": "ship",
+                            "min_level": 141,
+                            "max_level": 5000
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 24,
+                "name": "E33-VO 01",
+                "enabled": 1,
+                "start_time": 1543914000,
+                "end_time": 1544086500,
+                "items": {
+                    "item": [
+                        {
+                            "id": 539,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 556,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 590,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 606,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 727,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 764,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 815,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 965,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        },
+                        {
+                            "id": 1004,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 1069,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1116,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 25,
+                "name": "E33-VO 02",
+                "enabled": 1,
+                "start_time": 1544086800,
+                "end_time": 1544259300,
+                "items": {
+                    "item": [
+                        {
+                            "id": 554,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 738,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 759,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 761,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 783,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 806,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 1005,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 1103,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 1173,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 1232,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 1238,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 26,
+                "name": "E33-VO 03",
+                "enabled": 1,
+                "start_time": 1544259600,
+                "end_time": 1544432100,
+                "items": {
+                    "item": [
+                        {
+                            "id": 545,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 588,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 592,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 878,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 893,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 896,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 959,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 984,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        },
+                        {
+                            "id": 1056,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 1068,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1115,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 27,
+                "name": "E33-VO 04",
+                "enabled": 1,
+                "start_time": 1544432400,
+                "end_time": 1544604900,
+                "items": {
+                    "item": [
+                        {
+                            "id": 613,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 643,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 763,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 771,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 804,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 876,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 897,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 904,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 964,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        },
+                        {
+                            "id": 1117,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 1129,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 28,
+                "name": "E33-VO 05",
+                "enabled": 1,
+                "start_time": 1544605200,
+                "end_time": 1544777700,
+                "items": {
+                    "item": [
+                        {
+                            "id": 551,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 642,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 725,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 882,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 885,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 895,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 898,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 902,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1057,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 1122,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 1182,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 29,
+                "name": "E33-VO 06",
+                "enabled": 1,
+                "start_time": 1544778000,
+                "end_time": 1544950500,
+                "items": {
+                    "item": [
+                        {
+                            "id": 543,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 562,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 799,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 801,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 886,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 892,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 963,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1011,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 1058,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 1067,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 1183,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 30,
+                "name": "E33-VO 07",
+                "enabled": 1,
+                "start_time": 1544950800,
+                "end_time": 1545123300,
+                "items": {
+                    "item": [
+                        {
+                            "id": 594,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 723,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 881,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 887,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 890,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 940,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 962,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1065,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 1119,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 1133,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        },
+                        {
+                            "id": 1248,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 31,
+                "name": "E33-VO 08",
+                "enabled": 1,
+                "start_time": 1545123600,
+                "end_time": 1545296100,
+                "items": {
+                    "item": [
+                        {
+                            "id": 602,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 608,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 729,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 757,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 780,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 819,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 899,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 1007,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 1021,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        },
+                        {
+                            "id": 1070,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1110,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 32,
+                "name": "E33-VO 09",
+                "enabled": 1,
+                "start_time": 1545296400,
+                "end_time": 1545468900,
+                "items": {
+                    "item": [
+                        {
+                            "id": 560,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 591,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 756,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 891,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 944,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 947,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 966,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        },
+                        {
+                            "id": 983,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1013,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 1066,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 1120,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 33,
+                "name": "E33-VO 10",
+                "enabled": 1,
+                "start_time": 1545469200,
+                "end_time": 1545641700,
+                "items": {
+                    "item": [
+                        {
+                            "id": 735,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 766,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 880,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 948,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 954,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 1023,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        },
+                        {
+                            "id": 1177,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 1181,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1218,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 1234,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 1244,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 34,
+                "name": "E33-VO 11",
+                "enabled": 1,
+                "start_time": 1545642000,
+                "end_time": 1545814500,
+                "items": {
+                    "item": [
+                        {
+                            "id": 762,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 784,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 802,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 810,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 884,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 900,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 1006,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 1009,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 1012,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 1074,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        },
+                        {
+                            "id": 1217,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 35,
+                "name": "E33-VO 12",
+                "enabled": 1,
+                "start_time": 1545814800,
+                "end_time": 1545987300,
+                "items": {
+                    "item": [
+                        {
+                            "id": 540,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 776,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 889,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 894,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 903,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 985,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        },
+                        {
+                            "id": 1002,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 1014,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 1171,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 1220,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 1228,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 36,
+                "name": "E33-VO 13",
+                "enabled": 1,
+                "start_time": 1545987600,
+                "end_time": 1546160100,
+                "items": {
+                    "item": [
+                        {
+                            "id": 542,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 558,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 782,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 888,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 961,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 1008,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 1010,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 1019,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1022,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        },
+                        {
+                            "id": 1104,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 1170,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 37,
+                "name": "E33-VO 14",
+                "enabled": 1,
+                "start_time": 1546160400,
+                "end_time": 1546332900,
+                "items": {
+                    "item": [
+                        {
+                            "id": 559,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 589,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 593,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 732,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 901,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 942,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 958,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 1064,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 1073,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1075,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        },
+                        {
+                            "id": 1118,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 38,
+                "name": "E33-VO 15",
+                "enabled": 1,
+                "start_time": 1546333200,
+                "end_time": 1546505700,
+                "items": {
+                    "item": [
+                        {
+                            "id": 546,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 598,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 645,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 758,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 953,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 956,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 984,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 997,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 1015,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 1134,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        },
+                        {
+                            "id": 1176,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 39,
+                "name": "E33-VO 16",
+                "enabled": 1,
+                "start_time": 1546506000,
+                "end_time": 1546678500,
+                "items": {
+                    "item": [
+                        {
+                            "id": 544,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 552,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 595,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 724,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 951,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 960,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 1107,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 1125,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 1132,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1175,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 1240,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 40,
+                "name": "E33-VO 17",
+                "enabled": 1,
+                "start_time": 1546678800,
+                "end_time": 1546851300,
+                "items": {
+                    "item": [
+                        {
+                            "id": 606,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 609,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 644,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 808,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 877,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 950,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 952,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 955,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 1016,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 1131,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1135,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 41,
+                "name": "E33-VO 18",
+                "enabled": 1,
+                "start_time": 1546851600,
+                "end_time": 1547024100,
+                "items": {
+                    "item": [
+                        {
+                            "id": 557,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 613,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 773,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 806,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 811,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 938,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 982,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 1113,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 1121,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 1238,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1242,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 42,
+                "name": "E33-VO 19",
+                "enabled": 1,
+                "start_time": 1547024400,
+                "end_time": 1547196900,
+                "items": {
+                    "item": [
+                        {
+                            "id": 541,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 760,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 768,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 807,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 959,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 1020,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 1059,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 1062,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 1111,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 1126,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 1241,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 43,
+                "name": "E33-VO 20",
+                "enabled": 1,
+                "start_time": 1547197200,
+                "end_time": 1547369700,
+                "items": {
+                    "item": [
+                        {
+                            "id": 726,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 763,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 899,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 904,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 957,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 964,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        },
+                        {
+                            "id": 995,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 1061,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 1117,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 1129,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 1185,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 44,
+                "name": "E33-VO 21",
+                "enabled": 1,
+                "start_time": 1547370000,
+                "end_time": 1547542500,
+                "items": {
+                    "item": [
+                        {
+                            "id": 770,
+                            "type": "ship",
+                            "min_level": 120,
+                            "max_level": 139
+                        },
+                        {
+                            "id": 800,
+                            "type": "ship",
+                            "min_level": 20,
+                            "max_level": 39
+                        },
+                        {
+                            "id": 803,
+                            "type": "ship",
+                            "min_level": 40,
+                            "max_level": 59
+                        },
+                        {
+                            "id": 805,
+                            "type": "ship",
+                            "min_level": 60,
+                            "max_level": 79
+                        },
+                        {
+                            "id": 823,
+                            "type": "ship",
+                            "min_level": 180,
+                            "max_level": 209
+                        },
+                        {
+                            "id": 898,
+                            "type": "ship",
+                            "min_level": 160,
+                            "max_level": 179
+                        },
+                        {
+                            "id": 1063,
+                            "type": "ship",
+                            "min_level": 140,
+                            "max_level": 159
+                        },
+                        {
+                            "id": 1076,
+                            "type": "ship",
+                            "min_level": 250,
+                            "max_level": -1
+                        },
+                        {
+                            "id": 1112,
+                            "type": "ship",
+                            "min_level": 80,
+                            "max_level": 99
+                        },
+                        {
+                            "id": 1172,
+                            "type": "ship",
+                            "min_level": 100,
+                            "max_level": 119
+                        },
+                        {
+                            "id": 1237,
+                            "type": "ship",
+                            "min_level": 210,
+                            "max_level": 249
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

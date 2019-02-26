@@ -1,0 +1,582 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "enabled": 0,
+                "req_level": 0,
+                "max_level": 0,
+                "ship_def_id": 0,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 1,
+                "name": "",
+                "enabled": 1,
+                "req_level": 15,
+                "max_level": 19,
+                "ship_def_id": 340,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 2,
+                "name": "",
+                "enabled": 1,
+                "req_level": 20,
+                "max_level": 24,
+                "ship_def_id": 341,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 3,
+                "name": "",
+                "enabled": 1,
+                "req_level": 25,
+                "max_level": 29,
+                "ship_def_id": 342,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 4,
+                "name": "",
+                "enabled": 1,
+                "req_level": 30,
+                "max_level": 34,
+                "ship_def_id": 343,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 5,
+                "name": "",
+                "enabled": 1,
+                "req_level": 35,
+                "max_level": 39,
+                "ship_def_id": 344,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 6,
+                "name": "",
+                "enabled": 1,
+                "req_level": 40,
+                "max_level": 44,
+                "ship_def_id": 345,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 7,
+                "name": "",
+                "enabled": 1,
+                "req_level": 45,
+                "max_level": 49,
+                "ship_def_id": 346,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 8,
+                "name": "",
+                "enabled": 1,
+                "req_level": 50,
+                "max_level": 54,
+                "ship_def_id": 347,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 9,
+                "name": "",
+                "enabled": 1,
+                "req_level": 55,
+                "max_level": 59,
+                "ship_def_id": 348,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 10,
+                "name": "",
+                "enabled": 1,
+                "req_level": 60,
+                "max_level": 64,
+                "ship_def_id": 349,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 11,
+                "name": "",
+                "enabled": 1,
+                "req_level": 65,
+                "max_level": 69,
+                "ship_def_id": 350,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 12,
+                "name": "",
+                "enabled": 1,
+                "req_level": 75,
+                "max_level": 79,
+                "ship_def_id": 351,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 13,
+                "name": "",
+                "enabled": 1,
+                "req_level": 70,
+                "max_level": 74,
+                "ship_def_id": 352,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 14,
+                "name": "",
+                "enabled": 1,
+                "req_level": 85,
+                "max_level": 89,
+                "ship_def_id": 353,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 15,
+                "name": "",
+                "enabled": 1,
+                "req_level": 80,
+                "max_level": 84,
+                "ship_def_id": 354,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 16,
+                "name": "",
+                "enabled": 1,
+                "req_level": 95,
+                "max_level": 99,
+                "ship_def_id": 355,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 17,
+                "name": "",
+                "enabled": 1,
+                "req_level": 90,
+                "max_level": 94,
+                "ship_def_id": 356,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 18,
+                "name": "",
+                "enabled": 1,
+                "req_level": 105,
+                "max_level": 109,
+                "ship_def_id": 357,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 19,
+                "name": "",
+                "enabled": 1,
+                "req_level": 100,
+                "max_level": 104,
+                "ship_def_id": 358,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 20,
+                "name": "",
+                "enabled": 1,
+                "req_level": 115,
+                "max_level": 119,
+                "ship_def_id": 359,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 21,
+                "name": "",
+                "enabled": 1,
+                "req_level": 110,
+                "max_level": 114,
+                "ship_def_id": 360,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 22,
+                "name": "",
+                "enabled": 1,
+                "req_level": 125,
+                "max_level": 129,
+                "ship_def_id": 361,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 23,
+                "name": "",
+                "enabled": 1,
+                "req_level": 120,
+                "max_level": 124,
+                "ship_def_id": 362,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 24,
+                "name": "",
+                "enabled": 1,
+                "req_level": 135,
+                "max_level": 139,
+                "ship_def_id": 363,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 25,
+                "name": "",
+                "enabled": 1,
+                "req_level": 130,
+                "max_level": 134,
+                "ship_def_id": 364,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 26,
+                "name": "",
+                "enabled": 1,
+                "req_level": 145,
+                "max_level": 149,
+                "ship_def_id": 365,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 27,
+                "name": "",
+                "enabled": 1,
+                "req_level": 150,
+                "max_level": 154,
+                "ship_def_id": 415,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 28,
+                "name": "",
+                "enabled": 1,
+                "req_level": 140,
+                "max_level": 144,
+                "ship_def_id": 416,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 29,
+                "name": "",
+                "enabled": 1,
+                "req_level": 160,
+                "max_level": 164,
+                "ship_def_id": 417,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 30,
+                "name": "",
+                "enabled": 1,
+                "req_level": 165,
+                "max_level": 169,
+                "ship_def_id": 418,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 31,
+                "name": "",
+                "enabled": 1,
+                "req_level": 155,
+                "max_level": 159,
+                "ship_def_id": 419,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 32,
+                "name": "",
+                "enabled": 1,
+                "req_level": 175,
+                "max_level": 179,
+                "ship_def_id": 420,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 33,
+                "name": "",
+                "enabled": 1,
+                "req_level": 180,
+                "max_level": 184,
+                "ship_def_id": 421,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 34,
+                "name": "",
+                "enabled": 1,
+                "req_level": 170,
+                "max_level": 174,
+                "ship_def_id": 422,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 35,
+                "name": "",
+                "enabled": 1,
+                "req_level": 190,
+                "max_level": 194,
+                "ship_def_id": 423,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 36,
+                "name": "",
+                "enabled": 1,
+                "req_level": 195,
+                "max_level": 199,
+                "ship_def_id": 424,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 37,
+                "name": "",
+                "enabled": 1,
+                "req_level": 185,
+                "max_level": 189,
+                "ship_def_id": 425,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 38,
+                "name": "",
+                "enabled": 1,
+                "req_level": 205,
+                "max_level": 209,
+                "ship_def_id": 465,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 39,
+                "name": "",
+                "enabled": 1,
+                "req_level": 210,
+                "max_level": 214,
+                "ship_def_id": 501,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 40,
+                "name": "",
+                "enabled": 1,
+                "req_level": 200,
+                "max_level": 204,
+                "ship_def_id": 502,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 41,
+                "name": "",
+                "enabled": 1,
+                "req_level": 220,
+                "max_level": 224,
+                "ship_def_id": 503,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 42,
+                "name": "",
+                "enabled": 1,
+                "req_level": 225,
+                "max_level": 229,
+                "ship_def_id": 504,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 43,
+                "name": "",
+                "enabled": 1,
+                "req_level": 215,
+                "max_level": 219,
+                "ship_def_id": 505,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 44,
+                "name": "",
+                "enabled": 1,
+                "req_level": 235,
+                "max_level": 239,
+                "ship_def_id": 506,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 45,
+                "name": "",
+                "enabled": 1,
+                "req_level": 240,
+                "max_level": 244,
+                "ship_def_id": 507,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 46,
+                "name": "",
+                "enabled": 1,
+                "req_level": 230,
+                "max_level": 234,
+                "ship_def_id": 751,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 47,
+                "name": "",
+                "enabled": 1,
+                "req_level": 250,
+                "max_level": 254,
+                "ship_def_id": 752,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 48,
+                "name": "",
+                "enabled": 1,
+                "req_level": 255,
+                "max_level": 259,
+                "ship_def_id": 753,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 49,
+                "name": "",
+                "enabled": 1,
+                "req_level": 245,
+                "max_level": 249,
+                "ship_def_id": 917,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 50,
+                "name": "",
+                "enabled": 1,
+                "req_level": 265,
+                "max_level": 269,
+                "ship_def_id": 918,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 51,
+                "name": "",
+                "enabled": 1,
+                "req_level": 270,
+                "max_level": 274,
+                "ship_def_id": 919,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 52,
+                "name": "",
+                "enabled": 1,
+                "req_level": 260,
+                "max_level": 264,
+                "ship_def_id": 989,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 53,
+                "name": "",
+                "enabled": 1,
+                "req_level": 280,
+                "max_level": 284,
+                "ship_def_id": 990,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 54,
+                "name": "",
+                "enabled": 1,
+                "req_level": 285,
+                "max_level": 289,
+                "ship_def_id": 991,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 55,
+                "name": "",
+                "enabled": 1,
+                "req_level": 275,
+                "max_level": 279,
+                "ship_def_id": 1100,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 56,
+                "name": "",
+                "enabled": 1,
+                "req_level": 295,
+                "max_level": 299,
+                "ship_def_id": 1159,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 57,
+                "name": "",
+                "enabled": 1,
+                "req_level": 300,
+                "max_level": 304,
+                "ship_def_id": 1160,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 58,
+                "name": "",
+                "enabled": 1,
+                "req_level": 290,
+                "max_level": 294,
+                "ship_def_id": 1161,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 59,
+                "name": "",
+                "enabled": 1,
+                "req_level": 310,
+                "max_level": 314,
+                "ship_def_id": 1271,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 60,
+                "name": "",
+                "enabled": 1,
+                "req_level": 315,
+                "max_level": 319,
+                "ship_def_id": 1335,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 61,
+                "name": "",
+                "enabled": 1,
+                "req_level": 305,
+                "max_level": 309,
+                "ship_def_id": 1478,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 62,
+                "name": "",
+                "enabled": 1,
+                "req_level": 320,
+                "max_level": 324,
+                "ship_def_id": 1479,
+                "offer_time": 86400
+            },
+            {
+                "def_id": 63,
+                "name": "",
+                "enabled": 1,
+                "req_level": 325,
+                "max_level": 5000,
+                "ship_def_id": 1486,
+                "offer_time": 86400
+            }
+        ]
+    }
+}

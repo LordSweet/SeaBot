@@ -1,0 +1,42 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "offer_type": "items_offer",
+                "points": "",
+                "controls": "",
+                "docking_rotation": 61,
+                "dock_index": 4
+            },
+            {
+                "def_id": 1,
+                "name": "items offer",
+                "offer_type": "items_offer",
+                "points": "4210,942,3550,989,3235,982,2988,1046,2955,1143,3056,1185,3234,1160,3503,1099,4210,1033",
+                "controls": "3693,989,3408,989,3062,975,2914,1118,2996,1169,3117,1202,3352,1118,3653,1081",
+                "docking_rotation": 61,
+                "dock_index": 4
+            },
+            {
+                "def_id": 2,
+                "name": "merchant offer",
+                "offer_type": "merchant_offer",
+                "points": "4410,840,3750,887,3435,880,3116,893,3011,938,3113,980,3347,987,3687,979,4410,931",
+                "controls": "3893,887,3608,887,3262,873,2970,912,3052,963,3173,996,3522,979,3853,979",
+                "docking_rotation": 61,
+                "dock_index": 4
+            },
+            {
+                "def_id": 3,
+                "name": "vintage offer",
+                "offer_type": "vintage_offer",
+                "points": "4610,740,3950,787,3635,780,3316,793,3211,838,3313,880,3547,887,3887,879,4610,831",
+                "controls": "4093,787,3808,787,3462,773,3170,812,3252,863,3373,896,3722,879,4053,879",
+                "docking_rotation": 61,
+                "dock_index": 4
+            }
+        ]
+    }
+}

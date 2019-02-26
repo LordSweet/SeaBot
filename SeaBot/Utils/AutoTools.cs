@@ -21,7 +21,7 @@ namespace SeaBotCore.Utils
     using System.Collections.Generic;
     using System.Linq;
     using System.Runtime.InteropServices;
-
+    using SeaBotCore.Config;
     using SeaBotCore.Data;
     using SeaBotCore.Data.Definitions;
 
@@ -161,7 +161,7 @@ namespace SeaBotCore.Utils
 
             return ret;
         }
-     
+       
         public static Dictionary<int, decimal> NeededItemsForUpgradePercentage()
         {
             var ret = new Dictionary<int, decimal>();
@@ -215,6 +215,51 @@ namespace SeaBotCore.Utils
                 }
             }
 
+            return ret;
+        }
+        public static Dictionary<int, int> NeededItemsForContractor()
+        {
+            var ret = new Dictionary<int, int>();
+
+            //Clone inventory
+            var locinv = new List<Item>(Core.LocalPlayer.Inventory.Count);
+            locinv.AddRange(Core.LocalPlayer.Inventory.Select(item => new Item { Amount = item.Amount, Id = item.Id }));
+
+            foreach (var contract in Core.LocalPlayer.Contracts)
+            {
+                    // Next level
+                        var currentquest = contract.Definition.Quests.Quest.Where(n => n.Id == contract.QuestId).FirstOrDefault();
+                    if (currentquest.ObjectiveTypeId == "sailor")
+                    {
+                        continue;
+                    }
+                    if (Core.Config.ignoreddestination.Count(
+                      n => n.Destination == ShipDestType.Contractor && n.DefId == contract.DefId) != 0)
+                    {
+                        continue;
+                    }
+                    var exists = currentquest.Amount - contract.Progress;
+                    if (exists <= 0)
+                    {
+                        continue;
+                    }
+                    var wecan = exists * currentquest.MaterialKoef;
+                   
+                    if (locinv.Any(n => n.Id == currentquest.ObjectiveDefId))
+                    {
+                        locinv.Where(n => n.Id == currentquest.ObjectiveDefId).First().Amount -= wecan;
+                    }
+                    else
+                    {
+                        locinv.Add(new Item { Id = currentquest.ObjectiveDefId, Amount = wecan * -1 });
+                    }
+            }
+
+            var b = locinv.Where(n => n.Amount < 0).ToList();
+            foreach (var item in b)
+            {
+                ret.Add(item.Id, item.Amount * -1);
+            }
             return ret;
         }
     }

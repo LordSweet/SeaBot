@@ -1,0 +1,815 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "version_id": 1,
+                "name": "Default",
+                "name_loc": "",
+                "story_title_loc": "",
+                "story_loc": "",
+                "event_id": 0,
+                "map_x": 0,
+                "map_y": 0,
+                "atlas": "",
+                "texture": "",
+                "iso_width": 0,
+                "iso_height": 0,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 1,
+                            "reward_type": "material",
+                            "reward_def_id": 1,
+                            "reward_amount": 100,
+                            "quote_loc": ""
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "contractor",
+                            "unique_id": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "version_id": 150,
+                "name": "E31 01",
+                "name_loc": "SPCR004",
+                "story_title_loc": "SCRT001",
+                "story_loc": "SCRX001",
+                "event_id": 31,
+                "map_x": 625,
+                "map_y": 1646,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 264,
+                            "reward_type": "material",
+                            "reward_def_id": 163,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 263,
+                            "reward_type": "material",
+                            "reward_def_id": 164,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 646
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 2,
+                "version_id": 150,
+                "name": "E31 02",
+                "name_loc": "SPCR005",
+                "story_title_loc": "SCRT002",
+                "story_loc": "SCRX002",
+                "event_id": 31,
+                "map_x": 1092,
+                "map_y": 1897,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 266,
+                            "reward_type": "material",
+                            "reward_def_id": 163,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 265,
+                            "reward_type": "material",
+                            "reward_def_id": 164,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 648
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 3,
+                "version_id": 150,
+                "name": "E31 03",
+                "name_loc": "SPCR006",
+                "story_title_loc": "SCRT003",
+                "story_loc": "SCRX003",
+                "event_id": 31,
+                "map_x": 1263,
+                "map_y": 1970,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 268,
+                            "reward_type": "material",
+                            "reward_def_id": 163,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 267,
+                            "reward_type": "material",
+                            "reward_def_id": 164,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 650
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 4,
+                "version_id": 150,
+                "name": "E31 04",
+                "name_loc": "SPCR007",
+                "story_title_loc": "SCRT004",
+                "story_loc": "SCRX004",
+                "event_id": 31,
+                "map_x": 1853,
+                "map_y": 1693,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 270,
+                            "reward_type": "material",
+                            "reward_def_id": 163,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 269,
+                            "reward_type": "material",
+                            "reward_def_id": 164,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 652
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 5,
+                "version_id": 150,
+                "name": "E31 05",
+                "name_loc": "SPCR008",
+                "story_title_loc": "SCRT005",
+                "story_loc": "SCRX005",
+                "event_id": 31,
+                "map_x": 2030,
+                "map_y": 1550,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 272,
+                            "reward_type": "material",
+                            "reward_def_id": 163,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 271,
+                            "reward_type": "material",
+                            "reward_def_id": 164,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 654
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 6,
+                "version_id": 150,
+                "name": "E31 06",
+                "name_loc": "SPCR009",
+                "story_title_loc": "SCRT006",
+                "story_loc": "SCRX006",
+                "event_id": 31,
+                "map_x": 2279,
+                "map_y": 1141,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 274,
+                            "reward_type": "material",
+                            "reward_def_id": 163,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 273,
+                            "reward_type": "material",
+                            "reward_def_id": 164,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 656
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 7,
+                "version_id": 150,
+                "name": "E31 07",
+                "name_loc": "SPCR022",
+                "story_title_loc": "SCRT007",
+                "story_loc": "SCRX007",
+                "event_id": 31,
+                "map_x": 1857,
+                "map_y": 872,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 276,
+                            "reward_type": "material",
+                            "reward_def_id": 163,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 275,
+                            "reward_type": "material",
+                            "reward_def_id": 164,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 658
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 8,
+                "version_id": 150,
+                "name": "E31 08",
+                "name_loc": "SPCR023",
+                "story_title_loc": "SCRT008",
+                "story_loc": "SCRX008",
+                "event_id": 31,
+                "map_x": 1871,
+                "map_y": 768,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 278,
+                            "reward_type": "material",
+                            "reward_def_id": 163,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 277,
+                            "reward_type": "material",
+                            "reward_def_id": 164,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 660
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 9,
+                "version_id": 150,
+                "name": "E31 09",
+                "name_loc": "SPCR024",
+                "story_title_loc": "SCRT009",
+                "story_loc": "SCRX009",
+                "event_id": 31,
+                "map_x": 1663,
+                "map_y": 695,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 280,
+                            "reward_type": "material",
+                            "reward_def_id": 163,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 279,
+                            "reward_type": "material",
+                            "reward_def_id": 164,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 662
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 10,
+                "version_id": 150,
+                "name": "E33 01",
+                "name_loc": "SPCR004",
+                "story_title_loc": "SCRT010",
+                "story_loc": "SCRX010",
+                "event_id": 33,
+                "map_x": 658,
+                "map_y": 2181,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 291,
+                            "reward_type": "material",
+                            "reward_def_id": 177,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 292,
+                            "reward_type": "material",
+                            "reward_def_id": 178,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 737
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 11,
+                "version_id": 150,
+                "name": "E33 02",
+                "name_loc": "SPCR005",
+                "story_title_loc": "SCRT011",
+                "story_loc": "SCRX011",
+                "event_id": 33,
+                "map_x": 1478,
+                "map_y": 2168,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 293,
+                            "reward_type": "material",
+                            "reward_def_id": 177,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 294,
+                            "reward_type": "material",
+                            "reward_def_id": 178,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 749
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 12,
+                "version_id": 150,
+                "name": "E33 03",
+                "name_loc": "SPCR006",
+                "story_title_loc": "SCRT012",
+                "story_loc": "SCRX012",
+                "event_id": 33,
+                "map_x": 2030,
+                "map_y": 1550,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 295,
+                            "reward_type": "material",
+                            "reward_def_id": 177,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 296,
+                            "reward_type": "material",
+                            "reward_def_id": 178,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 665
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 13,
+                "version_id": 150,
+                "name": "E33 04",
+                "name_loc": "SPCR007",
+                "story_title_loc": "SCRT013",
+                "story_loc": "SCRX013",
+                "event_id": 33,
+                "map_x": 2676,
+                "map_y": 2326,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 297,
+                            "reward_type": "material",
+                            "reward_def_id": 177,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 298,
+                            "reward_type": "material",
+                            "reward_def_id": 178,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 675
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 14,
+                "version_id": 150,
+                "name": "E33 05",
+                "name_loc": "SPCR008",
+                "story_title_loc": "SCRT014",
+                "story_loc": "SCRX014",
+                "event_id": 33,
+                "map_x": 2572,
+                "map_y": 1160,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 299,
+                            "reward_type": "material",
+                            "reward_def_id": 177,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 300,
+                            "reward_type": "material",
+                            "reward_def_id": 178,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 684
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 15,
+                "version_id": 150,
+                "name": "E33 06",
+                "name_loc": "SPCR009",
+                "story_title_loc": "SCRT015",
+                "story_loc": "SCRX015",
+                "event_id": 33,
+                "map_x": 2389,
+                "map_y": 399,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 301,
+                            "reward_type": "material",
+                            "reward_def_id": 177,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 302,
+                            "reward_type": "material",
+                            "reward_def_id": 178,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 693
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 16,
+                "version_id": 150,
+                "name": "E33 07",
+                "name_loc": "SPCR022",
+                "story_title_loc": "SCRT016",
+                "story_loc": "SCRX016",
+                "event_id": 33,
+                "map_x": 154,
+                "map_y": 1661,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 303,
+                            "reward_type": "material",
+                            "reward_def_id": 177,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 304,
+                            "reward_type": "material",
+                            "reward_def_id": 178,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 706
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 17,
+                "version_id": 150,
+                "name": "E33 08",
+                "name_loc": "SPCR023",
+                "story_title_loc": "SCRT017",
+                "story_loc": "SCRX017",
+                "event_id": 33,
+                "map_x": 693,
+                "map_y": 533,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 305,
+                            "reward_type": "material",
+                            "reward_def_id": 177,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 306,
+                            "reward_type": "material",
+                            "reward_def_id": 178,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 714
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 18,
+                "version_id": 150,
+                "name": "E33 09",
+                "name_loc": "SPCR024",
+                "story_title_loc": "SCRT018",
+                "story_loc": "SCRX018",
+                "event_id": 33,
+                "map_x": 1287,
+                "map_y": 179,
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65,
+                "options": {
+                    "option": [
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 307,
+                            "reward_type": "material",
+                            "reward_def_id": 177,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR012"
+                        },
+                        {
+                            "dest_type": "contractor",
+                            "dest_id": 308,
+                            "reward_type": "material",
+                            "reward_def_id": 178,
+                            "reward_amount": 10,
+                            "quote_loc": "SPCR013"
+                        }
+                    ]
+                },
+                "required_one": {
+                    "location": [
+                        {
+                            "type": "outpost",
+                            "unique_id": 721
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

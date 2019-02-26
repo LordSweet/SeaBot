@@ -1,0 +1,690 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "name_loc": "",
+                "req_type": "building",
+                "req_id": 8,
+                "req_level": 1,
+                "shop_order_id": 0,
+                "hide": 0,
+                "texture": "",
+                "bounds_min": "",
+                "bounds_max": "",
+                "twist_amount": 0,
+                "twist_speed": 0,
+                "levels": {
+                    "level": [
+                        {
+                            "id": 0,
+                            "mass": 3,
+                            "turn_count": 0,
+                            "turn_time": 0,
+                            "output_id": 0,
+                            "output_amount": 0,
+                            "model_name": ""
+                        }
+                    ]
+                },
+                "prices": {
+                    "price": [
+                        {
+                            "id": 0,
+                            "materials": {
+                                "material": [
+                                    {
+                                        "id": 0,
+                                        "amount": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "name": "Fisherman",
+                "name_loc": "sss",
+                "req_type": "building",
+                "req_id": 8,
+                "req_level": 1,
+                "shop_order_id": 0,
+                "hide": 0,
+                "texture": "Fisherman_",
+                "bounds_min": "-23,-56,0",
+                "bounds_max": "23,48,71",
+                "twist_amount": 6,
+                "twist_speed": 800,
+                "levels": {
+                    "level": [
+                        {
+                            "id": 1,
+                            "mass": 3,
+                            "turn_count": 12,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 4,
+                            "model_name": "Fisherman_01"
+                        },
+                        {
+                            "id": 2,
+                            "mass": 3,
+                            "turn_count": 24,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 4,
+                            "model_name": "Fisherman_01"
+                        },
+                        {
+                            "id": 3,
+                            "mass": 3,
+                            "turn_count": 30,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 4,
+                            "model_name": "Fisherman_01"
+                        },
+                        {
+                            "id": 4,
+                            "mass": 3,
+                            "turn_count": 30,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 4,
+                            "model_name": "Fisherman_02"
+                        },
+                        {
+                            "id": 5,
+                            "mass": 3,
+                            "turn_count": 30,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 5,
+                            "model_name": "Fisherman_02"
+                        },
+                        {
+                            "id": 6,
+                            "mass": 3,
+                            "turn_count": 45,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 6,
+                            "model_name": "Fisherman_02"
+                        },
+                        {
+                            "id": 7,
+                            "mass": 3,
+                            "turn_count": 45,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 7,
+                            "model_name": "Fisherman_03"
+                        },
+                        {
+                            "id": 8,
+                            "mass": 3,
+                            "turn_count": 45,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 8,
+                            "model_name": "Fisherman_03"
+                        },
+                        {
+                            "id": 9,
+                            "mass": 3,
+                            "turn_count": 60,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 9,
+                            "model_name": "Fisherman_03"
+                        },
+                        {
+                            "id": 10,
+                            "mass": 3,
+                            "turn_count": 60,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 10,
+                            "model_name": "Fisherman_04"
+                        },
+                        {
+                            "id": 11,
+                            "mass": 3,
+                            "turn_count": 60,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 11,
+                            "model_name": "Fisherman_04"
+                        },
+                        {
+                            "id": 12,
+                            "mass": 3,
+                            "turn_count": 60,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 12,
+                            "model_name": "Fisherman_04"
+                        },
+                        {
+                            "id": 13,
+                            "mass": 3,
+                            "turn_count": 90,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 13,
+                            "model_name": "Fisherman_05"
+                        },
+                        {
+                            "id": 14,
+                            "mass": 3,
+                            "turn_count": 90,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 14,
+                            "model_name": "Fisherman_05"
+                        },
+                        {
+                            "id": 15,
+                            "mass": 3,
+                            "turn_count": 90,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 15,
+                            "model_name": "Fisherman_05"
+                        },
+                        {
+                            "id": 16,
+                            "mass": 3,
+                            "turn_count": 90,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 16,
+                            "model_name": "Fisherman_06"
+                        },
+                        {
+                            "id": 17,
+                            "mass": 3,
+                            "turn_count": 120,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 17,
+                            "model_name": "Fisherman_06"
+                        },
+                        {
+                            "id": 18,
+                            "mass": 3,
+                            "turn_count": 120,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 18,
+                            "model_name": "Fisherman_06"
+                        },
+                        {
+                            "id": 19,
+                            "mass": 3,
+                            "turn_count": 120,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 19,
+                            "model_name": "Fisherman_07"
+                        },
+                        {
+                            "id": 20,
+                            "mass": 3,
+                            "turn_count": 120,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 20,
+                            "model_name": "Fisherman_07"
+                        },
+                        {
+                            "id": 21,
+                            "mass": 3,
+                            "turn_count": 135,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 21,
+                            "model_name": "Fisherman_07"
+                        },
+                        {
+                            "id": 22,
+                            "mass": 3,
+                            "turn_count": 135,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 22,
+                            "model_name": "Fisherman_08"
+                        },
+                        {
+                            "id": 23,
+                            "mass": 3,
+                            "turn_count": 135,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 23,
+                            "model_name": "Fisherman_08"
+                        },
+                        {
+                            "id": 24,
+                            "mass": 3,
+                            "turn_count": 135,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 24,
+                            "model_name": "Fisherman_08"
+                        },
+                        {
+                            "id": 25,
+                            "mass": 3,
+                            "turn_count": 165,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 25,
+                            "model_name": "Fisherman_09"
+                        },
+                        {
+                            "id": 26,
+                            "mass": 3,
+                            "turn_count": 165,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 26,
+                            "model_name": "Fisherman_09"
+                        },
+                        {
+                            "id": 27,
+                            "mass": 3,
+                            "turn_count": 165,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 27,
+                            "model_name": "Fisherman_09"
+                        },
+                        {
+                            "id": 28,
+                            "mass": 3,
+                            "turn_count": 165,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 28,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 29,
+                            "mass": 3,
+                            "turn_count": 180,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 29,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 30,
+                            "mass": 3,
+                            "turn_count": 180,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 30,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 31,
+                            "mass": 3,
+                            "turn_count": 180,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 31,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 32,
+                            "mass": 3,
+                            "turn_count": 180,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 32,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 33,
+                            "mass": 3,
+                            "turn_count": 210,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 33,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 34,
+                            "mass": 3,
+                            "turn_count": 210,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 34,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 35,
+                            "mass": 3,
+                            "turn_count": 210,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 35,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 36,
+                            "mass": 3,
+                            "turn_count": 210,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 36,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 37,
+                            "mass": 3,
+                            "turn_count": 240,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 37,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 38,
+                            "mass": 3,
+                            "turn_count": 240,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 38,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 39,
+                            "mass": 3,
+                            "turn_count": 240,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 39,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 40,
+                            "mass": 3,
+                            "turn_count": 240,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 40,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 41,
+                            "mass": 3,
+                            "turn_count": 270,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 41,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 42,
+                            "mass": 3,
+                            "turn_count": 270,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 42,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 43,
+                            "mass": 3,
+                            "turn_count": 270,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 43,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 44,
+                            "mass": 3,
+                            "turn_count": 270,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 44,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 45,
+                            "mass": 3,
+                            "turn_count": 300,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 45,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 46,
+                            "mass": 3,
+                            "turn_count": 300,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 46,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 47,
+                            "mass": 3,
+                            "turn_count": 300,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 47,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 48,
+                            "mass": 3,
+                            "turn_count": 300,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 48,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 49,
+                            "mass": 3,
+                            "turn_count": 330,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 49,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 50,
+                            "mass": 3,
+                            "turn_count": 330,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 50,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 51,
+                            "mass": 3,
+                            "turn_count": 330,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 51,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 52,
+                            "mass": 3,
+                            "turn_count": 330,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 52,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 53,
+                            "mass": 3,
+                            "turn_count": 360,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 53,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 54,
+                            "mass": 3,
+                            "turn_count": 360,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 54,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 55,
+                            "mass": 3,
+                            "turn_count": 360,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 55,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 56,
+                            "mass": 3,
+                            "turn_count": 360,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 56,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 57,
+                            "mass": 3,
+                            "turn_count": 360,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 57,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 58,
+                            "mass": 3,
+                            "turn_count": 360,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 58,
+                            "model_name": "Fisherman_10"
+                        },
+                        {
+                            "id": 59,
+                            "mass": 3,
+                            "turn_count": 360,
+                            "turn_time": 20,
+                            "output_id": 3,
+                            "output_amount": 59,
+                            "model_name": "Fisherman_10"
+                        }
+                    ]
+                },
+                "prices": {
+                    "price": [
+                        {
+                            "id": 1,
+                            "materials": {
+                                "material": [
+                                    {
+                                        "id": 1,
+                                        "amount": 15
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "materials": {
+                                "material": [
+                                    {
+                                        "id": 1,
+                                        "amount": 20
+                                    },
+                                    {
+                                        "id": 3,
+                                        "amount": 40
+                                    },
+                                    {
+                                        "id": 4,
+                                        "amount": 15
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "materials": {
+                                "material": [
+                                    {
+                                        "id": 1,
+                                        "amount": 25
+                                    },
+                                    {
+                                        "id": 3,
+                                        "amount": 80
+                                    },
+                                    {
+                                        "id": 4,
+                                        "amount": 50
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "materials": {
+                                "material": [
+                                    {
+                                        "id": 1,
+                                        "amount": 50
+                                    },
+                                    {
+                                        "id": 3,
+                                        "amount": 200
+                                    },
+                                    {
+                                        "id": 4,
+                                        "amount": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "materials": {
+                                "material": [
+                                    {
+                                        "id": 1,
+                                        "amount": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "amount": 300
+                                    },
+                                    {
+                                        "id": 4,
+                                        "amount": 200
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

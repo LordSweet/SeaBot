@@ -13,21 +13,15 @@
 //  
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SeaBotCore.BotMethods.ShipManagment.SendShip
 {
-    using System.Threading;
-
     using SeaBotCore.Config;
     using SeaBotCore.Data;
-    using SeaBotCore.Data.Definitions;
-    using SeaBotCore.Logger;
-    using SeaBotCore.Utils;
+    using System.Threading;
+    using static SeaBotCore.Task;
 
     public static  class SendShips
     {
@@ -95,65 +89,81 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
         public static void SendShipsAutoDestination()
         {
 
-                    var failed = 
+            var ships = 
                         Core.LocalPlayer.Ships.Where(n => n.Activated != 0 && n.Sent == 0)
                             .OrderByDescending(SendingHelper.GetCapacity);
-
-                    foreach (var ship in failed)
-                    {
+            IGameTask task;
+               foreach (var ship in ships)
+               {
                         var perc = PercentageDest();
                         if (contractorproc > perc[ShipDestType.Contractor])
                         {
-                            if (Destinations.SendToContractor(ship))
+                            task = Destinations.SendToContractor(ship);
+                            if (task != null)
                             {
-                                continue;
+                                 Networking.AddTask(task);
+                                 continue;
                             }
                         }
                         if (upgproc > perc[ShipDestType.Upgradable])
                         {
-                            if (Destinations.SendToUpgradable(ship, Core.Config.autoshiptype))
-                            {
-                                continue;
-                            }
-                        }
+                     task = Destinations.SendToUpgradable(ship, Core.Config.autoshiptype);
+                    if (task != null)
+                    {
+                        Networking.AddTask(task);
+                        continue;
+                    }
+                }
                         if (marketproc > perc[ShipDestType.Marketplace])
                         {
-                            if (Destinations.SendToMarketplace(ship))
-                            {
-                                continue;
-                            }
-                        }
+                     task = Destinations.SendToMarketplace(ship);
+                    if (task != null)
+                    {
+                        Networking.AddTask(task);
+                        continue;
+                    }
+                }
                         if (outpostproc > perc[ShipDestType.Outpost])
                         {
-                            if (Destinations.SendToOutpost(ship))
-                            {
-                                continue;
-                            }
-
-                        }
-
-                        if (Destinations.SendToContractor(ship))
-                        {
-                            continue;
-                        }
-
-                        if (Destinations.SendToUpgradable(ship, Core.Config.autoshiptype))
-                        {
-                            continue;
-                        }
-
-                        if (Destinations.SendToMarketplace(ship))
-                        {
-                            continue;
-                        }
-
-                        if (Destinations.SendToOutpost(ship))
-                        {
-                            continue;
-                        }
-
-
+                     task = Destinations.SendToOutpost(ship) ;
+                    if (task != null)
+                    {
+                        Networking.AddTask(task);
+                        continue;
                     }
+
+                }
+
+                 task = Destinations.SendToContractor(ship);
+                if (task != null)
+                {
+                    Networking.AddTask(task);
+                    continue;
+                }
+
+                 task = Destinations.SendToUpgradable(ship, Core.Config.autoshiptype);
+                if (task != null)
+                {
+                    Networking.AddTask(task);
+                    continue;
+                }
+
+                 task = Destinations.SendToMarketplace(ship);
+                if (task != null)
+                {
+                    Networking.AddTask(task);
+                    continue;
+                }
+
+                 task = Destinations.SendToOutpost(ship);
+                if (task != null)
+                {
+                    Networking.AddTask(task);
+                    continue;
+                }
+
+
+            }
                   
         }
 

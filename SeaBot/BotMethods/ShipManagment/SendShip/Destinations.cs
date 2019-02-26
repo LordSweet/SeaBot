@@ -28,15 +28,18 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
     using SeaBotCore.Localizaion;
     using SeaBotCore.Logger;
     using SeaBotCore.Utils;
+    using SeaBotCore.Data.Extensions;
+    using static SeaBotCore.Task;
 
     public static class Destinations
     {
-        public static bool SendToContractor(Ship ship)
+        
+        public static IGameTask SendToContractor(Ship ship)
         {
             
             if (ship == null)
             {
-                return false;
+                return null;
             }
             var statiopst = new List<Contractor>();
             var genopst = new List<Contractor>();
@@ -138,13 +141,13 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                 Core.LocalPlayer.Contracts.First(n => n.DefId == opst.DefId).Progress +=
                     wecan * quest.MaterialKoef;
                 Logger.Info(string.Format(Localization.DESTINATION_CONTRACTOR, ship.GetShipName()));
-                Networking.AddTask(
+                var ret = 
                     new Task.SendShipContractorTask(
                         ship.InstId,
                         opst.DefId,
                         quest.ObjectiveDefId,
                         quest.Id,
-                        wecan * quest.MaterialKoef));
+                        wecan * quest.MaterialKoef);
                 var lship = Core.LocalPlayer.Ships.FirstOrDefault(n => n.DefId == ship.DefId);
                 lship.Sent = TimeUtils.GetEpochTime();
                 lship.Loaded = 0;
@@ -152,7 +155,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                 lship.TargetId = opst.DefId;
                 lship.MaterialId = quest.ObjectiveDefId;
                 lship.TargetLevel = quest.Id;
-                return true;
+                return ret;
             }
 
             foreach (var opst in genopst.OrderBy(n => n.QuestId))
@@ -191,19 +194,19 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                 lship.MaterialId = quest.ObjectiveDefId;
                 lship.TargetLevel = quest.Id;
                 Logger.Info(string.Format(Localization.DESTINATION_CONTRACTOR, ship.GetShipName()));
-                Networking.AddTask(
+                   var ret = 
                     new Task.SendShipContractorTask(
                         ship.InstId,
                         opst.DefId,
                         quest.ObjectiveDefId,
                         quest.Id,
-                        wecan * quest.MaterialKoef));
-                return true;
+                        wecan * quest.MaterialKoef);
+                return ret;
             }
-            return false;
+            return null;
         }
 
-        public static bool SendToMarketplace(Ship ship)
+        public static IGameTask SendToMarketplace(Ship ship)
         {
             // Outpost send!
 
@@ -217,7 +220,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
 
             if (ship.Sailors() < LocalDefinitions.Marketplaces[1].Sailors||Core.LocalPlayer.Sailors<ship.Sailors())
             {
-                return false;
+                return null;
             }
             
 
@@ -262,7 +265,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
 
             if (maktplc?.OutputType == null)
             {
-                return false;
+                return null;
             }
 
             var wehaveininv = Core.LocalPlayer.GetAmountItem(maktplc.InputId);
@@ -271,7 +274,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
 
             Core.LocalPlayer.Inventory.Where(n => n.Id == maktplc.InputId).FirstOrDefault().Amount -= canproceed;
             Logger.Info(string.Format(Localization.DESTINATION_MARKETPLACE, ship.GetShipName()));
-            Networking.AddTask(new Task.SendShipMarketplaceTask(ship.InstId, maktplc.Id, 1, canproceed));
+            var ret = new Task.SendShipMarketplaceTask(ship.InstId, maktplc.Id, 1, canproceed);
             var locship = Core.LocalPlayer.Ships.Where(n => n.InstId == ship.InstId).First();
             locship.Type = "marketplace";
             locship.TargetId = 1;
@@ -280,17 +283,17 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
             locship.Sent = TimeUtils.GetEpochTime();
             locship.MaterialId = maktplc.Id;
             locship.Loaded = 0;
-            return true;
+            return ret;
         }
 
-        public static bool SendToOutpost(Ship ship)
+        public static IGameTask SendToOutpost(Ship ship)
         {
             var opst = Core.LocalPlayer.Outposts
                 .FirstOrDefault(
                     n => !n.Done && n.Crew < n.RequiredCrew && !Core.Config.ignoreddestination.Any(b => b.Destination == ShipDestType.Outpost && b.DefId == n.DefId));
             if (Core.LocalPlayer.Sailors < ship.Sailors())
             {
-                return false;
+                return null;
             }
             if (opst != null)
             {
@@ -307,27 +310,27 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                 }
                 
                 opst.Crew += sending;
-                Networking.AddTask(new Task.OutpostSendShipTask(ship.InstId, opst.DefId, sending));
-                return true;
+                return new Task.OutpostSendShipTask(ship.InstId, opst.DefId, sending);
+                
             }
             else
             {
                 var locked = SendingHelper.GetUnlockableOutposts();
                 if (locked.Count == 0)
                 {
-                    return false;
+                    return null;
                 }
 
                 var next = locked.OrderBy(n => n.Sailors).FirstOrDefault();
                 if (next == null)
                 {
-                    return false;
+                    return null;
                 }
 
                 var sending = 0;
                 sending = next.Crew > ship.Sailors() ? ship.Sailors() : next.Crew;
                 Logger.Info(string.Format(Localization.DESTINATION_OUTPOST, ship.GetShipName()));
-                Networking.AddTask(new Task.OutpostSendShipTask(ship.InstId, next.DefId, sending));
+                   var ret = new Task.OutpostSendShipTask(ship.InstId, next.DefId, sending);
                 Core.LocalPlayer.Outposts.Add(
                     new Outpost
                         {
@@ -338,19 +341,19 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                             PlayerLevel = Core.LocalPlayer.Level,
                             RequiredCrew = next.Crew
                         });
-                return true;
+                return ret;
             }
 
             // KAAAAAAAAAAAAZOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO?
         }
 
-        public static bool SendToUpgradable(Ship ship, string itemname)
+        public static IGameTask SendToUpgradable(Ship ship, string itemname)
         {
             var bestplace = SendingHelper.GetBestUpgPlace(itemname, ship.Sailors(), Core.Config.upgradablestrategy);
           
             if (bestplace == null || Core.LocalPlayer.Sailors < ship.Sailors())
             {
-                return false;
+                return null;
             }
             var place = bestplace.Definition;
             var shipfull = ship.Definition;
@@ -358,7 +361,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
 
             if (shipfull?.SlotUsage < place?.Slots)
             {
-                return false;
+                return null;
             }
 
             if (lvls != null)
@@ -383,14 +386,14 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                     Localization.SHIPS_SENDING + LocalizationCache.GetNameFromLoc(
                         LocalDefinitions.Ships.First(n => n.DefId == ship.DefId).NameLoc,
                         LocalDefinitions.Ships.First(n => n.DefId == ship.DefId).Name));
-                Networking.AddTask(new Task.SendShipUpgradeableTask(ship, bestplace, wecan));
-                return true;
+                return new Task.SendShipUpgradeableTask(ship, bestplace, wecan);
+                
             }
 
-            return false;
+            return null;
         }
         
-        public static bool SendToWreck(Ship ship)
+        public static IGameTask SendToWreck(Ship ship)
         {
             var wreck = Core.LocalPlayer.Wrecks.Where(n => n.Status == 0).FirstOrDefault();
 
@@ -406,16 +409,16 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                     shp.TargetLevel = 0;
                     wreck.Status = 1;
                     Logger.Info(string.Format(Localization.DESTINATION_WRECK, ship.GetShipName()));
-                    Networking.AddTask(new Task.SendShipwreckTask(ship.InstId, wreck.InstId));
-                    return true;
+                  return new Task.SendShipwreckTask(ship.InstId, wreck.InstId);
+                   
                 }
                 else
                 {
-                    return false;
+                    return null;
                 }
             }
 
-            return false;
+            return null;
         }
     }
 }

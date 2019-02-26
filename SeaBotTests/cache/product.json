@@ -1,0 +1,1055 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "name_loc": "",
+                "description": "",
+                "platform": "all",
+                "apple_inapp_id": "",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 0,
+                "start_time": 0,
+                "end_time": 0,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 0
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 0,
+                            "type": "material",
+                            "amount": 0,
+                            "portal_bonus": 0,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "name": "1.product",
+                "name_loc": "SY_PS002",
+                "description": "SY_PS001",
+                "platform": "all_except_ios",
+                "apple_inapp_id": "",
+                "google_inapp_id": "seaport_01",
+                "amazon_inapp_id": "seaport_01",
+                "picture": 1,
+                "start_time": 0,
+                "end_time": 0,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 9.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 8.9
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 275,
+                            "portal_bonus": 35,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 2,
+                "name": "2.product",
+                "name_loc": "SY_PS003",
+                "description": "SY_PS001",
+                "platform": "all_except_ios",
+                "apple_inapp_id": "",
+                "google_inapp_id": "seaport_02",
+                "amazon_inapp_id": "seaport_02",
+                "picture": 2,
+                "start_time": 0,
+                "end_time": 0,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 19.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 17.8
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 605,
+                            "portal_bonus": 60,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 3,
+                "name": "3.product",
+                "name_loc": "SY_PS004",
+                "description": "SY_PS001",
+                "platform": "all_except_ios",
+                "apple_inapp_id": "",
+                "google_inapp_id": "seaport_03",
+                "amazon_inapp_id": "seaport_03",
+                "picture": 3,
+                "start_time": 0,
+                "end_time": 0,
+                "favourite": 1,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 49.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 44.5
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 1650,
+                            "portal_bonus": 165,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 4,
+                "name": "4.product",
+                "name_loc": "SY_PS005",
+                "description": "SY_PS001",
+                "platform": "all_except_ios",
+                "apple_inapp_id": "",
+                "google_inapp_id": "seaport_04",
+                "amazon_inapp_id": "seaport_04",
+                "picture": 4,
+                "start_time": 0,
+                "end_time": 0,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 114.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 102.3
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 4400,
+                            "portal_bonus": 450,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 5,
+                "name": "SALE_1.product",
+                "name_loc": "SY_PS002",
+                "description": "SY_PS001",
+                "platform": "all_except_ios",
+                "apple_inapp_id": "",
+                "google_inapp_id": "seaport_01",
+                "amazon_inapp_id": "seaport_01",
+                "picture": 1,
+                "start_time": 1542960000,
+                "end_time": 1543219200,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 9.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 8.9
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 275,
+                            "portal_bonus": 35,
+                            "fb_sale_bonus": 70,
+                            "portal_sale_bonus": 80,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 6,
+                "name": "SALE_2.product",
+                "name_loc": "SY_PS003",
+                "description": "SY_PS001",
+                "platform": "all_except_ios",
+                "apple_inapp_id": "",
+                "google_inapp_id": "seaport_02",
+                "amazon_inapp_id": "seaport_02",
+                "picture": 2,
+                "start_time": 1542960000,
+                "end_time": 1543219200,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 19.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 17.8
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 605,
+                            "portal_bonus": 60,
+                            "fb_sale_bonus": 155,
+                            "portal_sale_bonus": 170,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 7,
+                "name": "SALE_3.product",
+                "name_loc": "SY_PS004",
+                "description": "SY_PS001",
+                "platform": "all_except_ios",
+                "apple_inapp_id": "",
+                "google_inapp_id": "seaport_03",
+                "amazon_inapp_id": "seaport_03",
+                "picture": 3,
+                "start_time": 1542960000,
+                "end_time": 1543219200,
+                "favourite": 1,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 49.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 44.5
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 1650,
+                            "portal_bonus": 165,
+                            "fb_sale_bonus": 415,
+                            "portal_sale_bonus": 455,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 8,
+                "name": "SALE_4.product",
+                "name_loc": "SY_PS005",
+                "description": "SY_PS001",
+                "platform": "all_except_ios",
+                "apple_inapp_id": "",
+                "google_inapp_id": "seaport_04",
+                "amazon_inapp_id": "seaport_04",
+                "picture": 4,
+                "start_time": 1542960000,
+                "end_time": 1543219200,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 114.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 102.3
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 4400,
+                            "portal_bonus": 450,
+                            "fb_sale_bonus": 1100,
+                            "portal_sale_bonus": 1220,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 9,
+                "name": "1.product_iOS",
+                "name_loc": "SY_PS002",
+                "description": "SY_PS001",
+                "platform": "ios",
+                "apple_inapp_id": "seaport_01",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 1,
+                "start_time": 0,
+                "end_time": 0,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 9.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 8.9
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 275,
+                            "portal_bonus": 35,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 10,
+                "name": "2.product_iOS",
+                "name_loc": "SY_PS003",
+                "description": "SY_PS001",
+                "platform": "ios",
+                "apple_inapp_id": "seaport_02",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 2,
+                "start_time": 0,
+                "end_time": 0,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 19.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 17.8
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 605,
+                            "portal_bonus": 60,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 11,
+                "name": "3.product_iOS",
+                "name_loc": "SY_PS004",
+                "description": "SY_PS001",
+                "platform": "ios",
+                "apple_inapp_id": "seaport_03",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 3,
+                "start_time": 0,
+                "end_time": 0,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 49.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 44.5
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 1650,
+                            "portal_bonus": 165,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 12,
+                "name": "4.product_iOS",
+                "name_loc": "SY_PS005",
+                "description": "SY_PS001",
+                "platform": "ios",
+                "apple_inapp_id": "seaport_04ios",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 4,
+                "start_time": 0,
+                "end_time": 0,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 99.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 88.99
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 3800,
+                            "portal_bonus": 380,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 13,
+                "name": "NEW_1.product",
+                "name_loc": "SY_PS035",
+                "description": "SY_PS001",
+                "platform": "all_except_ios",
+                "apple_inapp_id": "",
+                "google_inapp_id": "seaport_01",
+                "amazon_inapp_id": "seaport_01",
+                "picture": 7,
+                "start_time": 1511510400,
+                "end_time": 1511769600,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "EUR",
+                            "amount": 8.9
+                        },
+                        {
+                            "currency": "USD",
+                            "amount": 9.99
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 300,
+                            "portal_bonus": 30,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 14,
+                "name": "NEW_2.product",
+                "name_loc": "SY_PS036",
+                "description": "SY_PS001",
+                "platform": "all_except_ios",
+                "apple_inapp_id": "",
+                "google_inapp_id": "seaport_02",
+                "amazon_inapp_id": "seaport_02",
+                "picture": 6,
+                "start_time": 1511510400,
+                "end_time": 1511769600,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "EUR",
+                            "amount": 17.8
+                        },
+                        {
+                            "currency": "USD",
+                            "amount": 19.99
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 700,
+                            "portal_bonus": 70,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 15,
+                "name": "NEW_3.product",
+                "name_loc": "SY_PS037",
+                "description": "SY_PS001",
+                "platform": "all_except_ios",
+                "apple_inapp_id": "",
+                "google_inapp_id": "seaport_02",
+                "amazon_inapp_id": "seaport_02",
+                "picture": 8,
+                "start_time": 1511510400,
+                "end_time": 1511769600,
+                "favourite": 1,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "EUR",
+                            "amount": 26.7
+                        },
+                        {
+                            "currency": "USD",
+                            "amount": 29.99
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 1100,
+                            "portal_bonus": 100,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 200
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 16,
+                "name": "NEW_4.product",
+                "name_loc": "SY_PS038",
+                "description": "SY_PS001",
+                "platform": "all_except_ios",
+                "apple_inapp_id": "",
+                "google_inapp_id": "seaport_03",
+                "amazon_inapp_id": "seaport_03",
+                "picture": 9,
+                "start_time": 1511510400,
+                "end_time": 1511769600,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "EUR",
+                            "amount": 44.5
+                        },
+                        {
+                            "currency": "USD",
+                            "amount": 49.99
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 1850,
+                            "portal_bonus": 150,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 350
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 17,
+                "name": "NEW_5.product",
+                "name_loc": "SY_PS039",
+                "description": "SY_PS001",
+                "platform": "all_except_ios",
+                "apple_inapp_id": "",
+                "google_inapp_id": "seaport_04",
+                "amazon_inapp_id": "seaport_04",
+                "picture": 10,
+                "start_time": 1511510400,
+                "end_time": 1511769600,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "EUR",
+                            "amount": 102.3
+                        },
+                        {
+                            "currency": "USD",
+                            "amount": 114.99
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 4500,
+                            "portal_bonus": 500,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 1050
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 18,
+                "name": "iOS_NEW_1.product",
+                "name_loc": "SY_PS035",
+                "description": "SY_PS001",
+                "platform": "ios",
+                "apple_inapp_id": "seaport_01",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 7,
+                "start_time": 1511510400,
+                "end_time": 1511769600,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "EUR",
+                            "amount": 8.9
+                        },
+                        {
+                            "currency": "USD",
+                            "amount": 9.99
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 300,
+                            "portal_bonus": 35,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 19,
+                "name": "iOS_NEW_2.product",
+                "name_loc": "SY_PS036",
+                "description": "SY_PS001",
+                "platform": "ios",
+                "apple_inapp_id": "seaport_02",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 6,
+                "start_time": 1511510400,
+                "end_time": 1511769600,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "EUR",
+                            "amount": 17.8
+                        },
+                        {
+                            "currency": "USD",
+                            "amount": 19.99
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 700,
+                            "portal_bonus": 70,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 20,
+                "name": "iOS_NEW_3.product",
+                "name_loc": "SY_PS037",
+                "description": "SY_PS001",
+                "platform": "ios",
+                "apple_inapp_id": "seaport_02",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 8,
+                "start_time": 1511510400,
+                "end_time": 1511769600,
+                "favourite": 1,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "EUR",
+                            "amount": 26.7
+                        },
+                        {
+                            "currency": "USD",
+                            "amount": 29.99
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 1100,
+                            "portal_bonus": 100,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 200
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 21,
+                "name": "iOS_NEW_4.product",
+                "name_loc": "SY_PS038",
+                "description": "SY_PS001",
+                "platform": "ios",
+                "apple_inapp_id": "seaport_03",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 9,
+                "start_time": 1511510400,
+                "end_time": 1511769600,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "EUR",
+                            "amount": 44.5
+                        },
+                        {
+                            "currency": "USD",
+                            "amount": 49.99
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 1850,
+                            "portal_bonus": 150,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 350
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 22,
+                "name": "iOS_NEW_5.product",
+                "name_loc": "SY_PS039",
+                "description": "SY_PS001",
+                "platform": "ios",
+                "apple_inapp_id": "seaport_04ios",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 10,
+                "start_time": 1511510400,
+                "end_time": 1511769600,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "EUR",
+                            "amount": 88.99
+                        },
+                        {
+                            "currency": "USD",
+                            "amount": 99.99
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 4000,
+                            "portal_bonus": 400,
+                            "fb_sale_bonus": 0,
+                            "portal_sale_bonus": 0,
+                            "price_bonus": 1000
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 23,
+                "name": "SALE_iOS_1.product",
+                "name_loc": "SY_PS002",
+                "description": "SY_PS001",
+                "platform": "ios",
+                "apple_inapp_id": "seaport_01",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 1,
+                "start_time": 1542960000,
+                "end_time": 1543219200,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 9.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 8.9
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 275,
+                            "portal_bonus": 35,
+                            "fb_sale_bonus": 70,
+                            "portal_sale_bonus": 80,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 24,
+                "name": "SALE_iOS_2.product",
+                "name_loc": "SY_PS003",
+                "description": "SY_PS001",
+                "platform": "ios",
+                "apple_inapp_id": "seaport_02",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 2,
+                "start_time": 1542960000,
+                "end_time": 1543219200,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 19.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 17.8
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 605,
+                            "portal_bonus": 60,
+                            "fb_sale_bonus": 155,
+                            "portal_sale_bonus": 170,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 25,
+                "name": "SALE_iOS_3.product",
+                "name_loc": "SY_PS004",
+                "description": "SY_PS001",
+                "platform": "ios",
+                "apple_inapp_id": "seaport_03",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 3,
+                "start_time": 1542960000,
+                "end_time": 1543219200,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 49.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 44.5
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 1650,
+                            "portal_bonus": 165,
+                            "fb_sale_bonus": 415,
+                            "portal_sale_bonus": 455,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 26,
+                "name": "SALE_iOS_4.product",
+                "name_loc": "SY_PS005",
+                "description": "SY_PS001",
+                "platform": "ios",
+                "apple_inapp_id": "seaport_04ios",
+                "google_inapp_id": "",
+                "amazon_inapp_id": "",
+                "picture": 4,
+                "start_time": 1542960000,
+                "end_time": 1543219200,
+                "favourite": 0,
+                "prices": {
+                    "price": [
+                        {
+                            "currency": "USD",
+                            "amount": 99.99
+                        },
+                        {
+                            "currency": "EUR",
+                            "amount": 88.99
+                        }
+                    ]
+                },
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 3800,
+                            "portal_bonus": 380,
+                            "fb_sale_bonus": 950,
+                            "portal_sale_bonus": 1050,
+                            "price_bonus": 0
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

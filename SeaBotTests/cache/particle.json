@@ -1,0 +1,96 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 1,
+                "version_id": 1,
+                "name": "Default",
+                "type": "",
+                "layer": "bottom",
+                "align": "right",
+                "texture": "",
+                "data": ""
+            },
+            {
+                "def_id": 2,
+                "version_id": 156,
+                "name": "wind ship trail",
+                "type": "ws_trail",
+                "layer": "bottom",
+                "align": "right",
+                "texture": "windTrail",
+                "data": ""
+            },
+            {
+                "def_id": 3,
+                "version_id": 156,
+                "name": "steam ship trail",
+                "type": "ss_trail",
+                "layer": "bottom",
+                "align": "right",
+                "texture": "steamTrail",
+                "data": ""
+            },
+            {
+                "def_id": 4,
+                "version_id": 156,
+                "name": "steam ship smoke",
+                "type": "ss_smoke",
+                "layer": "top",
+                "align": "center",
+                "texture": "smokeWhite",
+                "data": ""
+            },
+            {
+                "def_id": 5,
+                "version_id": 156,
+                "name": "barrel wave",
+                "type": "barrel_wave",
+                "layer": "bottom",
+                "align": "center",
+                "texture": "barrel",
+                "data": ""
+            },
+            {
+                "def_id": 6,
+                "version_id": 156,
+                "name": "boat trail",
+                "type": "boat_trail",
+                "layer": "bottom",
+                "align": "center",
+                "texture": "boatTrail",
+                "data": ""
+            },
+            {
+                "def_id": 7,
+                "version_id": 156,
+                "name": "water click",
+                "type": "water_click",
+                "layer": "bottom",
+                "align": "center",
+                "texture": "splash",
+                "data": ""
+            },
+            {
+                "def_id": 8,
+                "version_id": 156,
+                "name": "building idle",
+                "type": "building_idle",
+                "layer": "top",
+                "align": "center",
+                "texture": "idle",
+                "data": ""
+            },
+            {
+                "def_id": 9,
+                "version_id": 156,
+                "name": "building smoke",
+                "type": "building_smoke",
+                "layer": "top",
+                "align": "center",
+                "texture": "smokeWhite",
+                "data": ""
+            }
+        ]
+    }
+}

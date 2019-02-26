@@ -1,0 +1,1582 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "name_loc": "",
+                "limited": 0,
+                "disposable": 1,
+                "texture": ""
+            },
+            {
+                "def_id": 1,
+                "name": "coins",
+                "name_loc": "SPMN001",
+                "limited": 0,
+                "disposable": 1,
+                "texture": "coin"
+            },
+            {
+                "def_id": 2,
+                "name": "gem",
+                "name_loc": "SPMN002",
+                "limited": 0,
+                "disposable": 1,
+                "texture": "gem"
+            },
+            {
+                "def_id": 3,
+                "name": "fish",
+                "name_loc": "SPMN003",
+                "limited": 0,
+                "disposable": 1,
+                "texture": "fish"
+            },
+            {
+                "def_id": 4,
+                "name": "wood",
+                "name_loc": "SPMN004",
+                "limited": 0,
+                "disposable": 1,
+                "texture": "wood"
+            },
+            {
+                "def_id": 5,
+                "name": "stone",
+                "name_loc": "SPMN005",
+                "limited": 0,
+                "disposable": 1,
+                "texture": "stone"
+            },
+            {
+                "def_id": 6,
+                "name": "iron",
+                "name_loc": "SPMN006",
+                "limited": 0,
+                "disposable": 1,
+                "texture": "iron"
+            },
+            {
+                "def_id": 7,
+                "name": "cocoa",
+                "name_loc": "SPMN007",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "cocoa"
+            },
+            {
+                "def_id": 8,
+                "name": "cloth",
+                "name_loc": "SPMN009",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "cloth"
+            },
+            {
+                "def_id": 9,
+                "name": "tea",
+                "name_loc": "SPMN008",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "tea"
+            },
+            {
+                "def_id": 10,
+                "name": "Pirate hat",
+                "name_loc": "SPMN010",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "pirate_hat"
+            },
+            {
+                "def_id": 11,
+                "name": "Cannon balls",
+                "name_loc": "SPMN011",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "cannon_ball"
+            },
+            {
+                "def_id": 12,
+                "name": "Silver skull",
+                "name_loc": "SPMN012",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "silver_skull"
+            },
+            {
+                "def_id": 13,
+                "name": "Golden skull",
+                "name_loc": "SPMN013",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "golden_skull"
+            },
+            {
+                "def_id": 14,
+                "name": "grape-vine",
+                "name_loc": "SPMN014",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "grape_vine"
+            },
+            {
+                "def_id": 15,
+                "name": "Shield",
+                "name_loc": "SPMN015",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "shield"
+            },
+            {
+                "def_id": 16,
+                "name": "Silver chest",
+                "name_loc": "SPMN016",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "silver_chest"
+            },
+            {
+                "def_id": 17,
+                "name": "Golden chest",
+                "name_loc": "SPMN017",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "golden_chest"
+            },
+            {
+                "def_id": 18,
+                "name": "Candle",
+                "name_loc": "SPMN018",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "candle"
+            },
+            {
+                "def_id": 19,
+                "name": "Sextant",
+                "name_loc": "SPMN019",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "sextant"
+            },
+            {
+                "def_id": 20,
+                "name": "Compass",
+                "name_loc": "SPMN020",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "compass"
+            },
+            {
+                "def_id": 21,
+                "name": "Coffee",
+                "name_loc": "SPMN021",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "coffee"
+            },
+            {
+                "def_id": 22,
+                "name": "Lemon",
+                "name_loc": "SPMN022",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "lemon"
+            },
+            {
+                "def_id": 23,
+                "name": "Bottle",
+                "name_loc": "SPMN023",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "bottle"
+            },
+            {
+                "def_id": 24,
+                "name": "Sugar Cane",
+                "name_loc": "SPMN024",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "sugar_cane"
+            },
+            {
+                "def_id": 25,
+                "name": "Coconut",
+                "name_loc": "SPMN025",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "coconut"
+            },
+            {
+                "def_id": 26,
+                "name": "Rum Barrel",
+                "name_loc": "SPMN026",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "barrel"
+            },
+            {
+                "def_id": 27,
+                "name": "Rum Barrel 2",
+                "name_loc": "SPMN027",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "barrel2"
+            },
+            {
+                "def_id": 28,
+                "name": "Pumpkin",
+                "name_loc": "SPMN028",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "pumpkin"
+            },
+            {
+                "def_id": 29,
+                "name": "Lost Souls",
+                "name_loc": "SPMN029",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "lost_souls"
+            },
+            {
+                "def_id": 30,
+                "name": "Candies",
+                "name_loc": "SPMN030",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "candies"
+            },
+            {
+                "def_id": 31,
+                "name": "Heart of Sea",
+                "name_loc": "SPMN031",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "heart_of_sea"
+            },
+            {
+                "def_id": 32,
+                "name": "Sould of Sea",
+                "name_loc": "SPMN032",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "sould_of_sea"
+            },
+            {
+                "def_id": 33,
+                "name": "Mechanical Parts",
+                "name_loc": "SPMN033",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "mechanical_parts"
+            },
+            {
+                "def_id": 34,
+                "name": "Cinnamon",
+                "name_loc": "SPMN034",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "cinnamon"
+            },
+            {
+                "def_id": 35,
+                "name": "Black Pepper",
+                "name_loc": "SPMN035",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "black_pepper"
+            },
+            {
+                "def_id": 36,
+                "name": "Wooden Pony",
+                "name_loc": "SPMN036",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "wooden_pony"
+            },
+            {
+                "def_id": 37,
+                "name": "Christmas Tree",
+                "name_loc": "SPMN037",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "christmas_tree"
+            },
+            {
+                "def_id": 38,
+                "name": "Santa Sock",
+                "name_loc": "SPMN038",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "santa_sock"
+            },
+            {
+                "def_id": 39,
+                "name": "Golden Bell",
+                "name_loc": "SPMN039",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "golden_bell"
+            },
+            {
+                "def_id": 40,
+                "name": "Gingerbread",
+                "name_loc": "SPMN040",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "gingerbread"
+            },
+            {
+                "def_id": 41,
+                "name": "Real de Vellon",
+                "name_loc": "SPMN041",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "vellon"
+            },
+            {
+                "def_id": 42,
+                "name": "Peso de Ocho",
+                "name_loc": "SPMN042",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "peso"
+            },
+            {
+                "def_id": 43,
+                "name": "Doubloon",
+                "name_loc": "SPMN043",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "doubloon"
+            },
+            {
+                "def_id": 44,
+                "name": "Tomatoe",
+                "name_loc": "SPMN044",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "tomatoe"
+            },
+            {
+                "def_id": 45,
+                "name": "Feather",
+                "name_loc": "SPMN045",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "feather"
+            },
+            {
+                "def_id": 46,
+                "name": "Chocolate",
+                "name_loc": "SPMN046",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "chocolate"
+            },
+            {
+                "def_id": 47,
+                "name": "Rose",
+                "name_loc": "SPMN047",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "rose"
+            },
+            {
+                "def_id": 48,
+                "name": "Totem",
+                "name_loc": "SPMN048",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "totem"
+            },
+            {
+                "def_id": 49,
+                "name": "Shamrock",
+                "name_loc": "SPMN049",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "shamrock"
+            },
+            {
+                "def_id": 50,
+                "name": "Pot of Gold",
+                "name_loc": "SPMN050",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "pot_of_gold"
+            },
+            {
+                "def_id": 51,
+                "name": "Horseshoe",
+                "name_loc": "SPMN051",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "horseshoe"
+            },
+            {
+                "def_id": 52,
+                "name": "Rabbit",
+                "name_loc": "SPMN052",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "rabbit"
+            },
+            {
+                "def_id": 53,
+                "name": "Moai",
+                "name_loc": "SPMN053",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "moai"
+            },
+            {
+                "def_id": 54,
+                "name": "Tulip",
+                "name_loc": "SPMN054",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "tulip"
+            },
+            {
+                "def_id": 55,
+                "name": "Blue Egg",
+                "name_loc": "SPMN055",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "blue_egg"
+            },
+            {
+                "def_id": 56,
+                "name": "Red Egg",
+                "name_loc": "SPMN056",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "red_egg"
+            },
+            {
+                "def_id": 57,
+                "name": "Daisy",
+                "name_loc": "SPMN057",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "daisy"
+            },
+            {
+                "def_id": 58,
+                "name": "Key",
+                "name_loc": "SPMN058",
+                "limited": 1,
+                "disposable": 0,
+                "texture": "key"
+            },
+            {
+                "def_id": 59,
+                "name": "Laurel Wreath",
+                "name_loc": "SPMN059",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "laurel_wreath"
+            },
+            {
+                "def_id": 60,
+                "name": "Sandal",
+                "name_loc": "SPMN060",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "sandal"
+            },
+            {
+                "def_id": 61,
+                "name": "Fig",
+                "name_loc": "SPMN061",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "fig"
+            },
+            {
+                "def_id": 62,
+                "name": "Golden Eagle",
+                "name_loc": "SPMN062",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "golden_eagle"
+            },
+            {
+                "def_id": 63,
+                "name": "Amphora",
+                "name_loc": "SPMN063",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "amphora"
+            },
+            {
+                "def_id": 64,
+                "name": "Olive",
+                "name_loc": "SPMN064",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "olive"
+            },
+            {
+                "def_id": 65,
+                "name": "Rice",
+                "name_loc": "SPMN065",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "rice"
+            },
+            {
+                "def_id": 66,
+                "name": "Sake",
+                "name_loc": "SPMN066",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "sake"
+            },
+            {
+                "def_id": 67,
+                "name": "Katana",
+                "name_loc": "SPMN067",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "katana"
+            },
+            {
+                "def_id": 68,
+                "name": "Sakura",
+                "name_loc": "SPMN068",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "sakura"
+            },
+            {
+                "def_id": 69,
+                "name": "Yen",
+                "name_loc": "SPMN069",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "yen"
+            },
+            {
+                "def_id": 70,
+                "name": "Yen 2",
+                "name_loc": "SPMN070",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "yen2"
+            },
+            {
+                "def_id": 71,
+                "name": "Cocktail",
+                "name_loc": "SPMN072",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "cocktail"
+            },
+            {
+                "def_id": 72,
+                "name": "Banana",
+                "name_loc": "SPMN075",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "banana"
+            },
+            {
+                "def_id": 73,
+                "name": "Rum Bottle",
+                "name_loc": "SPMN076",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "rum_bottle"
+            },
+            {
+                "def_id": 74,
+                "name": "Pistol",
+                "name_loc": "SPMN077",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "pistol"
+            },
+            {
+                "def_id": 75,
+                "name": "Parrot",
+                "name_loc": "SPMN078",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "parrot"
+            },
+            {
+                "def_id": 76,
+                "name": "Golden Tooth",
+                "name_loc": "SPMN079",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "golden_tooth"
+            },
+            {
+                "def_id": 77,
+                "name": "White Pearl",
+                "name_loc": "SPMN080",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "white_pearl"
+            },
+            {
+                "def_id": 78,
+                "name": "Black Pearl",
+                "name_loc": "SPMN081",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "black_pearl"
+            },
+            {
+                "def_id": 79,
+                "name": "Key - event 18",
+                "name_loc": "SPMN058",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "key"
+            },
+            {
+                "def_id": 81,
+                "name": "E19 - Needle and Thread",
+                "name_loc": "SPMN082",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e19_needle"
+            },
+            {
+                "def_id": 82,
+                "name": "E19 - Body Part",
+                "name_loc": "SPMN083",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e19_eye"
+            },
+            {
+                "def_id": 83,
+                "name": "E19 - Electrode",
+                "name_loc": "SPMN084",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e19_electrode"
+            },
+            {
+                "def_id": 84,
+                "name": "E19 - Nails",
+                "name_loc": "SPMN085",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e19_nails"
+            },
+            {
+                "def_id": 85,
+                "name": "E19 - Watch",
+                "name_loc": "SPMN086",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e19_watch"
+            },
+            {
+                "def_id": 86,
+                "name": "E19 - Mechanical Heart",
+                "name_loc": "SPMN087",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e19_heart"
+            },
+            {
+                "def_id": 87,
+                "name": "Pumpkin ROZDAVACKA",
+                "name_loc": "SPMN028",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "pumpkin"
+            },
+            {
+                "def_id": 88,
+                "name": "E20 - Lano",
+                "name_loc": "SPMN088",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e20_rope"
+            },
+            {
+                "def_id": 89,
+                "name": "E20 - Kotva",
+                "name_loc": "SPMN089",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e20_anchor"
+            },
+            {
+                "def_id": 90,
+                "name": "E20 - SP Logo",
+                "name_loc": "SPMN090",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e20_logo"
+            },
+            {
+                "def_id": 91,
+                "name": "E21 - Rukavice",
+                "name_loc": "SPMN091",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e21_gloves"
+            },
+            {
+                "def_id": 92,
+                "name": "E21 - Eggnog",
+                "name_loc": "SPMN092",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e21_eggnog"
+            },
+            {
+                "def_id": 93,
+                "name": "E21 - Sanky",
+                "name_loc": "SPMN093",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e21_sled"
+            },
+            {
+                "def_id": 94,
+                "name": "E21 - Lampas",
+                "name_loc": "SPMN094",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e21_lantern"
+            },
+            {
+                "def_id": 95,
+                "name": "E21 - Vianocna Hviezda",
+                "name_loc": "SPMN095",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e21_star"
+            },
+            {
+                "def_id": 96,
+                "name": "Rozdavacka Vianoce 2017",
+                "name_loc": "SPMN040",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e21_heart"
+            },
+            {
+                "def_id": 97,
+                "name": "E21 - Snehova Vlocka",
+                "name_loc": "SPMN096",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e21_flake"
+            },
+            {
+                "def_id": 98,
+                "name": "E22 - Krill",
+                "name_loc": "SPMN097",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e22_krill"
+            },
+            {
+                "def_id": 99,
+                "name": "E22 - Notebook",
+                "name_loc": "SPMN098",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e22_notebook"
+            },
+            {
+                "def_id": 100,
+                "name": "E22 - Penguin Egg",
+                "name_loc": "SPMN099",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e22_penguinEgg"
+            },
+            {
+                "def_id": 101,
+                "name": "E23 - Bamboo",
+                "name_loc": "SPMN100",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e23_bamboo"
+            },
+            {
+                "def_id": 102,
+                "name": "E23 - Silk",
+                "name_loc": "SPMN101",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e23_silk"
+            },
+            {
+                "def_id": 103,
+                "name": "E23 - Gunpowder",
+                "name_loc": "SPMN102",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e23_gunpowder"
+            },
+            {
+                "def_id": 104,
+                "name": "E23 - Porcelain vase",
+                "name_loc": "SPMN103",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e23_porcelainVase"
+            },
+            {
+                "def_id": 105,
+                "name": "E23 - Jade dragon",
+                "name_loc": "SPMN104",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e23_jadeDragon"
+            },
+            {
+                "def_id": 106,
+                "name": "E23 - Tea leaves",
+                "name_loc": "SPMN105",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "tea"
+            },
+            {
+                "def_id": 107,
+                "name": "E23 - Lampion",
+                "name_loc": "SPMN106",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e23_lampion"
+            },
+            {
+                "def_id": 108,
+                "name": "E23 - Baloon",
+                "name_loc": "SPMN107",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e23_baloon"
+            },
+            {
+                "def_id": 109,
+                "name": "E24 - Spinach can",
+                "name_loc": "SPMN108",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e24_can"
+            },
+            {
+                "def_id": 110,
+                "name": "E24 - Barbell",
+                "name_loc": "SPMN109",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e24_barbell"
+            },
+            {
+                "def_id": 111,
+                "name": "E24 - Pipe",
+                "name_loc": "SPMN110",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e24_pipe"
+            },
+            {
+                "def_id": 112,
+                "name": "E24 - Cap",
+                "name_loc": "SPMN111",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e24_cap"
+            },
+            {
+                "def_id": 113,
+                "name": "E24 - Rudder",
+                "name_loc": "SPMN112",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e24_rudder"
+            },
+            {
+                "def_id": 114,
+                "name": "E24 - Spinach Leaves",
+                "name_loc": "SPMN113",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e24_spinach"
+            },
+            {
+                "def_id": 116,
+                "name": "E25 - Screw",
+                "name_loc": "SPMN114",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e25_screw"
+            },
+            {
+                "def_id": 117,
+                "name": "E25 - Silver cutlery",
+                "name_loc": "SPMN115",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e25_silverCutlery"
+            },
+            {
+                "def_id": 118,
+                "name": "E25 - Lifebuoy",
+                "name_loc": "SPMN116",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e25_lifebuoy"
+            },
+            {
+                "def_id": 119,
+                "name": "E25 - Titanic ticket",
+                "name_loc": "SPMN117",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e25_titanicTicket"
+            },
+            {
+                "def_id": 120,
+                "name": "E25 - Heart of the Sea",
+                "name_loc": "SPMN118",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e25_heartOfTheSea"
+            },
+            {
+                "def_id": 121,
+                "name": "E25 - Flare",
+                "name_loc": "SPMN119",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e25_flare"
+            },
+            {
+                "def_id": 122,
+                "name": "E25 - Anchor",
+                "name_loc": "SPMN089",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e20_anchor"
+            },
+            {
+                "def_id": 123,
+                "name": "E26 - Atrament",
+                "name_loc": "SPMN121",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e26_atrament"
+            },
+            {
+                "def_id": 124,
+                "name": "E26 - Pocket Watch",
+                "name_loc": "SPMN122",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e26_pocketWatch"
+            },
+            {
+                "def_id": 125,
+                "name": "E26 - Suitcase",
+                "name_loc": "SPMN123",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e26_suitcase"
+            },
+            {
+                "def_id": 126,
+                "name": "E26 - Book",
+                "name_loc": "SPMN124",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e26_book"
+            },
+            {
+                "def_id": 127,
+                "name": "E26 - Globe",
+                "name_loc": "SPMN125",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e26_globe"
+            },
+            {
+                "def_id": 128,
+                "name": "E26 - Pen - barrel mat",
+                "name_loc": "SPMN126",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e26_pen"
+            },
+            {
+                "def_id": 129,
+                "name": "E26 - Monocle - link rew",
+                "name_loc": "SPMN120",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e26_monocle"
+            },
+            {
+                "def_id": 130,
+                "name": "E27 - Geology Kit",
+                "name_loc": "SPMN127",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e27_geologyKit"
+            },
+            {
+                "def_id": 131,
+                "name": "E27 - Fossil",
+                "name_loc": "SPMN128",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e27_fossil"
+            },
+            {
+                "def_id": 132,
+                "name": "E27 - Bug in Amber",
+                "name_loc": "SPMN129",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e27_bugInAmber"
+            },
+            {
+                "def_id": 133,
+                "name": "E27 - Fieldnotes",
+                "name_loc": "SPMN130",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e27_fieldnotes"
+            },
+            {
+                "def_id": 134,
+                "name": "E27 - Seashell (barrel)",
+                "name_loc": "SPMN131",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e27_seashell"
+            },
+            {
+                "def_id": 135,
+                "name": "E27 - Tortoise (link R)",
+                "name_loc": "SPMN132",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e27_tortoise"
+            },
+            {
+                "def_id": 136,
+                "name": "E28 - Wine Apmhora",
+                "name_loc": "SPMN133",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e28_amphora"
+            },
+            {
+                "def_id": 137,
+                "name": "E28 - Lyra",
+                "name_loc": "SPMN134",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e28_lyre"
+            },
+            {
+                "def_id": 138,
+                "name": "E28 - Helmet",
+                "name_loc": "SPMN135",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e28_helmet"
+            },
+            {
+                "def_id": 139,
+                "name": "E28 - Trident",
+                "name_loc": "SPMN136",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e28_trident"
+            },
+            {
+                "def_id": 140,
+                "name": "E28 - Bow",
+                "name_loc": "SPMN137",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e28_bow"
+            },
+            {
+                "def_id": 141,
+                "name": "E28 - Black Olive barrel",
+                "name_loc": "SPMN138",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e28_olives"
+            },
+            {
+                "def_id": 142,
+                "name": "E28 - Mask link reward",
+                "name_loc": "SPMN139",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e28_mask"
+            },
+            {
+                "def_id": 143,
+                "name": "E28 - Drachma (dealer)",
+                "name_loc": "SPMN140",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "yen"
+            },
+            {
+                "def_id": 144,
+                "name": "E28 - PXL",
+                "name_loc": "SPMN141",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e28_PXL"
+            },
+            {
+                "def_id": 145,
+                "name": "E29 - Razor",
+                "name_loc": "SPMN142",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e29_razor"
+            },
+            {
+                "def_id": 146,
+                "name": "R29 - Wig",
+                "name_loc": "SPMN143",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e29_wig"
+            },
+            {
+                "def_id": 147,
+                "name": "E29 - Suspenders",
+                "name_loc": "SPMN144",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e29_suspenders"
+            },
+            {
+                "def_id": 148,
+                "name": "E29 - Cards",
+                "name_loc": "SPMN145",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e29_cards"
+            },
+            {
+                "def_id": 149,
+                "name": "E29 - Straw Hat (barrel)",
+                "name_loc": "SPMN146",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e29_hat"
+            },
+            {
+                "def_id": 150,
+                "name": "E29 - Frog (fanpage)",
+                "name_loc": "SPMN147",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e29_frog"
+            },
+            {
+                "def_id": 151,
+                "name": "E30 - Sardines",
+                "name_loc": "SPMN148",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e30_sardine"
+            },
+            {
+                "def_id": 152,
+                "name": "E30 - Octopus",
+                "name_loc": "SPMN149",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e30_octopus"
+            },
+            {
+                "def_id": 153,
+                "name": "E30 - Crab",
+                "name_loc": "SPMN150",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e30_crab"
+            },
+            {
+                "def_id": 154,
+                "name": "E30 - Legendary Tuna",
+                "name_loc": "SPMN151",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e30_tuna"
+            },
+            {
+                "def_id": 155,
+                "name": "E30 - Pufferfis (fanpage)",
+                "name_loc": "SPMN152",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e30_pufferfish"
+            },
+            {
+                "def_id": 156,
+                "name": "E31 - Mirror",
+                "name_loc": "SPMN153",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e31_mirror"
+            },
+            {
+                "def_id": 157,
+                "name": "E31 - Wooden Stake",
+                "name_loc": "SPMN154",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e31_stake"
+            },
+            {
+                "def_id": 158,
+                "name": "E31 - Bloody Mary",
+                "name_loc": "SPMN155",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e31_bloodyMary"
+            },
+            {
+                "def_id": 159,
+                "name": "E31 - Garlic",
+                "name_loc": "SPMN156",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e31_garlic"
+            },
+            {
+                "def_id": 160,
+                "name": "E31 - Signet Ring",
+                "name_loc": "SPMN157",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e31_ring"
+            },
+            {
+                "def_id": 161,
+                "name": "E31 - Bat - barrel",
+                "name_loc": "SPMN158",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e31_bat"
+            },
+            {
+                "def_id": 162,
+                "name": "E31 - Cat fanpage",
+                "name_loc": "SPMN159",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e31_cat"
+            },
+            {
+                "def_id": 163,
+                "name": "E31 - CREW TOKEN",
+                "name_loc": "SPMN160",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e31_tokenCrew"
+            },
+            {
+                "def_id": 164,
+                "name": "E31 - CAPACITY TOKEN",
+                "name_loc": "SPMN161",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e31_tokenCapacity"
+            },
+            {
+                "def_id": 165,
+                "name": "E32 - Peanuts",
+                "name_loc": "SPMN162",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e32_peanuts"
+            },
+            {
+                "def_id": 166,
+                "name": "E32 - Seaport Logo",
+                "name_loc": "SPMN090",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e20_logo"
+            },
+            {
+                "def_id": 167,
+                "name": "E32 - Peanut Oil",
+                "name_loc": "SPMN163",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e32_peanutOil"
+            },
+            {
+                "def_id": 168,
+                "name": "E32 - Balon - barrel",
+                "name_loc": "SPMN107",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e23_baloon"
+            },
+            {
+                "def_id": 169,
+                "name": "E32 - Cake fanpage",
+                "name_loc": "SPMN164",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e32_cake"
+            },
+            {
+                "def_id": 170,
+                "name": "E33 - Candy Cane",
+                "name_loc": "SPMN165",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e33_sugarCane"
+            },
+            {
+                "def_id": 171,
+                "name": "E33 - Scarf",
+                "name_loc": "SPMN166",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e33_scarf"
+            },
+            {
+                "def_id": 172,
+                "name": "E33 - Teddy Bear",
+                "name_loc": "SPMN167",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e33_teddyBear"
+            },
+            {
+                "def_id": 173,
+                "name": "E33 - Ornament",
+                "name_loc": "SPMN168",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e33_ornament"
+            },
+            {
+                "def_id": 174,
+                "name": "E33 - Christmas Tree",
+                "name_loc": "SPMN037",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "christmas_tree"
+            },
+            {
+                "def_id": 175,
+                "name": "E33 - Mistletoe - barrel",
+                "name_loc": "SPMN169",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e33_mistletoe"
+            },
+            {
+                "def_id": 176,
+                "name": "E33 - Reindeer fanpage",
+                "name_loc": "SPMN170",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e33_reindeer"
+            },
+            {
+                "def_id": 177,
+                "name": "E33 - CREW TOKEN",
+                "name_loc": "SPMN160",
+                "limited": 1,
+                "disposable": 0,
+                "texture": "e33_tokenCrew"
+            },
+            {
+                "def_id": 178,
+                "name": "E33 - CAPACITY TOKEN",
+                "name_loc": "SPMN161",
+                "limited": 1,
+                "disposable": 0,
+                "texture": "e33_tokenCapacity"
+            },
+            {
+                "def_id": 179,
+                "name": "Tier 2 - Oil",
+                "name_loc": "SPMN171",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "tier3_oil"
+            },
+            {
+                "def_id": 180,
+                "name": "Tier 2 - Fuel",
+                "name_loc": "SPMN172",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "tier3_fuel"
+            },
+            {
+                "def_id": 181,
+                "name": "Tier 3 - Cement",
+                "name_loc": "SPMN173",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "tier3_cement"
+            },
+            {
+                "def_id": 182,
+                "name": "Tier 3 - Concrete",
+                "name_loc": "SPMN174",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "tier3_concrete"
+            },
+            {
+                "def_id": 183,
+                "name": "Xmas present 2018",
+                "name_loc": "SPMN175",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e33_gift"
+            },
+            {
+                "def_id": 184,
+                "name": "E34 - Pemmican",
+                "name_loc": "SPMN176",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e34_pemmican"
+            },
+            {
+                "def_id": 185,
+                "name": "E34 - Fur Hat",
+                "name_loc": "SPMN177",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e34_furHat"
+            },
+            {
+                "def_id": 186,
+                "name": "E34 - Ski",
+                "name_loc": "SPMN178",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e34_ski"
+            },
+            {
+                "def_id": 187,
+                "name": "E34 - Gramophone",
+                "name_loc": "SPMN179",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e34_gramophone"
+            },
+            {
+                "def_id": 188,
+                "name": "E34 - Compas",
+                "name_loc": "SPMN180",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e34_compas"
+            },
+            {
+                "def_id": 189,
+                "name": "E34 - Diamonds - currency",
+                "name_loc": "SPMN182",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e34_diamant"
+            },
+            {
+                "def_id": 190,
+                "name": "E34 - Snowflake - barrel",
+                "name_loc": "SPMN096",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e21_flake"
+            },
+            {
+                "def_id": 191,
+                "name": "E34 - Sledge Dog fanpage",
+                "name_loc": "SPMN181",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e34_husky"
+            },
+            {
+                "def_id": 192,
+                "name": "E35 - throwel",
+                "name_loc": "SPMN183",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e35_trowel"
+            },
+            {
+                "def_id": 193,
+                "name": "E35 - axe",
+                "name_loc": "SPMN184",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e35_axe"
+            },
+            {
+                "def_id": 194,
+                "name": "E35 - drinking horn",
+                "name_loc": "SPMN185",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e35_drinkingHorn"
+            },
+            {
+                "def_id": 195,
+                "name": "E35 - jade rune stone",
+                "name_loc": "SPMN186",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e35_rocksGreen"
+            },
+            {
+                "def_id": 196,
+                "name": "E35 - onyx rune stone",
+                "name_loc": "SPMN187",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e35_rocksBlue"
+            },
+            {
+                "def_id": 197,
+                "name": "E35 - fly amantia - bar",
+                "name_loc": "SPMN188",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e35_flyAgaric"
+            },
+            {
+                "def_id": 198,
+                "name": "E35 - snowfox - fanpg",
+                "name_loc": "SPMN189",
+                "limited": 1,
+                "disposable": 1,
+                "texture": "e35_snowFox"
+            }
+        ]
+    }
+}

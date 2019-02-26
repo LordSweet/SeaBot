@@ -189,6 +189,8 @@
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.dataGridView5 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.buildingBindingSource)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.groupBox26.SuspendLayout();
@@ -253,6 +255,8 @@
             this.tabControl3.SuspendLayout();
             this.tabPage10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            this.tabPage11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             this.SuspendLayout();
             // 
             // tabPage4
@@ -1555,6 +1559,7 @@
             // tabControl3
             // 
             this.tabControl3.Controls.Add(this.tabPage10);
+            this.tabControl3.Controls.Add(this.tabPage11);
             resources.ApplyResources(this.tabControl3, "tabControl3");
             this.tabControl3.Name = "tabControl3";
             this.tabControl3.SelectedIndex = 0;
@@ -1582,6 +1587,26 @@
             // notifyIcon1
             // 
             resources.ApplyResources(this.notifyIcon1, "notifyIcon1");
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.Controls.Add(this.dataGridView5);
+            resources.ApplyResources(this.tabPage11, "tabPage11");
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView5
+            // 
+            this.dataGridView5.AllowUserToAddRows = false;
+            this.dataGridView5.AllowUserToDeleteRows = false;
+            this.dataGridView5.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dataGridView5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataGridView5, "dataGridView5");
+            this.dataGridView5.Name = "dataGridView5";
+            this.dataGridView5.ReadOnly = true;
+            this.dataGridView5.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            this.dataGridView5.RowHeadersVisible = false;
             // 
             // Form1
             // 
@@ -1677,6 +1702,8 @@
             this.tabControl3.ResumeLayout(false);
             this.tabPage10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            this.tabPage11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1840,5 +1867,7 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.NumericUpDown num_keepedlogs;
         private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TabPage tabPage11;
+        private System.Windows.Forms.DataGridView dataGridView5;
     }
 }

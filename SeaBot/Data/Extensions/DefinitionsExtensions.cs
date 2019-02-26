@@ -8,5 +8,12 @@ namespace SeaBotCore.Data.Extensions
 {
     class DefinitionsExtensions
     {
+        
+    }
+    public interface IDestination
+    {
+
+        int DefId { get; }
+        
     }
 }

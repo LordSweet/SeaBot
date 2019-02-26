@@ -1,0 +1,108 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "pairs": {
+                    "pair": [
+                        {
+                            "key": "captain_rotation_interval",
+                            "value": "1"
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "pairs": {
+                    "pair": [
+                        {
+                            "key": "captain_rotation_interval",
+                            "value": "86400"
+                        },
+                        {
+                            "key": "available_mat_capt_bt",
+                            "value": "capacity_flat,crew_flat,sailors_flat,material_profit_pct,xp_profit_pct"
+                        },
+                        {
+                            "key": "available_gem_capt_bt",
+                            "value": "capacity_flat,crew_flat,sailors_flat,material_profit_pct,xp_profit_pct"
+                        },
+                        {
+                            "key": "available_rare_capt_bt",
+                            "value": "material_profit_pct,capacity_flat"
+                        },
+                        {
+                            "key": "heartbeat_interval",
+                            "value": "300"
+                        },
+                        {
+                            "key": "building_speedup_div",
+                            "value": "10"
+                        },
+                        {
+                            "key": "building_speedup_sub",
+                            "value": "0.1"
+                        },
+                        {
+                            "key": "ship_speedup_div",
+                            "value": "75"
+                        },
+                        {
+                            "key": "ship_speedup_sub",
+                            "value": "1"
+                        },
+                        {
+                            "key": "cpt_bonus_cty_multi1",
+                            "value": "0.0012"
+                        },
+                        {
+                            "key": "cpt_bonus_cty_pow",
+                            "value": "2"
+                        },
+                        {
+                            "key": "cpt_bonus_cty_multi2",
+                            "value": "0.2"
+                        },
+                        {
+                            "key": "cpt_bonus_cty_add",
+                            "value": "15"
+                        },
+                        {
+                            "key": "cpt_bonus_crw_multi",
+                            "value": "0.5"
+                        },
+                        {
+                            "key": "cpt_bonus_crw_add",
+                            "value": "65"
+                        },
+                        {
+                            "key": "cpt_price_multi",
+                            "value": "0.5"
+                        },
+                        {
+                            "key": "cpt_price_pow",
+                            "value": "2.3"
+                        },
+                        {
+                            "key": "cpt_bonus_max_lvl",
+                            "value": "304"
+                        },
+                        {
+                            "key": "cpt_bonus_min_lvl",
+                            "value": "20"
+                        },
+                        {
+                            "key": "refresh_speedup_div",
+                            "value": "5"
+                        },
+                        {
+                            "key": "refresh_speedup_sub",
+                            "value": "1.0"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

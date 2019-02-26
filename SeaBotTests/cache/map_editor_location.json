@@ -1,0 +1,22 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "",
+                "atlas": "",
+                "texture": "",
+                "iso_width": 0,
+                "iso_height": 0
+            },
+            {
+                "def_id": 1,
+                "name": "Testing Location",
+                "atlas": "mapGround1",
+                "texture": "coin",
+                "iso_width": 110,
+                "iso_height": 65
+            }
+        ]
+    }
+}

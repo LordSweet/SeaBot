@@ -1,0 +1,1266 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "tasks": {
+                    "task": [
+                        {
+                            "id": 0,
+                            "type": "NONE",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "name": "Test Guide",
+                "tasks": {
+                    "task": [
+                        {
+                            "id": 1,
+                            "type": "START_FISHING",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG022",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG001",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "type": "CLAIM_FISH",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG002",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG003",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "type": "BUY_FIRST_SHIP",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG004",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG005",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG006",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG007",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG008",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "type": "SEND_FIRST_SHIP",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG009",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG010",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "type": "FIRST_SHIP_SENT",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG011",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG012",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "type": "OUTPOST_UNLOCKED",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG013",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "type": "CLAIMED_FIRST_SHIPTREASURE",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG014",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG015",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "type": "RUN_SAWMILL_PRODUCTION",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG016",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "type": "UPGRADE_SMALL_WORKSHOP",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG018",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "type": "UPGRADE_SAWMILL",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG023",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "type": "UPGRADE_BIG_WORKSHOP",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG017",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 2,
+                "name": "Test Guide 2",
+                "tasks": {
+                    "task": [
+                        {
+                            "id": 1,
+                            "type": "BUILD_MAINDOCK",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG024",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG025",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG026",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "type": "BUY_FIRST_SHIP",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG004",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG005",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG006",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG007",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG008",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "type": "SEND_FIRST_SHIP",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG009",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG010",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "type": "FIRST_SHIP_SENT",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG011",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG012",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "type": "FISHING_STARTED",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG027",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG028",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "type": "SAWMILL_PRODUCTION_STARTED",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG029",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "type": "CLAIM_FISH",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG002",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG003",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "type": "OUTPOST_UNLOCKED",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG013",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "type": "CLAIMED_FIRST_SHIPTREASURE",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG014",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG015",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "type": "RUN_SAWMILL_PRODUCTION",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG016",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "type": "UPGRADE_SMALL_WORKSHOP",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG018",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "type": "UPGRADE_SAWMILL",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG023",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "type": "UPGRADE_BIG_WORKSHOP",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG017",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 3,
+                "name": "Test Guide 3",
+                "tasks": {
+                    "task": [
+                        {
+                            "id": 1,
+                            "type": "BUILD_MAINDOCK",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG024",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG025",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG026",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "type": "BUY_FIRST_SHIP",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG004",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG005",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG006",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG007",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG008",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "type": "SEND_FIRST_SHIP",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG009",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG010",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "type": "FIRST_SHIP_SENT",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG011",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG012",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "type": "FISHING_STARTED",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG027",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG028",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "type": "SAWMILL_PRODUCTION_STARTED",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG029",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "type": "CLAIM_FISH",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG002",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG003",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "type": "OUTPOST_UNLOCKED",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG013",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "type": "CLAIMED_FIRST_SHIPTREASURE",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG014",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG015",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "type": "RUN_SAWMILL_PRODUCTION",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG016",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "type": "UPGRADE_SMALL_WORKSHOP",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG018",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "type": "UPGRADE_SAWMILL",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG023",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "type": "UPGRADE_BIG_WORKSHOP",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG017",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "type": "SHIP_CREW",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG030",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG031",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG032",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "type": "UPGRADE_TOWN_HALL",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG033",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG034",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG035",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "type": "WAREHOUSE_OPENED",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG036",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG037",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG038",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "type": "NEW_BUILDINGS_AVAILABLE",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG039",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "type": "FIRST_SHIP_DOCKED",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG040",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG041",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "type": "CAPTAINS_TASKLIST",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG043",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG044",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPTG045",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "type": "SEND_SECOND_SHIP",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPTG042",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "type": "SHIP_TOKEN_UPGRADE",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPCR031",
+                                        "ui_model": "tutorial\/tutorialTokenShip",
+                                        "guide_texture": "personal_guide3",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPCR017",
+                                        "ui_model": "tutorial\/tutorialTokens",
+                                        "guide_texture": "personal_guide3",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPCR032",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide3",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide3",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPCR033",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide3",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide3",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 22,
+                            "type": "CHRISTMAS_2018",
+                            "speeches": {
+                                "speech": [
+                                    {
+                                        "loca": "SPCR028",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide3",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPCR029",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide3",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "SPCR030",
+                                        "ui_model": "tutorial\/tutorialEva",
+                                        "guide_texture": "personal_guide3",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    },
+                                    {
+                                        "loca": "trigger",
+                                        "ui_model": "",
+                                        "guide_texture": "personal_guide3",
+                                        "guide_orientation": "GUIDE_RIGHT"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

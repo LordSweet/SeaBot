@@ -1,0 +1,20 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "start_time": 0,
+                "end_time": 0,
+                "preloader": "preloader"
+            },
+            {
+                "def_id": 1,
+                "name": "Vikings",
+                "start_time": 1549524973,
+                "end_time": 1555240500,
+                "preloader": "outer-ui_vikings.zip"
+            }
+        ]
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "music_name": "musicTest",
+                "fade_in_time": 2,
+                "fade_out_time": 3,
+                "silence_min": 4,
+                "silence_max": 8,
+                "repeat_min": 3,
+                "repeat_max": 6,
+                "persistent_ambient": "",
+                "ambients": {
+                    "ambient": [
+                        {
+                            "ambient_name": "",
+                            "delay": 1,
+                            "repeat_count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "name": "CityMusic",
+                "music_name": "cityMusic",
+                "fade_in_time": 4,
+                "fade_out_time": 3,
+                "silence_min": 10,
+                "silence_max": 15,
+                "repeat_min": 3,
+                "repeat_max": 6,
+                "persistent_ambient": "cityAmbient",
+                "ambients": {
+                    "ambient": [
+                        {
+                            "ambient_name": "seagull1",
+                            "delay": 20,
+                            "repeat_count": 1
+                        },
+                        {
+                            "ambient_name": "seagull4",
+                            "delay": 10,
+                            "repeat_count": 1
+                        },
+                        {
+                            "ambient_name": "birds1",
+                            "delay": 25,
+                            "repeat_count": 1
+                        },
+                        {
+                            "ambient_name": "birds2",
+                            "delay": 15,
+                            "repeat_count": 1
+                        },
+                        {
+                            "ambient_name": "seagull2",
+                            "delay": 25,
+                            "repeat_count": 1
+                        },
+                        {
+                            "ambient_name": "seagull3",
+                            "delay": 30,
+                            "repeat_count": 1
+                        },
+                        {
+                            "ambient_name": "crowOwl",
+                            "delay": 20,
+                            "repeat_count": 1
+                        },
+                        {
+                            "ambient_name": "seagull5",
+                            "delay": 45,
+                            "repeat_count": 1
+                        },
+                        {
+                            "ambient_name": "seagull6",
+                            "delay": 40,
+                            "repeat_count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 2,
+                "name": "MapMusic",
+                "music_name": "mapMusic",
+                "fade_in_time": 4,
+                "fade_out_time": 3,
+                "silence_min": 10,
+                "silence_max": 15,
+                "repeat_min": 3,
+                "repeat_max": 6,
+                "persistent_ambient": "mapAmbient"
+            }
+        ]
+    }
+}

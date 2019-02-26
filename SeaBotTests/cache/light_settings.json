@@ -1,0 +1,36 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "rotation_x": 10,
+                "rotation_y": 180,
+                "rotation_z": 220,
+                "ambient_r": 127,
+                "ambient_g": 187,
+                "ambient_b": 253,
+                "ambient_a": 255,
+                "color_r": 1,
+                "color_g": 0.75,
+                "color_b": 0.5,
+                "color_a": 1
+            },
+            {
+                "def_id": 1,
+                "name": "Normal",
+                "rotation_x": 10,
+                "rotation_y": 180,
+                "rotation_z": 220,
+                "ambient_r": 127,
+                "ambient_g": 187,
+                "ambient_b": 253,
+                "ambient_a": 255,
+                "color_r": 1,
+                "color_g": 0.75,
+                "color_b": 0.5,
+                "color_a": 1
+            }
+        ]
+    }
+}

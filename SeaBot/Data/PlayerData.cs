@@ -29,6 +29,7 @@ namespace SeaBotCore.Data
 
     using SeaBotCore.BotMethods;
     using SeaBotCore.Data.Definitions;
+    using SeaBotCore.Data.Extensions;
     using SeaBotCore.Data.Materials;
     using SeaBotCore.Utils;
 
@@ -475,7 +476,7 @@ namespace SeaBotCore.Data
         }
     }
 
-    public class Building
+    public class Building 
     {
        
         public int DefId;
@@ -550,7 +551,7 @@ namespace SeaBotCore.Data
         }
     }
 
-    public class Outpost
+    public class Outpost : IDestination
     {
         public int CargoOnTheWay { get; set; }
 
@@ -575,7 +576,7 @@ namespace SeaBotCore.Data
         }
     }
 
-    public class Upgradeable
+    public class Upgradeable : IDestination
     {
        
         public int Amount { get; set; }
@@ -660,7 +661,7 @@ namespace SeaBotCore.Data
         }
     }
 
-    public class LostTreasure
+    public class LostTreasure : IDestination
     {
         public int ClaimedChests { get; set; }
 
@@ -681,7 +682,7 @@ namespace SeaBotCore.Data
         }
     }
 
-    public class Wreck
+    public class Wreck : IDestination
     {
         public int DefId { get; set; }
 
@@ -721,7 +722,7 @@ namespace SeaBotCore.Data
         public string Type { get; set; }
     }
 
-    public class Contractor
+    public class Contractor : IDestination
     {
         public int Amount { get; set; }
 
@@ -759,7 +760,7 @@ namespace SeaBotCore.Data
         public string Type { get; set; }
     }
 
-    public class SocialContract
+    public class SocialContract : IDestination
     {
         public int Amount { get; set; }
 

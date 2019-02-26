@@ -1,0 +1,70 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 1,
+                            "type": "material",
+                            "amount": 1,
+                            "title_loc": "",
+                            "subtitle_loc": "",
+                            "flavour_loc": ""
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "name": "Test",
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 0,
+                            "type": "cm_message",
+                            "amount": 0,
+                            "title_loc": "SYIS028",
+                            "subtitle_loc": "SYIS028",
+                            "flavour_loc": "SPTG014"
+                        },
+                        {
+                            "id": 0,
+                            "type": "xp",
+                            "amount": 0,
+                            "title_loc": "SYIS001",
+                            "subtitle_loc": "SYIS001",
+                            "flavour_loc": "SYIS010"
+                        },
+                        {
+                            "id": 1,
+                            "type": "material",
+                            "amount": 100,
+                            "title_loc": "SYIS001",
+                            "subtitle_loc": "SYIS001",
+                            "flavour_loc": "SYIS010"
+                        },
+                        {
+                            "id": 100,
+                            "type": "captain",
+                            "amount": 1,
+                            "title_loc": "SYIS001",
+                            "subtitle_loc": "SYIS001",
+                            "flavour_loc": "SYIS010"
+                        },
+                        {
+                            "id": 1234,
+                            "type": "ship",
+                            "amount": 1,
+                            "title_loc": "SYIS001",
+                            "subtitle_loc": "SYIS001",
+                            "flavour_loc": "SYIS010"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

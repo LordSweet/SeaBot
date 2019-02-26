@@ -1,0 +1,200 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "type": "linear",
+                "value_x": "player_level",
+                "random_modifier": 0,
+                "round": 0,
+                "x_cap_min": 0,
+                "x_cap_max": -1,
+                "variables": {
+                    "variable": [
+                        {
+                            "name": "Default",
+                            "value": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "name": "SHIP TAX 10 per 20 lvls",
+                "type": "linear",
+                "value_x": "player_level",
+                "random_modifier": 0,
+                "round": 10,
+                "x_cap_min": 20,
+                "x_cap_max": 300,
+                "variables": {
+                    "variable": [
+                        {
+                            "name": "a",
+                            "value": 0.5
+                        },
+                        {
+                            "name": "x_offset",
+                            "value": 0
+                        },
+                        {
+                            "name": "y_offset",
+                            "value": 0.5
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 2,
+                "name": "OIL UPG - WH MEDIAN",
+                "type": "polynomial",
+                "value_x": "player_level",
+                "random_modifier": 0,
+                "round": 100,
+                "x_cap_min": 20,
+                "x_cap_max": 150,
+                "variables": {
+                    "variable": [
+                        {
+                            "name": "a1",
+                            "value": 1
+                        },
+                        {
+                            "name": "a2",
+                            "value": 0.1
+                        },
+                        {
+                            "name": "x_offset",
+                            "value": 70
+                        },
+                        {
+                            "name": "a3",
+                            "value": 0.05848
+                        },
+                        {
+                            "name": "y_offset",
+                            "value": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 3,
+                "name": "upg koef 1 per 100 lvls",
+                "type": "linear",
+                "value_x": "player_level",
+                "random_modifier": 0,
+                "round": 1,
+                "x_cap_min": 20,
+                "x_cap_max": 350,
+                "variables": {
+                    "variable": [
+                        {
+                            "name": "a",
+                            "value": 0.01
+                        },
+                        {
+                            "name": "x_offset",
+                            "value": 0
+                        },
+                        {
+                            "name": "y_offset",
+                            "value": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 4,
+                "name": "Treasure",
+                "type": "power",
+                "value_x": "player_level",
+                "random_modifier": 0,
+                "round": 10,
+                "x_cap_min": 30,
+                "x_cap_max": 600,
+                "variables": {
+                    "variable": [
+                        {
+                            "name": "a",
+                            "value": 0.4
+                        },
+                        {
+                            "name": "x_offset",
+                            "value": 0
+                        },
+                        {
+                            "name": "b",
+                            "value": 1.7
+                        },
+                        {
+                            "name": "y_offset",
+                            "value": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 5,
+                "name": "capacity median",
+                "type": "linear",
+                "value_x": "capacity_median",
+                "random_modifier": 0,
+                "round": 100,
+                "x_cap_min": 0,
+                "x_cap_max": -1,
+                "variables": {
+                    "variable": [
+                        {
+                            "name": "a",
+                            "value": 1
+                        },
+                        {
+                            "name": "x_offset",
+                            "value": 0
+                        },
+                        {
+                            "name": "y_offset",
+                            "value": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 6,
+                "name": "CEMENT UPG - WH MEDIAN",
+                "type": "polynomial",
+                "value_x": "player_level",
+                "random_modifier": 0,
+                "round": 100,
+                "x_cap_min": 20,
+                "x_cap_max": 350,
+                "variables": {
+                    "variable": [
+                        {
+                            "name": "a1",
+                            "value": 1
+                        },
+                        {
+                            "name": "a2",
+                            "value": 0.1
+                        },
+                        {
+                            "name": "a3",
+                            "value": 0.05848
+                        },
+                        {
+                            "name": "x_offset",
+                            "value": 70
+                        },
+                        {
+                            "name": "y_offset",
+                            "value": 0
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28407.52
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBotCore", "SeaBot\SeaBotCore.csproj", "{C9F20A11-7F95-4B34-AC2F-94455AC8427C}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBotHeadless", "SeaBotHeadLess\SeaBotHeadless.csproj", "{B2D7D764-6E9B-4834-9CA8-05F530D1C6DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBotWPF", "SeaBotWPF\SeaBotWPF.csproj", "{919F2393-E0BF-4589-9F14-BCBC7A43BE68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBotTests", "SeaBotTests\SeaBotTests.csproj", "{04207071-A93B-4CA1-A187-BC32C81B5125}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{919F2393-E0BF-4589-9F14-BCBC7A43BE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{919F2393-E0BF-4589-9F14-BCBC7A43BE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{919F2393-E0BF-4589-9F14-BCBC7A43BE68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04207071-A93B-4CA1-A187-BC32C81B5125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04207071-A93B-4CA1-A187-BC32C81B5125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04207071-A93B-4CA1-A187-BC32C81B5125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04207071-A93B-4CA1-A187-BC32C81B5125}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

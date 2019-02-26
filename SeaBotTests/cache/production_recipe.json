@@ -1,0 +1,83 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "version_id": 1,
+                "name": "Default",
+                "name_loc": "",
+                "material_id": 0,
+                "unlocks_at_player_level": 0,
+                "levels": {
+                    "level": [
+                        {
+                            "level_id": 0,
+                            "output_amount": 0,
+                            "duration": 0,
+                            "unlock_material_id": 0,
+                            "unlock_amount": 0,
+                            "inputs": {
+                                "input": [
+                                    {
+                                        "cost_material_id": 0,
+                                        "cost_amount": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "version_id": 173,
+                "name": "recipe for some cool mat",
+                "name_loc": "loc123",
+                "material_id": 8,
+                "unlocks_at_player_level": 5,
+                "levels": {
+                    "level": [
+                        {
+                            "level_id": 1,
+                            "output_amount": 10,
+                            "duration": 300,
+                            "unlock_material_id": 0,
+                            "unlock_amount": 0,
+                            "inputs": {
+                                "input": [
+                                    {
+                                        "cost_material_id": 1,
+                                        "cost_amount": 1500
+                                    },
+                                    {
+                                        "cost_material_id": 3,
+                                        "cost_amount": 1000
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "level_id": 2,
+                            "output_amount": 20,
+                            "duration": 310,
+                            "unlock_material_id": 2,
+                            "unlock_amount": 200,
+                            "inputs": {
+                                "input": [
+                                    {
+                                        "cost_material_id": 1,
+                                        "cost_amount": 1800
+                                    },
+                                    {
+                                        "cost_material_id": 3,
+                                        "cost_amount": 1100
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

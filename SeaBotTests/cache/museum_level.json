@@ -1,0 +1,293 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "id": 0,
+                "turn_count": 0,
+                "turn_time": 0,
+                "output_amount": 0
+            },
+            {
+                "def_id": 1,
+                "id": 1,
+                "turn_count": 18,
+                "turn_time": 3600,
+                "output_amount": 30
+            },
+            {
+                "def_id": 2,
+                "id": 2,
+                "turn_count": 20,
+                "turn_time": 3600,
+                "output_amount": 32
+            },
+            {
+                "def_id": 3,
+                "id": 3,
+                "turn_count": 22,
+                "turn_time": 3600,
+                "output_amount": 34
+            },
+            {
+                "def_id": 4,
+                "id": 4,
+                "turn_count": 24,
+                "turn_time": 3600,
+                "output_amount": 36
+            },
+            {
+                "def_id": 8,
+                "id": 5,
+                "turn_count": 26,
+                "turn_time": 3600,
+                "output_amount": 38
+            },
+            {
+                "def_id": 7,
+                "id": 6,
+                "turn_count": 28,
+                "turn_time": 3600,
+                "output_amount": 40
+            },
+            {
+                "def_id": 6,
+                "id": 7,
+                "turn_count": 30,
+                "turn_time": 3600,
+                "output_amount": 42
+            },
+            {
+                "def_id": 5,
+                "id": 8,
+                "turn_count": 32,
+                "turn_time": 3600,
+                "output_amount": 44
+            },
+            {
+                "def_id": 10,
+                "id": 9,
+                "turn_count": 34,
+                "turn_time": 3600,
+                "output_amount": 46
+            },
+            {
+                "def_id": 9,
+                "id": 10,
+                "turn_count": 36,
+                "turn_time": 3600,
+                "output_amount": 48
+            },
+            {
+                "def_id": 12,
+                "id": 11,
+                "turn_count": 38,
+                "turn_time": 3600,
+                "output_amount": 50
+            },
+            {
+                "def_id": 11,
+                "id": 12,
+                "turn_count": 40,
+                "turn_time": 3600,
+                "output_amount": 52
+            },
+            {
+                "def_id": 13,
+                "id": 13,
+                "turn_count": 42,
+                "turn_time": 3600,
+                "output_amount": 54
+            },
+            {
+                "def_id": 14,
+                "id": 14,
+                "turn_count": 44,
+                "turn_time": 3600,
+                "output_amount": 56
+            },
+            {
+                "def_id": 15,
+                "id": 15,
+                "turn_count": 46,
+                "turn_time": 3600,
+                "output_amount": 58
+            },
+            {
+                "def_id": 16,
+                "id": 16,
+                "turn_count": 48,
+                "turn_time": 3600,
+                "output_amount": 60
+            },
+            {
+                "def_id": 17,
+                "id": 17,
+                "turn_count": 50,
+                "turn_time": 3600,
+                "output_amount": 62
+            },
+            {
+                "def_id": 19,
+                "id": 18,
+                "turn_count": 52,
+                "turn_time": 3600,
+                "output_amount": 64
+            },
+            {
+                "def_id": 18,
+                "id": 19,
+                "turn_count": 54,
+                "turn_time": 3600,
+                "output_amount": 66
+            },
+            {
+                "def_id": 20,
+                "id": 20,
+                "turn_count": 56,
+                "turn_time": 3600,
+                "output_amount": 68
+            },
+            {
+                "def_id": 21,
+                "id": 21,
+                "turn_count": 58,
+                "turn_time": 3600,
+                "output_amount": 70
+            },
+            {
+                "def_id": 22,
+                "id": 22,
+                "turn_count": 60,
+                "turn_time": 3600,
+                "output_amount": 72
+            },
+            {
+                "def_id": 23,
+                "id": 23,
+                "turn_count": 62,
+                "turn_time": 3600,
+                "output_amount": 74
+            },
+            {
+                "def_id": 24,
+                "id": 24,
+                "turn_count": 64,
+                "turn_time": 3600,
+                "output_amount": 76
+            },
+            {
+                "def_id": 25,
+                "id": 25,
+                "turn_count": 66,
+                "turn_time": 3600,
+                "output_amount": 78
+            },
+            {
+                "def_id": 26,
+                "id": 26,
+                "turn_count": 68,
+                "turn_time": 3600,
+                "output_amount": 80
+            },
+            {
+                "def_id": 27,
+                "id": 27,
+                "turn_count": 70,
+                "turn_time": 3600,
+                "output_amount": 82
+            },
+            {
+                "def_id": 28,
+                "id": 28,
+                "turn_count": 72,
+                "turn_time": 3600,
+                "output_amount": 84
+            },
+            {
+                "def_id": 29,
+                "id": 29,
+                "turn_count": 74,
+                "turn_time": 3600,
+                "output_amount": 86
+            },
+            {
+                "def_id": 30,
+                "id": 30,
+                "turn_count": 76,
+                "turn_time": 3600,
+                "output_amount": 88
+            },
+            {
+                "def_id": 31,
+                "id": 31,
+                "turn_count": 78,
+                "turn_time": 3600,
+                "output_amount": 90
+            },
+            {
+                "def_id": 32,
+                "id": 32,
+                "turn_count": 80,
+                "turn_time": 3600,
+                "output_amount": 92
+            },
+            {
+                "def_id": 33,
+                "id": 33,
+                "turn_count": 82,
+                "turn_time": 3600,
+                "output_amount": 94
+            },
+            {
+                "def_id": 34,
+                "id": 34,
+                "turn_count": 84,
+                "turn_time": 3600,
+                "output_amount": 96
+            },
+            {
+                "def_id": 35,
+                "id": 35,
+                "turn_count": 86,
+                "turn_time": 3600,
+                "output_amount": 98
+            },
+            {
+                "def_id": 36,
+                "id": 36,
+                "turn_count": 88,
+                "turn_time": 3600,
+                "output_amount": 100
+            },
+            {
+                "def_id": 38,
+                "id": 37,
+                "turn_count": 90,
+                "turn_time": 3600,
+                "output_amount": 102
+            },
+            {
+                "def_id": 37,
+                "id": 38,
+                "turn_count": 92,
+                "turn_time": 3600,
+                "output_amount": 104
+            },
+            {
+                "def_id": 39,
+                "id": 39,
+                "turn_count": 94,
+                "turn_time": 3600,
+                "output_amount": 106
+            },
+            {
+                "def_id": 40,
+                "id": 40,
+                "turn_count": 96,
+                "turn_time": 3600,
+                "output_amount": 108
+            }
+        ]
+    }
+}

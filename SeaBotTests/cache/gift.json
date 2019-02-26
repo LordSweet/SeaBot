@@ -1,0 +1,116 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "title_loc": "",
+                "header_loc": "",
+                "flavour_loc": "",
+                "player_level": 0,
+                "start_time": 0,
+                "end_time": 0,
+                "duration": 0,
+                "picture": "",
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 0,
+                            "type": "material",
+                            "amount": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "name": "1.narodeniny",
+                "title_loc": "SPBD002",
+                "header_loc": "SPBD003",
+                "flavour_loc": "SPBD004",
+                "player_level": 10,
+                "start_time": 1478678400,
+                "end_time": 1479974400,
+                "duration": 86400,
+                "picture": "3",
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 2,
+                            "type": "material",
+                            "amount": 30
+                        },
+                        {
+                            "id": 250,
+                            "type": "ship",
+                            "amount": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 2,
+                "name": "10.vyrocie.pixel",
+                "title_loc": "SPBD006",
+                "header_loc": "SPBD007",
+                "flavour_loc": "SPBD004",
+                "player_level": 10,
+                "start_time": 1509087600,
+                "end_time": 1509350400,
+                "duration": 86400,
+                "picture": "3",
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 534,
+                            "type": "ship",
+                            "amount": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 3,
+                "name": "2.narodeniny",
+                "title_loc": "SPBD008",
+                "header_loc": "SPBD009",
+                "flavour_loc": "SPBD004",
+                "player_level": 10,
+                "start_time": 1533204000,
+                "end_time": 1533466800,
+                "duration": 60,
+                "picture": "3",
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 661,
+                            "type": "ship",
+                            "amount": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 4,
+                "name": "3.narodeniny",
+                "title_loc": "SPBD008",
+                "header_loc": "SPBD009",
+                "flavour_loc": "SPBD004",
+                "player_level": 10,
+                "start_time": 1541674800,
+                "end_time": 1542452400,
+                "duration": 86400,
+                "picture": "3",
+                "rewards": {
+                    "reward": [
+                        {
+                            "id": 1301,
+                            "type": "ship",
+                            "amount": 1
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

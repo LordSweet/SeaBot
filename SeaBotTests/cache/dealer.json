@@ -1,0 +1,253 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "version_id": 34,
+                "name": "",
+                "name_loc": "",
+                "speedupable": 0,
+                "sailors": 0,
+                "slots": 1,
+                "travel_time": 0,
+                "event_id": 0,
+                "outpost_id": 0,
+                "contractor_id": 0,
+                "map_x": 0,
+                "map_y": 0,
+                "atlas": "",
+                "texture": "",
+                "iso_width": 0,
+                "iso_height": 0,
+                "dealer_texture": "",
+                "points": "",
+                "controls": "",
+                "trades": {
+                    "trade": [
+                        {
+                            "id": 0,
+                            "input_type": "material",
+                            "input_id": 1,
+                            "input_amount": 1,
+                            "output_type": "material",
+                            "output_id": 3,
+                            "output_amount": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "version_id": 39,
+                "name": "Basternak",
+                "name_loc": "SPDN026",
+                "speedupable": 1,
+                "sailors": 30,
+                "slots": 1,
+                "travel_time": 3600,
+                "event_id": 15,
+                "outpost_id": 0,
+                "contractor_id": 0,
+                "map_x": 1505,
+                "map_y": 1040,
+                "atlas": "mapGround1",
+                "texture": "marketplace",
+                "iso_width": 140,
+                "iso_height": 75,
+                "dealer_texture": "dealer2",
+                "points": "1140,1370,1178,1396,1206,1405,1235,1402,1265,1394,1292,1380,1316,1360,1331,1337,1327,1310,1315,1282,1304,1254,1308,1227,1326,1202,1346,1179,1367,1157,1392,1139,1419,1124,1447,1109,1474,1095,1494,1084,1500,1080",
+                "controls": "1165,1387,1191,1404,1220,1406,1250,1398,1280,1389,1304,1370,1328,1350,1333,1324,1321,1296,1308,1268,1299,1239,1316,1214,1336,1190,1356,1167,1378,1146,1405,1131,1433,1116,1460,1102,1487,1087,1500,1080",
+                "trades": {
+                    "trade": [
+                        {
+                            "id": 1,
+                            "input_type": "material",
+                            "input_id": 1,
+                            "input_amount": 40,
+                            "output_type": "material",
+                            "output_id": 22,
+                            "output_amount": 1
+                        },
+                        {
+                            "id": 2,
+                            "input_type": "material",
+                            "input_id": 1,
+                            "input_amount": 80,
+                            "output_type": "material",
+                            "output_id": 23,
+                            "output_amount": 1
+                        },
+                        {
+                            "id": 3,
+                            "input_type": "material",
+                            "input_id": 1,
+                            "input_amount": 150,
+                            "output_type": "material",
+                            "output_id": 24,
+                            "output_amount": 1
+                        },
+                        {
+                            "id": 4,
+                            "input_type": "material",
+                            "input_id": 1,
+                            "input_amount": 300,
+                            "output_type": "material",
+                            "output_id": 25,
+                            "output_amount": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 2,
+                "version_id": 39,
+                "name": "E28 Autolycos",
+                "name_loc": "SPDN026",
+                "speedupable": 1,
+                "sailors": 30,
+                "slots": 1,
+                "travel_time": 1800,
+                "event_id": 28,
+                "outpost_id": 0,
+                "contractor_id": 233,
+                "map_x": 1505,
+                "map_y": 1040,
+                "atlas": "mapGround1",
+                "texture": "marketplace",
+                "iso_width": 110,
+                "iso_height": 74,
+                "dealer_texture": "e28_autolycos",
+                "points": "1140,1370,1178,1396,1206,1405,1235,1402,1265,1394,1292,1380,1316,1360,1331,1337,1327,1310,1315,1282,1304,1254,1308,1227,1326,1202,1346,1179,1367,1157,1392,1139,1419,1124,1447,1109,1474,1095,1494,1084,1500,1080",
+                "controls": "1165,1387,1191,1404,1220,1406,1250,1398,1280,1389,1304,1370,1328,1350,1333,1324,1321,1296,1308,1268,1299,1239,1316,1214,1336,1190,1356,1167,1378,1146,1405,1131,1433,1116,1460,1102,1487,1087,1500,1080",
+                "trades": {
+                    "trade": [
+                        {
+                            "id": 1,
+                            "input_type": "material",
+                            "input_id": 1,
+                            "input_amount": 1000,
+                            "output_type": "material",
+                            "output_id": 143,
+                            "output_amount": 1
+                        },
+                        {
+                            "id": 2,
+                            "input_type": "material",
+                            "input_id": 1,
+                            "input_amount": 50,
+                            "output_type": "material",
+                            "output_id": 138,
+                            "output_amount": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 3,
+                "version_id": 156,
+                "name": "E32 testicul",
+                "name_loc": "SPDN026",
+                "speedupable": 1,
+                "sailors": 30,
+                "slots": 1,
+                "travel_time": 1800,
+                "event_id": 32,
+                "outpost_id": 205,
+                "contractor_id": 0,
+                "map_x": 1505,
+                "map_y": 1040,
+                "atlas": "mapGround1",
+                "texture": "marketplace",
+                "iso_width": 110,
+                "iso_height": 74,
+                "dealer_texture": "dealer2",
+                "points": "1140,1370,1178,1396,1206,1405,1235,1402,1265,1394,1292,1380,1316,1360,1331,1337,1327,1310,1315,1282,1304,1254,1308,1227,1326,1202,1346,1179,1367,1157,1392,1139,1419,1124,1447,1109,1474,1095,1494,1084,1500,1080",
+                "controls": "1165,1387,1191,1404,1220,1406,1250,1398,1280,1389,1304,1370,1328,1350,1333,1324,1321,1296,1308,1268,1299,1239,1316,1214,1336,1190,1356,1167,1378,1146,1405,1131,1433,1116,1460,1102,1487,1087,1500,1080",
+                "trades": {
+                    "trade": [
+                        {
+                            "id": 1,
+                            "input_type": "material",
+                            "input_id": 165,
+                            "input_amount": 3,
+                            "output_type": "material",
+                            "output_id": 167,
+                            "output_amount": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 4,
+                "version_id": 156,
+                "name": "E34 polulus",
+                "name_loc": "SPDN026",
+                "speedupable": 1,
+                "sailors": 30,
+                "slots": 1,
+                "travel_time": 1800,
+                "event_id": 34,
+                "outpost_id": 206,
+                "contractor_id": 0,
+                "map_x": 1585,
+                "map_y": 786,
+                "atlas": "mapGround1",
+                "texture": "marketplace",
+                "iso_width": 110,
+                "iso_height": 74,
+                "dealer_texture": "dealer2",
+                "points": "1140,1370,1178,1396,1206,1405,1235,1402,1265,1394,1292,1380,1316,1360,1331,1337,1327,1310,1315,1282,1304,1254,1308,1227,1326,1202,1346,1179,1367,1157,1392,1139,1419,1124,1447,1109,1474,1095,1495,1075,1506,1048,1511,1018,1521,989,1539,965,1560,942,1580,920,1597,894,1609,866,1618,846,1620,840",
+                "controls": "1165,1387,1191,1404,1220,1406,1250,1398,1280,1389,1304,1370,1328,1350,1333,1324,1321,1296,1308,1268,1299,1239,1316,1214,1336,1190,1356,1167,1378,1146,1405,1131,1433,1116,1460,1102,1487,1087,1503,1063,1509,1033,1513,1002,1528,976,1549,953,1570,931,1590,908,1603,880,1615,851,1620,840",
+                "trades": {
+                    "trade": [
+                        {
+                            "id": 1,
+                            "input_type": "material",
+                            "input_id": 1,
+                            "input_amount": 500,
+                            "output_type": "material",
+                            "output_id": 189,
+                            "output_amount": 1
+                        },
+                        {
+                            "id": 2,
+                            "input_type": "material",
+                            "input_id": 3,
+                            "input_amount": 425,
+                            "output_type": "material",
+                            "output_id": 189,
+                            "output_amount": 1
+                        },
+                        {
+                            "id": 3,
+                            "input_type": "material",
+                            "input_id": 4,
+                            "input_amount": 250,
+                            "output_type": "material",
+                            "output_id": 189,
+                            "output_amount": 1
+                        },
+                        {
+                            "id": 4,
+                            "input_type": "material",
+                            "input_id": 5,
+                            "input_amount": 125,
+                            "output_type": "material",
+                            "output_id": 189,
+                            "output_amount": 1
+                        },
+                        {
+                            "id": 5,
+                            "input_type": "material",
+                            "input_id": 6,
+                            "input_amount": 75,
+                            "output_type": "material",
+                            "output_id": 189,
+                            "output_amount": 1
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

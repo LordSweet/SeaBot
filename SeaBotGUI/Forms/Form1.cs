@@ -88,6 +88,7 @@ namespace SeaBotGUI
             this.SailorsLabel = this.lbl_sailors;
             this.NeededAlgoGrid = this.dataGridView3;
             this.InventoryGrid = this.dataGridView4;
+            this.NeededContractorAlgoGrid = this.dataGridView5;
             instance = this;
             TeleConfigSer.Load();
             this.MaximizeBox = false;
@@ -151,6 +152,8 @@ namespace SeaBotGUI
         }
 
         public DataGridView NeededAlgoGrid { get; }
+
+        public DataGridView NeededContractorAlgoGrid { get; }
 
         public DataGridView BuildingGrid { get; }
 
@@ -231,6 +234,7 @@ namespace SeaBotGUI
             this.BuildingGrid.DataSource = new BindingSource(GUIBinds.BuildingGrid.BuildingBinding.Buildings, null);
             this.ShipGrid.DataSource = new BindingSource(GUIBinds.ShipGrid.ShipBinding.Ships, null);
             this.NeededAlgoGrid.DataSource = new BindingSource(DebugGUI.Algos,null);
+            this.NeededContractorAlgoGrid.DataSource = new BindingSource(NeededContractorAlgo.Algos, null);
             this.InventoryGrid.DataSource = new BindingSource(GUIBinds.InventoryGrid.InventoryBinding.Items,null);
             this.num_ironlimit.Value = Core.Config.ironlimit;
             this.num_woodlimit.Value = Core.Config.woodlimit;
@@ -955,6 +959,7 @@ namespace SeaBotGUI
             GUIBinds.BuildingGrid.Start();
             GUIBinds.ShipGrid.Start();
             SeaBotGUI.Debug.DebugGUI.Start();
+            NeededContractorAlgo.Start();
             GUIBinds.InventoryGrid.Start();
             Core.LocalPlayer.Inventory.CollectionChanged += this.Inventory_CollectionChanged;
             Core.LocalPlayer.Inventory.ItemPropertyChanged += this.Inventory_ItemPropertyChanged;

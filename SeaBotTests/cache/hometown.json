@@ -1,0 +1,28 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "",
+                "name_loc": "",
+                "map_x": 0,
+                "map_y": 0,
+                "atlas": "",
+                "texture": "",
+                "iso_width": 0,
+                "iso_height": 0
+            },
+            {
+                "def_id": 1,
+                "name": "Hometown",
+                "name_loc": "SPDN022",
+                "map_x": 1030,
+                "map_y": 1300,
+                "atlas": "mapGround1",
+                "texture": "hometown",
+                "iso_width": 140,
+                "iso_height": 111
+            }
+        ]
+    }
+}

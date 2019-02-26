@@ -1,0 +1,156 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 1,
+                "version_id": 99,
+                "name": "Town Hall",
+                "tile_width": 8,
+                "tile_height": 8,
+                "texture": "townhall_site",
+                "texture_new": "townhall_site_W",
+                "bounds": "19,320,0,198"
+            },
+            {
+                "def_id": 2,
+                "version_id": 99,
+                "name": "House",
+                "tile_width": 6,
+                "tile_height": 6,
+                "texture": "house_site",
+                "texture_new": "house_A_site_W",
+                "bounds": "28,230,0,103"
+            },
+            {
+                "def_id": 3,
+                "version_id": 99,
+                "name": "Saw",
+                "tile_width": 8,
+                "tile_height": 6,
+                "texture": "sawmill_site",
+                "texture_new": "sawmill_site_W",
+                "bounds": "29,274,0,182"
+            },
+            {
+                "def_id": 4,
+                "version_id": 99,
+                "name": "Steel Factory",
+                "tile_width": 8,
+                "tile_height": 6,
+                "texture": "steel_site",
+                "texture_new": "steel_site_W",
+                "bounds": "23,274,0,167"
+            },
+            {
+                "def_id": 5,
+                "version_id": 99,
+                "name": "Stone",
+                "tile_width": 6,
+                "tile_height": 8,
+                "texture": "stonemason_site",
+                "texture_new": "stonemason_site_W",
+                "bounds": "28,266,0,151"
+            },
+            {
+                "def_id": 6,
+                "version_id": 99,
+                "name": "Tavern",
+                "tile_width": 5,
+                "tile_height": 7,
+                "texture": "inn_site",
+                "texture_new": "inn_site_W",
+                "bounds": "29,240,0,142"
+            },
+            {
+                "def_id": 7,
+                "version_id": 99,
+                "name": "Storage",
+                "tile_width": 8,
+                "tile_height": 6,
+                "texture": "storage_site",
+                "texture_new": "storage_site_W",
+                "bounds": "24,274,0,126"
+            },
+            {
+                "def_id": 8,
+                "version_id": 100,
+                "name": "Small Workshop",
+                "tile_width": 0,
+                "tile_height": 0,
+                "texture": "fishing_pier_site",
+                "texture_new": "fishing_pier_site_W",
+                "bounds": "429,747,127,331"
+            },
+            {
+                "def_id": 9,
+                "version_id": 100,
+                "name": "Big Workshop",
+                "tile_width": 0,
+                "tile_height": 0,
+                "texture": "shipyard_site",
+                "texture_new": "shipyard_site_W",
+                "bounds": "115,455,188,437"
+            },
+            {
+                "def_id": 10,
+                "version_id": 100,
+                "name": "Lighthouse",
+                "tile_width": 0,
+                "tile_height": 0,
+                "texture": "lighthouse_site",
+                "texture_new": "lighthouse_site_W",
+                "bounds": "39,192,91,272"
+            },
+            {
+                "def_id": 11,
+                "version_id": 99,
+                "name": "Machinery",
+                "tile_width": 7,
+                "tile_height": 7,
+                "texture": "machinery_site",
+                "texture_new": "machinery_site_W",
+                "bounds": "17,258,0,112"
+            },
+            {
+                "def_id": 12,
+                "version_id": 134,
+                "name": "Museum",
+                "tile_width": 8,
+                "tile_height": 8,
+                "texture": "museum_site",
+                "texture_new": "museum_site_W",
+                "bounds": "35,294,0,156"
+            },
+            {
+                "def_id": 13,
+                "version_id": 134,
+                "name": "Big Saw",
+                "tile_width": 9,
+                "tile_height": 6,
+                "texture": "big_saw_site",
+                "texture_new": "big_saw_site_W",
+                "bounds": "21,300,0,194"
+            },
+            {
+                "def_id": 14,
+                "version_id": 134,
+                "name": "Big Stone",
+                "tile_width": 6,
+                "tile_height": 9,
+                "texture": "big_stone_site",
+                "texture_new": "big_stone_site_W",
+                "bounds": "36,285,0,118"
+            },
+            {
+                "def_id": 15,
+                "version_id": 134,
+                "name": "Big Steel Factory",
+                "tile_width": 9,
+                "tile_height": 6,
+                "texture": "big_iron_site",
+                "texture_new": "big_iron_site_W",
+                "bounds": "28,300,0,168"
+            }
+        ]
+    }
+}

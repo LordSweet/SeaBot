@@ -1,0 +1,3580 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "name_loc": "",
+                "speedupable": 0,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 0,
+                "travel_time": 0,
+                "event_id": 0,
+                "cooldown": 0,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "shipwreck",
+                "iso_width": 0,
+                "iso_height": 0,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 0,
+                            "reward_count": 0,
+                            "chance": 0,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 0,
+                                        "round": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "spots": {
+                    "spot": [
+                        {
+                            "id": 0,
+                            "name": "",
+                            "map_x": 0,
+                            "map_y": 0,
+                            "outpost_id": 0,
+                            "points": "",
+                            "controls": ""
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 1,
+                "name": "Wreck",
+                "name_loc": "SWN001",
+                "speedupable": 0,
+                "slots": 1,
+                "enabled": 1,
+                "req_level": 10,
+                "travel_time": 3600,
+                "event_id": 0,
+                "cooldown": 79200,
+                "xp_pct_min": 3,
+                "xp_pct_max": 4,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "shipwreck",
+                "iso_width": 110,
+                "iso_height": 73,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 75,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 24,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 37,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 20,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 20,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 3.7,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 18,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 2,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 18,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 2,
+                            "chance": 15,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 35,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 34,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 55,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 33,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 33,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 5.8,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 34,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 3,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 33,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 19,
+                                        "type": "material",
+                                        "amount": 10,
+                                        "bonus": 0,
+                                        "koef_min": 0,
+                                        "koef_max": 0,
+                                        "chance": 33,
+                                        "round": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 3,
+                            "chance": 10,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 40,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 33,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 66,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 33,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 36,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 33,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 7,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 33,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 4,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 33,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 27,
+                                        "type": "material",
+                                        "amount": 15,
+                                        "bonus": 0,
+                                        "koef_min": 0,
+                                        "koef_max": 0,
+                                        "chance": 16,
+                                        "round": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "spots": {
+                    "spot": [
+                        {
+                            "id": 1,
+                            "name": "Outpost 1,1",
+                            "map_x": 1409,
+                            "map_y": 1506,
+                            "outpost_id": 200,
+                            "points": "1140,1370,1166,1408,1183,1434,1199,1460,1214,1487,1228,1515,1247,1535,1276,1541,1307,1541,1338,1540,1369,1540,1392,1540,1400,1540",
+                            "controls": "1157,1395,1174,1421,1191,1447,1207,1473,1221,1501,1234,1529,1260,1540,1291,1541,1322,1540,1353,1540,1384,1540,1400,1540"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Outpost 1,2",
+                            "map_x": 1435,
+                            "map_y": 1250,
+                            "outpost_id": 200,
+                            "points": "1140,1370,1178,1396,1206,1405,1235,1402,1265,1394,1292,1380,1316,1360,1342,1344,1370,1335,1401,1330,1423,1326,1430,1325",
+                            "controls": "1165,1387,1191,1404,1220,1406,1250,1398,1280,1389,1304,1370,1328,1350,1355,1337,1385,1332,1416,1327,1430,1325"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Outpost 1,3",
+                            "map_x": 835,
+                            "map_y": 1530,
+                            "outpost_id": 201,
+                            "points": "1140,1370,1128,1413,1109,1434,1081,1445,1051,1454,1025,1468,1002,1488,980,1510,958,1532,940,1550",
+                            "controls": "1133,1399,1123,1427,1095,1440,1066,1449,1036,1458,1013,1477,991,1499,969,1521,947,1543"
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 2,
+                "name": "HALLOWEEN SHIP",
+                "name_loc": "SWN002",
+                "speedupable": 0,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 8,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 2,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "shipwreck_halloween",
+                "iso_width": 110,
+                "iso_height": 73,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 100,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1.3,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 18,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 13,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 1.2,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 18,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 28,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 0.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 29,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 0.3,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 20,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 3,
+                "name": "CHRISTMAS SHIP",
+                "name_loc": "SWN003",
+                "speedupable": 0,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 10,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "shipwreck_christmas",
+                "iso_width": 110,
+                "iso_height": 73,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 100,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1.2,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 16,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 14,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 40,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 18,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 1.2,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 18,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 36,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 0.6,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 13,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 37,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 0.4,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 13,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 4,
+                "name": "POKAHONTAS SHIP",
+                "name_loc": "SWN004",
+                "speedupable": 0,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 12,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "shipwreck_canoe",
+                "iso_width": 110,
+                "iso_height": 73,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 100,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1.2,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 16,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 12,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 24,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 21,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 1.2,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 18,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 44,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 0.7,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 8,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 45,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 0.6,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 7,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 46,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 0.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 6,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 5,
+                "name": "VELKA NOC",
+                "name_loc": "SWN005",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 14,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "shipwreck_easter",
+                "iso_width": 110,
+                "iso_height": 73,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 100,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 16,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 13,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 27,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 21,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 1.2,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 18,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 52,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 0.7,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 7,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 53,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 0.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 5,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 54,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 0.6,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 6,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 6,
+                "name": "ROME",
+                "name_loc": "SWN006",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 15,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "shipwreck_rome",
+                "iso_width": 110,
+                "iso_height": 73,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 100,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 15,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 14,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 24,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 3,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 4,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 32,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 20,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 20,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 15,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 3.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 12,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 64,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 0.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 7,
+                "name": "JAPAN",
+                "name_loc": "SWN007",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 16,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "shipwreck_japan",
+                "iso_width": 110,
+                "iso_height": 83,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 100,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 15,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 18,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 30,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 4,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 3,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 32,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 22,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 17,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 3.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 13,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 8,
+                "name": "GLOBAL QUEST",
+                "name_loc": "SWN008",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 17,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "shipwreck",
+                "iso_width": 110,
+                "iso_height": 83,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 100,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 18,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 20,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 3,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 3,
+                                        "round": 0
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 32,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 20,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 22,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 17,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 3.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 15,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 2,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 15,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 9,
+                "name": "PIRATE",
+                "name_loc": "SWN009",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 18,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "shipwreck_tortuga",
+                "iso_width": 121,
+                "iso_height": 77,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 90,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 18,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 35,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 32,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 22,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 17,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 2,
+                            "chance": 10,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 5,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 50,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 10,
+                "name": "Halloween",
+                "name_loc": "SWN010",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 19,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e19_shipwreck_halloween",
+                "iso_width": 110,
+                "iso_height": 79,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 90,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 18,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 35,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 32,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 22,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 17,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 3.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 14,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 2,
+                            "chance": 10,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 5,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 40,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 11,
+                "name": "Birthday\/Transport Event",
+                "name_loc": "SWN011",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 20,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e20_shipwreck",
+                "iso_width": 110,
+                "iso_height": 79,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 90,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 18,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 35,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 32,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 22,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 17,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 3.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 14,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 2,
+                            "chance": 10,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 5,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 9,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 12,
+                "name": "CHRISTMAS 2017",
+                "name_loc": "SWN012",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 21,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e21_shipwreck_christmas",
+                "iso_width": 110,
+                "iso_height": 79,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 85,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 18,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 35,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 32,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 22,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 17,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 3.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 14,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 2,
+                            "chance": 10,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 40,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 5,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 15,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 2,
+                            "chance": 5,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 100,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 10,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 13,
+                "name": "CINSKY NOVY ROK n.2",
+                "name_loc": "SWN013",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 23,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e23_shipwreck_china",
+                "iso_width": 110,
+                "iso_height": 79,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 85,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 18,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 35,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 32,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 22,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 17,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 3.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 14,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 2,
+                            "chance": 10,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 40,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 5,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 9,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 2,
+                            "chance": 5,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 110,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 10,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 14,
+                "name": "POPEYE",
+                "name_loc": "SWN014",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 24,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e24_shipwreck_bobeye",
+                "iso_width": 110,
+                "iso_height": 79,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 85,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 18,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 35,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 32,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 22,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 17,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 3.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 14,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 2,
+                            "chance": 10,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 45,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 5,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 10,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 2,
+                            "chance": 5,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 125,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 15,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 15,
+                "name": "E25 Titanic",
+                "name_loc": "SWN015",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 25,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e25_shipwreck_stuck_in_ice",
+                "iso_width": 110,
+                "iso_height": 79,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 85,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 18,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 35,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 32,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 22,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 17,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 2.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 14,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 2,
+                            "chance": 10,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 45,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 5,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 14,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 2,
+                            "chance": 5,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 130,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 15,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 16,
+                "name": "E26 Jules Verne",
+                "name_loc": "SWN016",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 26,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e26_wreck",
+                "iso_width": 110,
+                "iso_height": 79,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 85,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 0,
+                                        "type": "sailor",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 18,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 35,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 32,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 22,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 22,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 17,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 3.5,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 14,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 2,
+                            "chance": 10,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 125,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 15,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 3,
+                            "chance": 5,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 150,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 5,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 20,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 17,
+                "name": "E27 Darwin",
+                "name_loc": "SWN017",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 27,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e27_shipwreck",
+                "iso_width": 110,
+                "iso_height": 76,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 45,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 35,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 10,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 7,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "reward_count": 1,
+                            "chance": 10,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 150,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 10,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 20,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 18,
+                "name": "E28 Oddysey",
+                "name_loc": "SWN018",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 28,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e28_shipwreck",
+                "iso_width": 110,
+                "iso_height": 76,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 40,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 60,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 45,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 20,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 15,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "reward_count": 1,
+                            "chance": 10,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 160,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 10,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 19,
+                "name": "E29 Mark Twain",
+                "name_loc": "SWN019",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 29,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e29_shipwreck",
+                "iso_width": 110,
+                "iso_height": 76,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 40,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 60,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 45,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 20,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 15,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "reward_count": 1,
+                            "chance": 10,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 160,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 10,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 20,
+                "name": "E30 Fishing Day",
+                "name_loc": "SWN020",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 30,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e30_shipwreck",
+                "iso_width": 110,
+                "iso_height": 76,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 40,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 60,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 45,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 20,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 10,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 15,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "reward_count": 1,
+                            "chance": 10,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 160,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 10,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 0
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 21,
+                "name": "E31 Halloween",
+                "name_loc": "SWN021",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 31,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e31_shipwreck",
+                "iso_width": 110,
+                "iso_height": 76,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 40,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 60,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 45,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 20,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 15,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "reward_count": 3,
+                            "chance": 5,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 160,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 10,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 1
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 22,
+                "name": "E32 Birthday",
+                "name_loc": "SWN011",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 32,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e32_shipwreck",
+                "iso_width": 110,
+                "iso_height": 76,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 40,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 25,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 15,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 11,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "reward_count": 3,
+                            "chance": 5,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 160,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.55,
+                                        "chance": 0,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 10,
+                                        "bonus": 0,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 0,
+                                        "round": 1
+                                    },
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 40,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.55,
+                                        "chance": 0,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 23,
+                "name": "E33 Christmas",
+                "name_loc": "SWN003",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 33,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e33_shipwreck",
+                "iso_width": 110,
+                "iso_height": 76,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 1,
+                            "chance": 23,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 50,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 25,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 15,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.2,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 11,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "reward_count": 3,
+                            "chance": 5,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 160,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 100,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 10,
+                                        "bonus": 0,
+                                        "koef_min": 0,
+                                        "koef_max": 0,
+                                        "chance": 100,
+                                        "round": 1
+                                    },
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 250,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 100,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 24,
+                "name": "E34 Icebreaker",
+                "name_loc": "SWN022",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 0,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 34,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e34_shipwreck",
+                "iso_width": 110,
+                "iso_height": 76,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 0,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 50,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 0,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 25,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 0,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 15,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 0,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "reward_count": 1,
+                            "chance": 18,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 11,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 0,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "reward_count": 3,
+                            "chance": 5,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 150,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 0,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 10,
+                                        "bonus": 0,
+                                        "koef_min": 0,
+                                        "koef_max": 0,
+                                        "chance": 0,
+                                        "round": 1
+                                    },
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 60,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 0,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "reward_count": 3,
+                            "chance": 5,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 184,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 3,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.45,
+                                        "chance": 0,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 185,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 2,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.45,
+                                        "chance": 0,
+                                        "round": 10
+                                    },
+                                    {
+                                        "id": 186,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.45,
+                                        "chance": 0,
+                                        "round": 10
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "def_id": 26,
+                "name": "E35 Viking II",
+                "name_loc": "SWN023",
+                "speedupable": 1,
+                "slots": 1,
+                "enabled": 1,
+                "req_level": 20,
+                "travel_time": 3600,
+                "event_id": 35,
+                "cooldown": 21600,
+                "xp_pct_min": 1,
+                "xp_pct_max": 1,
+                "chest": "chest_01",
+                "atlas": "mapGround1",
+                "texture": "e35_shipwreck",
+                "iso_width": 110,
+                "iso_height": 76,
+                "sets": {
+                    "set": [
+                        {
+                            "id": 1,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 30,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 0,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 3,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 50,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 0,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 25,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 0,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 5,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 15,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 0,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "reward_count": 1,
+                            "chance": 19,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 6,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 11,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 0,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "reward_count": 3,
+                            "chance": 2,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 1,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 60,
+                                        "koef_min": 1.2,
+                                        "koef_max": 1.5,
+                                        "chance": 0,
+                                        "round": 100
+                                    },
+                                    {
+                                        "id": 2,
+                                        "type": "material",
+                                        "amount": 10,
+                                        "bonus": 0,
+                                        "koef_min": 0,
+                                        "koef_max": 0,
+                                        "chance": 0,
+                                        "round": 1
+                                    },
+                                    {
+                                        "id": 4,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 120,
+                                        "koef_min": 1.4,
+                                        "koef_max": 1.55,
+                                        "chance": 0,
+                                        "round": 100
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "reward_count": 3,
+                            "chance": 3,
+                            "rewards": {
+                                "reward": [
+                                    {
+                                        "id": 192,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 3,
+                                        "koef_min": 0.9,
+                                        "koef_max": 1.15,
+                                        "chance": 0,
+                                        "round": 5
+                                    },
+                                    {
+                                        "id": 193,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 2,
+                                        "koef_min": 0.95,
+                                        "koef_max": 1.2,
+                                        "chance": 0,
+                                        "round": 5
+                                    },
+                                    {
+                                        "id": 194,
+                                        "type": "material",
+                                        "amount": 0,
+                                        "bonus": 1,
+                                        "koef_min": 1,
+                                        "koef_max": 1.25,
+                                        "chance": 0,
+                                        "round": 5
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

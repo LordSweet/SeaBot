@@ -1,0 +1,69 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "version_id": 1,
+                "placement_type": "wreck_reward",
+                "max_watchable_times": 0,
+                "reward_multiplier": 2
+            },
+            {
+                "def_id": 1,
+                "version_id": 1,
+                "placement_type": "wreck_reward",
+                "max_watchable_times": 5,
+                "reward_multiplier": 2
+            },
+            {
+                "def_id": 2,
+                "version_id": 152,
+                "placement_type": "treasure_reward",
+                "max_watchable_times": 20,
+                "reward_multiplier": 2
+            },
+            {
+                "def_id": 3,
+                "version_id": 152,
+                "placement_type": "payment_window",
+                "max_watchable_times": 3,
+                "reward_multiplier": 2
+            },
+            {
+                "def_id": 4,
+                "version_id": 152,
+                "placement_type": "daily_quest_reward",
+                "max_watchable_times": 3,
+                "reward_multiplier": 2
+            },
+            {
+                "def_id": 5,
+                "version_id": 152,
+                "placement_type": "contractor_quest",
+                "max_watchable_times": 3,
+                "reward_multiplier": 2
+            },
+            {
+                "def_id": 6,
+                "version_id": 152,
+                "placement_type": "contractor_final_reward",
+                "max_watchable_times": 3,
+                "reward_multiplier": 2
+            },
+            {
+                "def_id": 7,
+                "version_id": 152,
+                "placement_type": "buy_captain_at_shop",
+                "max_watchable_times": 3,
+                "reward_multiplier": 2
+            },
+            {
+                "def_id": 8,
+                "version_id": 172,
+                "placement_type": "lost_treasure",
+                "max_watchable_times": 5,
+                "reward_multiplier": 2
+            }
+        ]
+    }
+}

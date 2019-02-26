@@ -1,0 +1,48 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "rarity": 0,
+                "chance": 0,
+                "color": ""
+            },
+            {
+                "def_id": 1,
+                "name": "Common",
+                "rarity": 1,
+                "chance": 5,
+                "color": "0xffffff"
+            },
+            {
+                "def_id": 2,
+                "name": "Uncommon",
+                "rarity": 2,
+                "chance": 10,
+                "color": "0x97ff31"
+            },
+            {
+                "def_id": 3,
+                "name": "Rare",
+                "rarity": 3,
+                "chance": 20,
+                "color": "0x38d7ff"
+            },
+            {
+                "def_id": 4,
+                "name": "Epic",
+                "rarity": 4,
+                "chance": 30,
+                "color": "0xfc61fe"
+            },
+            {
+                "def_id": 5,
+                "name": "Legendary",
+                "rarity": 5,
+                "chance": 35,
+                "color": "0xff8000"
+            }
+        ]
+    }
+}

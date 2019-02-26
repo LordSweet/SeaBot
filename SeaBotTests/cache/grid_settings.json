@@ -1,0 +1,20 @@
+{
+    "items": {
+        "item": [
+            {
+                "def_id": 0,
+                "name": "Default",
+                "tile_width": 128,
+                "offset_x": 0,
+                "offset_y": 0
+            },
+            {
+                "def_id": 1,
+                "name": "Normal",
+                "tile_width": 40,
+                "offset_x": 2082,
+                "offset_y": 224
+            }
+        ]
+    }
+}
