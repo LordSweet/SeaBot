@@ -225,7 +225,7 @@ namespace SeaBotCore.Utils
             var locinv = new List<Item>(Core.LocalPlayer.Inventory.Count);
             locinv.AddRange(Core.LocalPlayer.Inventory.Select(item => new Item { Amount = item.Amount, Id = item.Id }));
 
-            foreach (var contract in Core.LocalPlayer.Contracts)
+            foreach (var contract in Core.LocalPlayer.Contracts.Where(n=>n.Done==0))
             {
                     // Next level
                         var currentquest = contract.Definition.Quests.Quest.Where(n => n.Id == contract.QuestId).FirstOrDefault();
@@ -243,8 +243,11 @@ namespace SeaBotCore.Utils
                     {
                         continue;
                     }
-                    var wecan = exists * currentquest.MaterialKoef;
-                   
+                   var wecan = exists;
+                     if (contract.Definition.Type != "static")
+                  {
+                      exists = exists * currentquest.MaterialKoef;
+                   }
                     if (locinv.Any(n => n.Id == currentquest.ObjectiveDefId))
                     {
                         locinv.Where(n => n.Id == currentquest.ObjectiveDefId).First().Amount -= wecan;
