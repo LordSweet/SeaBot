@@ -652,10 +652,10 @@
     <value>NoControl</value>
   </data>
   <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 16</value>
+    <value>6, 66</value>
   </data>
   <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>112, 23</value>
   </data>
   <data name="button8.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -679,10 +679,10 @@
     <value>NoControl</value>
   </data>
   <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 44</value>
+    <value>6, 41</value>
   </data>
   <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>112, 23</value>
   </data>
   <data name="button10.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -706,10 +706,10 @@
     <value>NoControl</value>
   </data>
   <data name="button11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 16</value>
+    <value>6, 15</value>
   </data>
   <data name="button11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>112, 23</value>
   </data>
   <data name="button11.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -733,7 +733,7 @@
     <value>198, 240</value>
   </data>
   <data name="groupBox27.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 91</value>
+    <value>124, 91</value>
   </data>
   <data name="groupBox27.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -754,17 +754,17 @@
     <value>0</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 15</value>
+    <value>4, 15</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 40</value>
+    <value>58, 45</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>Recycle
-Barrels</value>
+Items</value>
   </data>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>192, 17</value>
@@ -785,16 +785,16 @@ Barrels</value>
     <value>0</value>
   </data>
   <data name="groupBox24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>360, 240</value>
+    <value>375, 82</value>
   </data>
   <data name="groupBox24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 61</value>
+    <value>67, 70</value>
   </data>
   <data name="groupBox24.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="groupBox24.Text" xml:space="preserve">
-    <value>Marketplace</value>
+    <value>Market</value>
   </data>
   <data name="&gt;&gt;groupBox24.Name" xml:space="preserve">
     <value>groupBox24</value>
@@ -1760,10 +1760,10 @@ Barrels</value>
     <value>1</value>
   </data>
   <data name="groupBox12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 82</value>
+    <value>270, 82</value>
   </data>
   <data name="groupBox12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 70</value>
+    <value>102, 70</value>
   </data>
   <data name="groupBox12.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1790,7 +1790,7 @@ Barrels</value>
     <value>NoControl</value>
   </data>
   <data name="radioButton6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 16</value>
+    <value>65, 13</value>
   </data>
   <data name="radioButton6.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 17</value>
@@ -1817,7 +1817,7 @@ Barrels</value>
     <value>True</value>
   </data>
   <data name="radioButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 47</value>
+    <value>65, 46</value>
   </data>
   <data name="radioButton5.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 17</value>
@@ -1844,7 +1844,7 @@ Barrels</value>
     <value>True</value>
   </data>
   <data name="radioButton4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 31</value>
+    <value>65, 30</value>
   </data>
   <data name="radioButton4.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 17</value>
@@ -1868,16 +1868,18 @@ Barrels</value>
     <value>2</value>
   </data>
   <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 16</value>
+    <value>6, 18</value>
   </data>
   <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 35</value>
+    <value>53, 42</value>
   </data>
   <data name="button6.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="button6.Text" xml:space="preserve">
-    <value>button6</value>
+    <value>Select 
+Items
+</value>
   </data>
   <data name="&gt;&gt;button6.Name" xml:space="preserve">
     <value>button6</value>
@@ -1892,10 +1894,10 @@ Barrels</value>
     <value>3</value>
   </data>
   <data name="groupBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>138, 82</value>
+    <value>133, 82</value>
   </data>
   <data name="groupBox11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 70</value>
+    <value>131, 70</value>
   </data>
   <data name="groupBox11.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
