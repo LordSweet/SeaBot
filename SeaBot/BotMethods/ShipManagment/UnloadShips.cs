@@ -86,7 +86,7 @@ namespace SeaBotCore.BotMethods.ShipManagment
                             }
                         case "social_contract":
                             {
-                                Networking.AddTask(new Task.UnloadShipSocialContractTask(ship.InstId));
+                               
                                 if (ship.Loaded == 1)
                                 {
                                     unloadedships.Add(ship.DefId);

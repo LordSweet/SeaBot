@@ -872,7 +872,7 @@ namespace SeaBotCore
                 this.CustomObjects.Add("material_id", material_id);
                 this.CustomObjects.Add("amount", amount);
                 this.CustomObjects.Add("quest_id", quest_id);
-                this.CustomObjects.Add("player_level", Core.LocalPlayer.Level);
+                this.CustomObjects.Add("player_level", int.MaxValue);
             }
 
             public string Action => "send_ship_contractor";

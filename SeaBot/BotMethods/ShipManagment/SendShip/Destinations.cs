@@ -138,8 +138,9 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
               
                 Core.LocalPlayer.Contracts.First(n => n.DefId == opst.DefId).CargoOnTheWay +=
                     wecan * quest.MaterialKoef;
-                Core.LocalPlayer.Contracts.First(n => n.DefId == opst.DefId).Progress +=
-                    wecan * quest.MaterialKoef;
+                //Core.LocalPlayer.Contracts.First(n => n.DefId == opst.DefId).Progress +=
+                //    wecan * quest.MaterialKoef;  
+                //todo Paste this into unload!
                 Logger.Info(string.Format(Localization.DESTINATION_CONTRACTOR, ship.GetShipName()));
                 var ret = 
                     new Task.SendShipContractorTask(
