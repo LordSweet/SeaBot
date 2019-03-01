@@ -13,6 +13,7 @@
 //  
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 namespace SeaBotCore.Utils
 {
     #region
@@ -20,7 +21,7 @@ namespace SeaBotCore.Utils
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Runtime.InteropServices;
+
     using SeaBotCore.Config;
     using SeaBotCore.Data;
     using SeaBotCore.Data.Definitions;
@@ -29,21 +30,6 @@ namespace SeaBotCore.Utils
 
     public static class AutoTools
     {
-        public static int GetStogradeLoaded()
-        {
-            int ret = 0;
-            foreach (var item in Core.LocalPlayer.Inventory)
-            {
-                if (item.Id == 1 || item.Id == 3 || item.Id == 4 || item.Id == 5 || item.Id == 6 || item.Id == 2)
-                {
-                    continue;
-                }
-
-                ret += item.Amount;
-            }
-
-            return ret;
-        }
         public static List<Item> GetEnabledMarketPlacePoints()
         {
             var list = new List<Item>();
@@ -109,12 +95,89 @@ namespace SeaBotCore.Utils
             return ret;
         }
 
+        public static int GetStorageLoaded()
+        {
+            var ret = 0;
+            foreach (var item in Core.LocalPlayer.Inventory)
+            {
+                if (item.Id == 1 || item.Id == 3 || item.Id == 4 || item.Id == 5 || item.Id == 6 || item.Id == 2)
+                {
+                    continue;
+                }
+
+                ret += item.Amount;
+            }
+
+            return ret;
+        }
+
         public static List<Item> GetUsableMarketplacePoints()
         {
             return Core.LocalPlayer.Inventory.Where(
                     n => n.Amount > 0 && LocalDefinitions.Marketplaces[1].Materials.Material
                              .Any(b => b.InputId == n.Id))
                 .ToList();
+        }
+
+        public static Dictionary<int, int> NeededItemsForContractor()
+        {
+            var ret = new Dictionary<int, int>();
+
+            // Clone inventory
+            var locinv = new List<Item>(Core.LocalPlayer.Inventory.Count);
+            locinv.AddRange(Core.LocalPlayer.Inventory.Select(item => new Item { Amount = item.Amount, Id = item.Id }));
+
+            foreach (var contract in Core.LocalPlayer.Contracts.Where(n => n.Done == 0))
+            {
+                // Next level
+                ContractorDefinitions.Quest currentquest = null;
+                foreach (var n in contract.Definition.Quests.Quest)
+                {
+                    if (n.Id == contract.QuestId)
+                    {
+                        currentquest = n;
+                        break;
+                    }
+                }
+
+                if (currentquest.ObjectiveTypeId == "sailor")
+                {
+                    continue;
+                }
+
+                if (Core.Config.ignoreddestination.Count(
+                        n => n.Destination == ShipDestType.Contractor && n.DefId == contract.DefId) != 0)
+                {
+                    continue;
+                }
+
+                var exists = currentquest.Amount - contract.Progress;
+                if (exists <= 0)
+                {
+                    continue;
+                }
+                if (contract.Definition.Type != "static")
+                {
+                    exists = exists * currentquest.MaterialKoef;
+                }
+                var wecan = exists;
+                if (locinv.Any(n => n.Id == currentquest.ObjectiveDefId))
+                {
+                    locinv.First(n => n.Id == currentquest.ObjectiveDefId).Amount -= wecan;
+                }
+                else
+                {
+                    locinv.Add(new Item { Id = currentquest.ObjectiveDefId, Amount = wecan * -1 });
+                }
+            }
+
+            var b = locinv.Where(n => n.Amount < 0).ToList();
+            foreach (var item in b)
+            {
+                ret.Add(item.Id, item.Amount * -1);
+            }
+
+            return ret;
         }
 
         public static Dictionary<int, int> NeededItemsForUpgrade()
@@ -161,7 +224,7 @@ namespace SeaBotCore.Utils
 
             return ret;
         }
-       
+
         public static Dictionary<int, decimal> NeededItemsForUpgradePercentage()
         {
             var ret = new Dictionary<int, decimal>();
@@ -173,6 +236,7 @@ namespace SeaBotCore.Utils
             for (var index = 0; index < Core.LocalPlayer.Buildings.Count; index++)
             {
                 var building = Core.LocalPlayer.Buildings[index];
+
                 // Next level
                 var nextlvlbuilding = building.DefinitionLevel;
                 if (nextlvlbuilding?.Materials.Material != null)
@@ -181,7 +245,7 @@ namespace SeaBotCore.Utils
                     {
                         if (locinv.Any(n => n.Id == mats.Id))
                         {
-                            locinv.Where(n => n.Id == mats.Id).First().Amount += mats.Amount;
+                            locinv.First(n => n.Id == mats.Id).Amount += mats.Amount;
                         }
                         else
                         {
@@ -196,10 +260,9 @@ namespace SeaBotCore.Utils
             {
                 if (makingph.ContainsKey(item.Id))
                 {
-                    
                     if (makingph[item.Id] != 0)
                     {
-                        decimal koef = (decimal)item.Amount / makingph[item.Id];
+                        var koef = item.Amount / makingph[item.Id];
                         if (koef == 0)
                         {
                             continue;
@@ -211,58 +274,9 @@ namespace SeaBotCore.Utils
                     {
                         ret.Add(item.Id, 100M);
                     }
-                   
                 }
             }
 
-            return ret;
-        }
-        public static Dictionary<int, int> NeededItemsForContractor()
-        {
-            var ret = new Dictionary<int, int>();
-
-            //Clone inventory
-            var locinv = new List<Item>(Core.LocalPlayer.Inventory.Count);
-            locinv.AddRange(Core.LocalPlayer.Inventory.Select(item => new Item { Amount = item.Amount, Id = item.Id }));
-
-            foreach (var contract in Core.LocalPlayer.Contracts.Where(n=>n.Done==0))
-            {
-                    // Next level
-                        var currentquest = contract.Definition.Quests.Quest.Where(n => n.Id == contract.QuestId).FirstOrDefault();
-                    if (currentquest.ObjectiveTypeId == "sailor")
-                    {
-                        continue;
-                    }
-                    if (Core.Config.ignoreddestination.Count(
-                      n => n.Destination == ShipDestType.Contractor && n.DefId == contract.DefId) != 0)
-                    {
-                        continue;
-                    }
-                    var exists = currentquest.Amount - contract.Progress;
-                    if (exists <= 0)
-                    {
-                        continue;
-                    }
-                   var wecan = exists;
-                     if (contract.Definition.Type != "static")
-                  {
-                      exists = exists * currentquest.MaterialKoef;
-                   }
-                    if (locinv.Any(n => n.Id == currentquest.ObjectiveDefId))
-                    {
-                        locinv.Where(n => n.Id == currentquest.ObjectiveDefId).First().Amount -= wecan;
-                    }
-                    else
-                    {
-                        locinv.Add(new Item { Id = currentquest.ObjectiveDefId, Amount = wecan * -1 });
-                    }
-            }
-
-            var b = locinv.Where(n => n.Amount < 0).ToList();
-            foreach (var item in b)
-            {
-                ret.Add(item.Id, item.Amount * -1);
-            }
             return ret;
         }
     }

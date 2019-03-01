@@ -96,12 +96,6 @@
             this.radio_saveloot = new System.Windows.Forms.RadioButton();
             this.radio_savesailors = new System.Windows.Forms.RadioButton();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.radio_oil = new System.Windows.Forms.RadioButton();
-            this.radio_stone = new System.Windows.Forms.RadioButton();
-            this.radio_fish = new System.Windows.Forms.RadioButton();
-            this.radio_iron = new System.Windows.Forms.RadioButton();
-            this.radio_wood = new System.Windows.Forms.RadioButton();
-            this.radio_gold = new System.Windows.Forms.RadioButton();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.groupBox25 = new System.Windows.Forms.GroupBox();
             this.label22 = new System.Windows.Forms.Label();
@@ -187,10 +181,14 @@
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.tabPage10 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.tabPage11 = new System.Windows.Forms.TabPage();
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.button6 = new System.Windows.Forms.Button();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.buildingBindingSource)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.groupBox26.SuspendLayout();
@@ -808,63 +806,13 @@
             // 
             // groupBox11
             // 
-            this.groupBox11.Controls.Add(this.radio_oil);
-            this.groupBox11.Controls.Add(this.radio_stone);
-            this.groupBox11.Controls.Add(this.radio_fish);
-            this.groupBox11.Controls.Add(this.radio_iron);
-            this.groupBox11.Controls.Add(this.radio_wood);
-            this.groupBox11.Controls.Add(this.radio_gold);
+            this.groupBox11.Controls.Add(this.radioButton6);
+            this.groupBox11.Controls.Add(this.radioButton5);
+            this.groupBox11.Controls.Add(this.radioButton4);
+            this.groupBox11.Controls.Add(this.button6);
             resources.ApplyResources(this.groupBox11, "groupBox11");
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.TabStop = false;
-            // 
-            // radio_oil
-            // 
-            resources.ApplyResources(this.radio_oil, "radio_oil");
-            this.radio_oil.Name = "radio_oil";
-            this.radio_oil.TabStop = true;
-            this.radio_oil.UseVisualStyleBackColor = true;
-            this.radio_oil.CheckedChanged += new System.EventHandler(this.Radio_oil_CheckedChanged);
-            // 
-            // radio_stone
-            // 
-            resources.ApplyResources(this.radio_stone, "radio_stone");
-            this.radio_stone.Name = "radio_stone";
-            this.radio_stone.TabStop = true;
-            this.radio_stone.UseVisualStyleBackColor = true;
-            this.radio_stone.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
-            // 
-            // radio_fish
-            // 
-            resources.ApplyResources(this.radio_fish, "radio_fish");
-            this.radio_fish.Name = "radio_fish";
-            this.radio_fish.TabStop = true;
-            this.radio_fish.UseVisualStyleBackColor = true;
-            this.radio_fish.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
-            // 
-            // radio_iron
-            // 
-            resources.ApplyResources(this.radio_iron, "radio_iron");
-            this.radio_iron.Name = "radio_iron";
-            this.radio_iron.TabStop = true;
-            this.radio_iron.UseVisualStyleBackColor = true;
-            this.radio_iron.CheckedChanged += new System.EventHandler(this.radio_iron_CheckedChanged);
-            // 
-            // radio_wood
-            // 
-            resources.ApplyResources(this.radio_wood, "radio_wood");
-            this.radio_wood.Name = "radio_wood";
-            this.radio_wood.TabStop = true;
-            this.radio_wood.UseVisualStyleBackColor = true;
-            this.radio_wood.CheckedChanged += new System.EventHandler(this.radio_wood_CheckedChanged);
-            // 
-            // radio_gold
-            // 
-            resources.ApplyResources(this.radio_gold, "radio_gold");
-            this.radio_gold.Name = "radio_gold";
-            this.radio_gold.TabStop = true;
-            this.radio_gold.UseVisualStyleBackColor = true;
-            this.radio_gold.CheckedChanged += new System.EventHandler(this.radio_gold_CheckedChanged);
             // 
             // tabPage7
             // 
@@ -1584,10 +1532,6 @@
             this.dataGridView3.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dataGridView3.RowHeadersVisible = false;
             // 
-            // notifyIcon1
-            // 
-            resources.ApplyResources(this.notifyIcon1, "notifyIcon1");
-            // 
             // tabPage11
             // 
             this.tabPage11.Controls.Add(this.dataGridView5);
@@ -1607,6 +1551,37 @@
             this.dataGridView5.ReadOnly = true;
             this.dataGridView5.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dataGridView5.RowHeadersVisible = false;
+            // 
+            // notifyIcon1
+            // 
+            resources.ApplyResources(this.notifyIcon1, "notifyIcon1");
+            // 
+            // button6
+            // 
+            resources.ApplyResources(this.button6, "button6");
+            this.button6.Name = "button6";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            resources.ApplyResources(this.radioButton4, "radioButton4");
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.TabStop = true;
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            resources.ApplyResources(this.radioButton5, "radioButton5");
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.TabStop = true;
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            resources.ApplyResources(this.radioButton6, "radioButton6");
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.TabStop = true;
+            this.radioButton6.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1750,11 +1725,6 @@
         private System.Windows.Forms.RadioButton radio_saveloot;
         private System.Windows.Forms.RadioButton radio_savesailors;
         private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.RadioButton radio_stone;
-        private System.Windows.Forms.RadioButton radio_fish;
-        private System.Windows.Forms.RadioButton radio_iron;
-        private System.Windows.Forms.RadioButton radio_wood;
-        private System.Windows.Forms.RadioButton radio_gold;
         private System.Windows.Forms.GroupBox groupBox10;
         private System.Windows.Forms.CheckBox chk_onlyfactory;
         private System.Windows.Forms.GroupBox groupBox9;
@@ -1843,7 +1813,6 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.GroupBox groupBox24;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.RadioButton radio_oil;
         private System.Windows.Forms.RadioButton radio_wreck;
         private System.Windows.Forms.LinkLabel linkLabel10;
         private System.Windows.Forms.GroupBox groupBox25;
@@ -1869,5 +1838,9 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TabPage tabPage11;
         private System.Windows.Forms.DataGridView dataGridView5;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.Button button6;
     }
 }

@@ -1783,191 +1783,119 @@ Barrels</value>
   <data name="&gt;&gt;groupBox12.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="radio_oil.AutoSize" type="System.Boolean, mscorlib">
+  <data name="radioButton6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radio_oil.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="radioButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="radio_oil.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 43</value>
+  <data name="radioButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 16</value>
   </data>
-  <data name="radio_oil.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 17</value>
+  <data name="radioButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
   </data>
-  <data name="radio_oil.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="radio_oil.Text" xml:space="preserve">
-    <value>Oil</value>
-  </data>
-  <data name="&gt;&gt;radio_oil.Name" xml:space="preserve">
-    <value>radio_oil</value>
-  </data>
-  <data name="&gt;&gt;radio_oil.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radio_oil.Parent" xml:space="preserve">
-    <value>groupBox11</value>
-  </data>
-  <data name="&gt;&gt;radio_oil.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="radio_stone.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radio_stone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radio_stone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>64, 20</value>
-  </data>
-  <data name="radio_stone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 17</value>
-  </data>
-  <data name="radio_stone.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="radio_stone.Text" xml:space="preserve">
-    <value>Stone</value>
-  </data>
-  <data name="&gt;&gt;radio_stone.Name" xml:space="preserve">
-    <value>radio_stone</value>
-  </data>
-  <data name="&gt;&gt;radio_stone.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radio_stone.Parent" xml:space="preserve">
-    <value>groupBox11</value>
-  </data>
-  <data name="&gt;&gt;radio_stone.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="radio_fish.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radio_fish.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radio_fish.Location" type="System.Drawing.Point, System.Drawing">
-    <value>64, 43</value>
-  </data>
-  <data name="radio_fish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="radio_fish.TabIndex" type="System.Int32, mscorlib">
+  <data name="radioButton6.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="radio_fish.Text" xml:space="preserve">
-    <value>Fish</value>
+  <data name="radioButton6.Text" xml:space="preserve">
+    <value>Full Auto</value>
   </data>
-  <data name="&gt;&gt;radio_fish.Name" xml:space="preserve">
-    <value>radio_fish</value>
+  <data name="&gt;&gt;radioButton6.Name" xml:space="preserve">
+    <value>radioButton6</value>
   </data>
-  <data name="&gt;&gt;radio_fish.Type" xml:space="preserve">
+  <data name="&gt;&gt;radioButton6.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radio_fish.Parent" xml:space="preserve">
+  <data name="&gt;&gt;radioButton6.Parent" xml:space="preserve">
     <value>groupBox11</value>
   </data>
-  <data name="&gt;&gt;radio_fish.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="radio_iron.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radio_iron.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radio_iron.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 43</value>
-  </data>
-  <data name="radio_iron.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 17</value>
-  </data>
-  <data name="radio_iron.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="radio_iron.Text" xml:space="preserve">
-    <value>Iron</value>
-  </data>
-  <data name="&gt;&gt;radio_iron.Name" xml:space="preserve">
-    <value>radio_iron</value>
-  </data>
-  <data name="&gt;&gt;radio_iron.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radio_iron.Parent" xml:space="preserve">
-    <value>groupBox11</value>
-  </data>
-  <data name="&gt;&gt;radio_iron.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="radio_wood.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radio_wood.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radio_wood.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 19</value>
-  </data>
-  <data name="radio_wood.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 17</value>
-  </data>
-  <data name="radio_wood.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="radio_wood.Text" xml:space="preserve">
-    <value>Wood</value>
-  </data>
-  <data name="&gt;&gt;radio_wood.Name" xml:space="preserve">
-    <value>radio_wood</value>
-  </data>
-  <data name="&gt;&gt;radio_wood.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radio_wood.Parent" xml:space="preserve">
-    <value>groupBox11</value>
-  </data>
-  <data name="&gt;&gt;radio_wood.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="radio_gold.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radio_gold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radio_gold.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 19</value>
-  </data>
-  <data name="radio_gold.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 17</value>
-  </data>
-  <data name="radio_gold.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;radioButton6.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="radio_gold.Text" xml:space="preserve">
-    <value>Coins</value>
+  <data name="radioButton5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;radio_gold.Name" xml:space="preserve">
-    <value>radio_gold</value>
+  <data name="radioButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 47</value>
   </data>
-  <data name="&gt;&gt;radio_gold.Type" xml:space="preserve">
+  <data name="radioButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="radioButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radioButton5.Text" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="&gt;&gt;radioButton5.Name" xml:space="preserve">
+    <value>radioButton5</value>
+  </data>
+  <data name="&gt;&gt;radioButton5.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radio_gold.Parent" xml:space="preserve">
+  <data name="&gt;&gt;radioButton5.Parent" xml:space="preserve">
     <value>groupBox11</value>
   </data>
-  <data name="&gt;&gt;radio_gold.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;radioButton5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 31</value>
+  </data>
+  <data name="radioButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="radioButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radioButton4.Text" xml:space="preserve">
+    <value>50% Auto</value>
+  </data>
+  <data name="&gt;&gt;radioButton4.Name" xml:space="preserve">
+    <value>radioButton4</value>
+  </data>
+  <data name="&gt;&gt;radioButton4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton4.Parent" xml:space="preserve">
+    <value>groupBox11</value>
+  </data>
+  <data name="&gt;&gt;radioButton4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 35</value>
+  </data>
+  <data name="button6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>button6</value>
+  </data>
+  <data name="&gt;&gt;button6.Name" xml:space="preserve">
+    <value>button6</value>
+  </data>
+  <data name="&gt;&gt;button6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
+    <value>groupBox11</value>
+  </data>
+  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="groupBox11.Location" type="System.Drawing.Point, System.Drawing">
     <value>138, 82</value>
   </data>
   <data name="groupBox11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 70</value>
+    <value>201, 70</value>
   </data>
   <data name="groupBox11.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>

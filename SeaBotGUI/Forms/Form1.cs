@@ -93,7 +93,6 @@ namespace SeaBotGUI
             TeleConfigSer.Load();
             this.MaximizeBox = false;
             this.CheckForUpdates();
-            this.UpdateButtons(Core.Config.autoshiptype);
             this.LoadControls();
             // Handle the DoubleClick event to activate the form.
             notifyIcon1.DoubleClick += new System.EventHandler(this.notifyIcon1_DoubleClick);
@@ -770,14 +769,7 @@ namespace SeaBotGUI
                             if (e.PropertyName == "hibernateinterval")
                             {
                                 this.num_hibernationinterval.Value = Core.Config.hibernateinterval;
-                            }
-
-                            if (e.PropertyName == "autoshiptype")
-                            {
-                                this.UpdateButtons(Core.Config.autoshiptype);
-                            }
-
-                            
+                            }           
                         }));
         }
 
@@ -964,22 +956,6 @@ namespace SeaBotGUI
             Core.LocalPlayer.Inventory.CollectionChanged += this.Inventory_CollectionChanged;
             Core.LocalPlayer.Inventory.ItemPropertyChanged += this.Inventory_ItemPropertyChanged;
         }
-
-        private void radio_gold_CheckedChanged(object sender, EventArgs e)
-        {
-            this.updatecheck();
-        }
-
-        private void radio_iron_CheckedChanged(object sender, EventArgs e)
-        {
-            this.updatecheck();
-        }
-
-        private void Radio_oil_CheckedChanged(object sender, EventArgs e)
-        {
-            this.updatecheck();
-        }
-
         private void radio_sleepeveryhrs_CheckedChanged(object sender, EventArgs e)
         {
             if (this.radio_sleepeveryhrs.Checked)
@@ -1002,11 +978,6 @@ namespace SeaBotGUI
             {
                 Core.Config.sleepforhrs = false;
             }
-        }
-
-        private void radio_wood_CheckedChanged(object sender, EventArgs e)
-        {
-            this.updatecheck();
         }
 
         private void RadioButton1_CheckedChanged(object sender, EventArgs e)
@@ -1038,18 +1009,6 @@ namespace SeaBotGUI
            
         }
 
-        private void radioButton6_CheckedChanged(object sender, EventArgs e)
-        {
-            // fish
-            this.updatecheck();
-        }
-
-        private void radioButton7_CheckedChanged(object sender, EventArgs e)
-        {
-            // stone
-            this.updatecheck();
-        }
-
         private void textBox2_Leave_1(object sender, EventArgs e)
         {
             Core.Config.server_token = this.textBox2.Text;
@@ -1060,71 +1019,7 @@ namespace SeaBotGUI
             Core.Config.telegramtoken = this.textBox3.Text;
         }
 
-        private void UpdateButtons(string configAutoshiptype)
-        {
-            if (configAutoshiptype == "coins")
-            {
-                this.radio_gold.Checked = true;
-            }
-
-            if (configAutoshiptype == "fish")
-            {
-                this.radio_fish.Checked = true;
-            }
-
-            if (configAutoshiptype == "iron")
-            {
-                this.radio_iron.Checked = true;
-            }
-
-            if (configAutoshiptype == "wood")
-            {
-                this.radio_wood.Checked = true;
-            }
-
-            if (configAutoshiptype == "stone")
-            {
-                this.radio_stone.Checked = true;
-            }
-
-            if (configAutoshiptype == "Tier 2 - Oil")
-            {
-                this.radio_oil.Checked = true;
-            }
-        }
-
-        private void updatecheck()
-        {
-            if (this.radio_gold.Checked)
-            {
-                Core.Config.autoshiptype = "coins";
-            }
-
-            if (this.radio_iron.Checked)
-            {
-                Core.Config.autoshiptype = "iron";
-            }
-
-            if (this.radio_wood.Checked)
-            {
-                Core.Config.autoshiptype = "wood";
-            }
-
-            if (this.radio_fish.Checked)
-            {
-                Core.Config.autoshiptype = "fish";
-            }
-
-            if (this.radio_stone.Checked)
-            {
-                Core.Config.autoshiptype = "stone";
-            }
-
-            if (this.radio_oil.Checked)
-            {
-                Core.Config.autoshiptype = "Tier 2 - Oil";
-            }
-        }
+        
 
 
         private void Radio_wreck_CheckedChanged(object sender, EventArgs e)

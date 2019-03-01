@@ -3,6 +3,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SeaBotCore;
 namespace SeaBotTests
 {
+    //Why tests are slow? 
+    //Definitions deserialization.
     [TestClass]
     public class SendShipDestinations
     {

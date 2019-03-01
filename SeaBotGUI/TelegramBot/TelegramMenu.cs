@@ -691,7 +691,7 @@ namespace SeaBotGUI.TelegramBot
                                 builder.AppendLine(
                                     Environment.NewLine + string.Format(
                                         PrivateLocal.TELEGRAM_STORAGE,
-                                        AutoTools.GetStogradeLoaded(),
+                                        AutoTools.GetStorageLoaded(),
                                         Core.LocalPlayer.StorageCapacity));
                                 foreach (var item in Core.LocalPlayer.Inventory.Where(
                                     n => n.Amount != 0 && !Between(n.Id, 1, 6, true)))
