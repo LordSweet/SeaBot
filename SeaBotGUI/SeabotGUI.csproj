@@ -94,6 +94,12 @@
     <Compile Include="Forms\IgnoredDestination.Designer.cs">
       <DependentUpon>IgnoredDestination.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\SelectUpgradableItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SelectUpgradableItems.Designer.cs">
+      <DependentUpon>SelectUpgradableItems.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUIBinds.cs" />
     <Compile Include="Localization\PrivateLocal.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\IgnoredDestination.resx">
       <DependentUpon>IgnoredDestination.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SelectUpgradableItems.resx">
+      <DependentUpon>SelectUpgradableItems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Localization\PrivateLocal.resx">
       <Generator>ResXFileCodeGenerator</Generator>

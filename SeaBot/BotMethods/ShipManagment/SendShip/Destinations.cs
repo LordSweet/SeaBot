@@ -34,6 +34,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
     public static class Destinations
     {
         
+        
         public static IGameTask SendToContractor(Ship ship)
         {
             
@@ -348,9 +349,12 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
             // KAAAAAAAAAAAAZOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO?
         }
 
-        public static IGameTask SendToUpgradable(Ship ship, string itemname)
+        public static IGameTask SendToUpgradable(Ship ship)
         {
-            var bestplace = SendingHelper.GetBestUpgPlace(itemname, ship.Sailors(), Core.Config.upgradablestrategy);
+            var id = 0;
+            throw new NotImplementedException();
+            //todo finish it up
+            var bestplace = SendingHelper.GetBestUpgPlace(id, ship.Sailors(), Core.Config.upgradablestrategy);
           
             if (bestplace == null || Core.LocalPlayer.Sailors < ship.Sailors())
             {

@@ -96,6 +96,10 @@
             this.radio_saveloot = new System.Windows.Forms.RadioButton();
             this.radio_savesailors = new System.Windows.Forms.RadioButton();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.button6 = new System.Windows.Forms.Button();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.groupBox25 = new System.Windows.Forms.GroupBox();
             this.label22 = new System.Windows.Forms.Label();
@@ -185,10 +189,6 @@
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.button6 = new System.Windows.Forms.Button();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.buildingBindingSource)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.groupBox26.SuspendLayout();
@@ -813,6 +813,34 @@
             resources.ApplyResources(this.groupBox11, "groupBox11");
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.TabStop = false;
+            // 
+            // radioButton6
+            // 
+            resources.ApplyResources(this.radioButton6, "radioButton6");
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.TabStop = true;
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            resources.ApplyResources(this.radioButton5, "radioButton5");
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.TabStop = true;
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            resources.ApplyResources(this.radioButton4, "radioButton4");
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.TabStop = true;
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            resources.ApplyResources(this.button6, "button6");
+            this.button6.Name = "button6";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // tabPage7
             // 
@@ -1555,33 +1583,6 @@
             // notifyIcon1
             // 
             resources.ApplyResources(this.notifyIcon1, "notifyIcon1");
-            // 
-            // button6
-            // 
-            resources.ApplyResources(this.button6, "button6");
-            this.button6.Name = "button6";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            resources.ApplyResources(this.radioButton4, "radioButton4");
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.TabStop = true;
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            resources.ApplyResources(this.radioButton5, "radioButton5");
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.TabStop = true;
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            resources.ApplyResources(this.radioButton6, "radioButton6");
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.TabStop = true;
-            this.radioButton6.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

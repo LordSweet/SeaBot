@@ -68,7 +68,11 @@ namespace SeaBotCore.Config
 
         Day
     }
-    
+    public enum UpgradableType
+    {
+        FullAuto,
+        Manual
+    }
     
 
     public class IgnoredDestination
@@ -89,8 +93,6 @@ namespace SeaBotCore.Config
         private ChartData _chartdata = ChartData.Resources;
 
         private UpgradablyStrategy _upgradablestrategy = UpgradablyStrategy.Sailors;
-
-        private string _autoshiptype = "coins";
 
         private bool _autothresholdworkshop;
 
@@ -119,6 +121,8 @@ namespace SeaBotCore.Config
         private List<int> _marketitems = new List<int>();
 
         private bool _prodfactory;
+
+        private List<int> _upgitems = new List<int>();
 
         private string _serverToken = string.Empty;
 
@@ -161,9 +165,21 @@ namespace SeaBotCore.Config
         List<int> _ignoredships = new List<int>();
 
         List<IgnoredDestination> _ignoreddestination = new List<IgnoredDestination>();
-      
+
+        private UpgradableType _upgradabletype;
+
         public event PropertyChangedEventHandler PropertyChanged;
 
+        public List<int> upgitems
+        {
+            get => this._upgitems;
+            set
+            {
+                this._upgitems = value;
+                this.OnPropertyChanged(new PropertyChangedEventArgs("upgitems"));
+
+            }
+        }
         public List<IgnoredDestination> ignoreddestination
         {
             get => this._ignoreddestination;
@@ -264,13 +280,13 @@ namespace SeaBotCore.Config
             }
         }
 
-        public string autoshiptype
+        public UpgradableType upgradableType
         {
-            get => this._autoshiptype;
+            get => this._upgradabletype;
             set
             {
-                this._autoshiptype = value;
-                this.OnPropertyChanged(new PropertyChangedEventArgs("autoshiptype"));
+                this._upgradabletype = value;
+                this.OnPropertyChanged(new PropertyChangedEventArgs("upgradabletype"));
             }
         }
 

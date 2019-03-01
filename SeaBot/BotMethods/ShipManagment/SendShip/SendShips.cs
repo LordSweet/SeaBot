@@ -35,8 +35,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                 case ShipDestType.Upgradable:
                     foreach (var ship in bestships)
                     {
-
-                        Destinations.SendToUpgradable(ship, Core.Config.autoshiptype);
+                        Destinations.SendToUpgradable(ship);
                     }
                     break;
                 case ShipDestType.Outpost:
@@ -107,7 +106,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                         }
                         if (upgproc > perc[ShipDestType.Upgradable])
                         {
-                     task = Destinations.SendToUpgradable(ship, Core.Config.autoshiptype);
+                     task = Destinations.SendToUpgradable(ship);
                     if (task != null)
                     {
                         Networking.AddTask(task);
@@ -141,7 +140,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                     continue;
                 }
 
-                 task = Destinations.SendToUpgradable(ship, Core.Config.autoshiptype);
+                 task = Destinations.SendToUpgradable(ship);
                 if (task != null)
                 {
                     Networking.AddTask(task);

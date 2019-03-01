@@ -89,7 +89,7 @@ namespace SeaBotTests
                 Core.LocalPlayer.Sailors = int.MaxValue;
                 Core.LocalPlayer.Upgradeables = new System.Collections.Generic.List<SeaBotCore.Data.Upgradeable>();
                 Core.LocalPlayer.Upgradeables.Add(new SeaBotCore.Data.Upgradeable() { DefId =1, Level = 2, Progress = 120, Done = 0, CargoOnTheWay = 25, Amount = 9000, PlayerLevel = 9,ConfirmedTime = 154674,MaterialKoef = 5,Sailors = 8});
-                var task = SeaBotCore.BotMethods.ShipManagment.SendShip.Destinations.SendToUpgradable(ship,"coins");
+                var task = SeaBotCore.BotMethods.ShipManagment.SendShip.Destinations.SendToUpgradable(ship);
                 if (task == null)
                 {
                     Assert.Fail();

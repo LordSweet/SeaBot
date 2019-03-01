@@ -53,6 +53,7 @@ namespace SeaBotGUI
     using SeaBotCore.Utils;
 
     using SeaBotGUI.Debug;
+    using SeaBotGUI.Forms;
     using SeaBotGUI.GUIBinds;
     using SeaBotGUI.Localization;
     using SeaBotGUI.TelegramBot;
@@ -1122,6 +1123,12 @@ namespace SeaBotGUI
         private void Num_keepedlogs_ValueChanged(object sender, EventArgs e)
         {
             Core.Config.maxkeepedlogs = (int)this.num_keepedlogs.Value;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            SelectUpgradableItems form = new SelectUpgradableItems();
+            form.Show();
         }
     }
 }
