@@ -35,28 +35,44 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                 case ShipDestType.Upgradable:
                     foreach (var ship in bestships)
                     {
-                        Destinations.SendToUpgradable(ship);
+                        var dest = Destinations.SendToUpgradable(ship);
+                        if (dest != null)
+                        {
+                            Networking.AddTask(dest);
+                        }
                     }
                     break;
                 case ShipDestType.Outpost:
                     foreach (var ship in bestships)
                     {
-                       
-                        Destinations.SendToOutpost(ship);
+
+                        var dest = Destinations.SendToOutpost(ship);
+                        if (dest != null)
+                        {
+                            Networking.AddTask(dest);
+                        }
                     }
                     break;
                 case ShipDestType.Marketplace:
                     foreach (var ship in bestships)
                     {
                        
-                        Destinations.SendToMarketplace(ship);
+                       var dest = Destinations.SendToMarketplace(ship);
+                        if (dest != null)
+                        {
+                            Networking.AddTask(dest);
+                        }
                     }
                     break;
                 case ShipDestType.Contractor:
                     foreach (var ship in bestships)
                     {
                      
-                        Destinations.SendToContractor(ship);
+                        var dest =   Destinations.SendToContractor(ship);
+                        if (dest != null)
+                        {
+                            Networking.AddTask(dest);
+                        }
                     }
                     break;
                 case ShipDestType.Auto:
@@ -66,8 +82,12 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                 case ShipDestType.Wreck:
                     foreach (var ship in bestships)
                     {
-                       
-                        Destinations.SendToWreck(ship);
+
+                        var dest = Destinations.SendToWreck(ship);
+                        if (dest != null)
+                        {
+                            Networking.AddTask(dest);
+                        }
                     }
                     break;
 
@@ -160,7 +180,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                     Networking.AddTask(task);
                     continue;
                 }
-
+               
 
             }
                   

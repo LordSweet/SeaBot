@@ -18,7 +18,7 @@
 using Exceptionless.Configuration;
 
 #endregion
-
+using SeaBotCore.BotMethods.ShipManagment.SendShip;
 [assembly: Exceptionless("lVxMtZtAbEjXCOBSGWJ9DjHXlGg1w3808btZZ9Ug")]
 
 namespace SeaBotGUI
@@ -1129,6 +1129,24 @@ namespace SeaBotGUI
         {
             SelectUpgradableItems form = new SelectUpgradableItems();
             form.Show();
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            if(radioButton6.Checked)
+            {
+                Core.Config.upgradableType = UpgradableType.FullAuto;
+
+            }
+            else
+            {
+                Core.Config.upgradableType = UpgradableType.Manual;
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            SendingHelper.GetNextUpgradableItem();
         }
     }
 }

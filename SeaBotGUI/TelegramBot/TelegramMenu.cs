@@ -32,7 +32,7 @@ namespace SeaBotGUI.TelegramBot
     using Telegram.Bot.Types;
 
     #endregion
-
+    using SeaBotCore.Data.Extensions;
     internal class TelegramMenu
     {
         public class NewMenu
@@ -82,55 +82,55 @@ namespace SeaBotGUI.TelegramBot
                     TelegramBot.Button[][] TelegramBot.IMenu.buttons =>
                         new[]
                             {
-                                new[]
-                                    {
-                                        new TelegramBot.Button(
-                                            Core.Config.autoshiptype == "coins"
-                                                ? "✅" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_COINS
-                                                : "❎" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_COINS,
-                                            () => { Core.Config.autoshiptype = "coins"; })
-                                            {
-                                                redirect = (int)EMenu.AutoShipMaterial
-                                            },
-                                        new TelegramBot.Button(
-                                            Core.Config.autoshiptype == "stone"
-                                                ? "✅" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_STONE
-                                                : "❎" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_STONE,
-                                            () => { Core.Config.autoshiptype = "stone"; })
-                                            {
-                                                redirect = (int)EMenu.AutoShipMaterial
-                                            }
-                                    },
-                                new[]
-                                    {
-                                        new TelegramBot.Button(
-                                            Core.Config.autoshiptype == "iron"
-                                                ? "✅" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_IRON
-                                                : "❎" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_IRON,
-                                            () => { Core.Config.autoshiptype = "iron"; })
-                                            {
-                                                redirect = (int)EMenu.AutoShipMaterial
-                                            },
-                                        new TelegramBot.Button(
-                                            Core.Config.autoshiptype == "wood"
-                                                ? "✅" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_WOOD
-                                                : "❎" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_WOOD,
-                                            () => { Core.Config.autoshiptype = "wood"; })
-                                            {
-                                                redirect = (int)EMenu.AutoShipMaterial
-                                            }
-                                    },
-                                new[]
-                                    {
-                                        new TelegramBot.Button(
-                                            Core.Config.autoshiptype == "fish"
-                                                ? "✅" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_FISH
-                                                : "❎" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_FISH,
-                                            () => { Core.Config.autoshiptype = "fish"; })
-                                            {
-                                                redirect = (int)EMenu.AutoShipMaterial
-                                            }
-                                    },
+                                //new[]
+                                //    {
+                                //        new TelegramBot.Button(
+                                //            Core.Config.autoshiptype == "coins"
+                                //                ? "✅" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_COINS
+                                //                : "❎" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_COINS,
+                                //            () => { Core.Config.autoshiptype = "coins"; })
+                                //            {
+                                //                redirect = (int)EMenu.AutoShipMaterial
+                                //            },
+                                //        new TelegramBot.Button(
+                                //            Core.Config.autoshiptype == "stone"
+                                //                ? "✅" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_STONE
+                                //                : "❎" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_STONE,
+                                //            () => { Core.Config.autoshiptype = "stone"; })
+                                //            {
+                                //                redirect = (int)EMenu.AutoShipMaterial
+                                //            }
+                                //    },
+                                //new[]
+                                //    {
+                                //        new TelegramBot.Button(
+                                //            Core.Config.autoshiptype == "iron"
+                                //                ? "✅" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_IRON
+                                //                : "❎" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_IRON,
+                                //            () => { Core.Config.autoshiptype = "iron"; })
+                                //            {
+                                //                redirect = (int)EMenu.AutoShipMaterial
+                                //            },
+                                //        new TelegramBot.Button(
+                                //            Core.Config.autoshiptype == "wood"
+                                //                ? "✅" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_WOOD
+                                //                : "❎" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_WOOD,
+                                //            () => { Core.Config.autoshiptype = "wood"; })
+                                //            {
+                                //                redirect = (int)EMenu.AutoShipMaterial
+                                //            }
+                                //    },
+                                //new[]
+                                //    {
+                                //        new TelegramBot.Button(
+                                //            Core.Config.autoshiptype == "fish"
+                                //                ? "✅" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_FISH
+                                //                : "❎" + PrivateLocal.TELEGRAM_SHIP_STRATEGY_MATERIAL_FISH,
+                                //            () => { Core.Config.autoshiptype = "fish"; })
+                                //            {
+                                //                redirect = (int)EMenu.AutoShipMaterial
+                                //            }
+                                //    },
                                 new[]
                                     {
                                         new TelegramBot.Button(PrivateLocal.TELEGRAM_BTN_STRATEGY, () => { })
@@ -721,7 +721,7 @@ namespace SeaBotGUI.TelegramBot
                                 foreach (var ship in Core.LocalPlayer.Ships.Where(n => n.Activated != 0))
                                 {
                                     
-                                    var name = ship.GetShipName();
+                                    var name = ship.ShipName();
                                    
                                   builder.Append(name+" | ");
 
@@ -735,12 +735,12 @@ namespace SeaBotGUI.TelegramBot
                                                 builder.Append(PrivateLocal.SHIPS_SOCIAL_CONTRACT);
                                             }
                                             else {
-                                                builder.Append(LocalizationCache.GetNameFromLoc(ship.GetTravelName(), string.Empty));
+                                                builder.Append(LocalizationCache.GetNameFromLoc(ship.ShipName(), string.Empty));
                                             }
 
 
 
-                                            var willatportattime = ship.Sent + ship.GetTravelTime();
+                                            var willatportattime = ship.Sent + ship.TravelTime();
 
                                             // lol xD 
                                             if ((TimeUtils.FixedUTCTime - TimeUtils.FromUnixTime(willatportattime)).TotalSeconds > 0)

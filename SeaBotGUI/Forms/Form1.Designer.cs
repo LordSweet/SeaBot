@@ -98,7 +98,6 @@
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.button6 = new System.Windows.Forms.Button();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.groupBox25 = new System.Windows.Forms.GroupBox();
@@ -189,6 +188,7 @@
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.buildingBindingSource)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.groupBox26.SuspendLayout();
@@ -413,6 +413,7 @@
             // 
             // tabPage8
             // 
+            this.tabPage8.Controls.Add(this.button7);
             this.tabPage8.Controls.Add(this.groupBox27);
             this.tabPage8.Controls.Add(this.groupBox24);
             this.tabPage8.Controls.Add(this.groupBox22);
@@ -808,7 +809,6 @@
             // 
             this.groupBox11.Controls.Add(this.radioButton6);
             this.groupBox11.Controls.Add(this.radioButton5);
-            this.groupBox11.Controls.Add(this.radioButton4);
             this.groupBox11.Controls.Add(this.button6);
             resources.ApplyResources(this.groupBox11, "groupBox11");
             this.groupBox11.Name = "groupBox11";
@@ -820,6 +820,7 @@
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.TabStop = true;
             this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
             // 
             // radioButton5
             // 
@@ -827,13 +828,6 @@
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.TabStop = true;
             this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            resources.ApplyResources(this.radioButton4, "radioButton4");
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.TabStop = true;
-            this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
@@ -1584,6 +1578,13 @@
             // 
             resources.ApplyResources(this.notifyIcon1, "notifyIcon1");
             // 
+            // button7
+            // 
+            resources.ApplyResources(this.button7, "button7");
+            this.button7.Name = "button7";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -1841,7 +1842,7 @@
         private System.Windows.Forms.DataGridView dataGridView5;
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }

@@ -16,14 +16,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SeaBotCore.BotMethods.ShipManagment
 {
     using SeaBotCore.BotMethods.ShipManagment.SendShip;
     using SeaBotCore.Data;
     using SeaBotCore.Data.Definitions;
+    using SeaBotCore.Data.Extensions;
     using SeaBotCore.Utils;
 
     public static class UnloadShips

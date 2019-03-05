@@ -109,8 +109,15 @@ namespace SeaBotCore.Cache
                     _local = LoadDictionary(File.ReadAllLines($"{_cachefolder}/{Core.Config.language}.lang"));
                 }
             }
-
-            var str = _local.FirstOrDefault(n => string.Compare(n.Key, item, true) == 0);
+            KeyValuePair<string, string> str = new KeyValuePair<string, string>();
+            try
+            {
+                 str = _local.FirstOrDefault(n => string.Compare(n.Key, item, true) == 0);
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }
             if (str.Value == null)
             {
                 return defname;

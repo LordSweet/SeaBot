@@ -30,6 +30,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
     using SeaBotCore.Utils;
     using SeaBotCore.Data.Extensions;
     using static SeaBotCore.Task;
+    using SeaBotCore.Data.Extensions;
 
     public static class Destinations
     {
@@ -142,7 +143,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                 //Core.LocalPlayer.Contracts.First(n => n.DefId == opst.DefId).Progress +=
                 //    wecan * quest.MaterialKoef;  
                 //todo Paste this into unload!
-                Logger.Info(string.Format(Localization.DESTINATION_CONTRACTOR, ship.GetShipName()));
+                Logger.Info(string.Format(Localization.DESTINATION_CONTRACTOR, ship.ShipName()));
                 var ret = 
                     new Task.SendShipContractorTask(
                         ship.InstId,
@@ -195,7 +196,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                 lship.TargetId = opst.DefId;
                 lship.MaterialId = quest.ObjectiveDefId;
                 lship.TargetLevel = quest.Id;
-                Logger.Info(string.Format(Localization.DESTINATION_CONTRACTOR, ship.GetShipName()));
+                Logger.Info(string.Format(Localization.DESTINATION_CONTRACTOR, ship.ShipName()));
                    var ret = 
                     new Task.SendShipContractorTask(
                         ship.InstId,
@@ -275,7 +276,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
             canproceed = wehaveininv < ship.Capacity() ? wehaveininv : ship.Capacity();
 
             Core.LocalPlayer.Inventory.Where(n => n.Id == maktplc.InputId).FirstOrDefault().Amount -= canproceed;
-            Logger.Info(string.Format(Localization.DESTINATION_MARKETPLACE, ship.GetShipName()));
+            Logger.Info(string.Format(Localization.DESTINATION_MARKETPLACE, ship.ShipName()));
             var ret = new Task.SendShipMarketplaceTask(ship.InstId, maktplc.Id, 1, canproceed);
             var locship = Core.LocalPlayer.Ships.Where(n => n.InstId == ship.InstId).First();
             locship.Type = "marketplace";
@@ -331,7 +332,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
 
                 var sending = 0;
                 sending = next.Crew > ship.Sailors() ? ship.Sailors() : next.Crew;
-                Logger.Info(string.Format(Localization.DESTINATION_OUTPOST, ship.GetShipName()));
+                Logger.Info(string.Format(Localization.DESTINATION_OUTPOST, ship.ShipName()));
                    var ret = new Task.OutpostSendShipTask(ship.InstId, next.DefId, sending);
                 Core.LocalPlayer.Outposts.Add(
                     new Outpost
@@ -349,10 +350,9 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
             // KAAAAAAAAAAAAZOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO?
         }
 
-        public static IGameTask SendToUpgradable(Ship ship)
+        public static IGameTask SendToUpgradable(Ship ship )
         {
-            var id = 0;
-            throw new NotImplementedException();
+            int id = SendingHelper.GetNextUpgradableItem();
             //todo finish it up
             var bestplace = SendingHelper.GetBestUpgPlace(id, ship.Sailors(), Core.Config.upgradablestrategy);
           
@@ -413,7 +413,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                     shp.TargetId = wreck.InstId;
                     shp.TargetLevel = 0;
                     wreck.Status = 1;
-                    Logger.Info(string.Format(Localization.DESTINATION_WRECK, ship.GetShipName()));
+                    Logger.Info(string.Format(Localization.DESTINATION_WRECK, ship.ShipName()));
                   return new Task.SendShipwreckTask(ship.InstId, wreck.InstId);
                    
                 }

@@ -21,8 +21,6 @@ using System.Threading.Tasks;
 
 namespace SeaBotCore.BotMethods.ShipManagment.SendShip
 {
-    using Newtonsoft.Json;
-
     using SeaBotCore.Cache;
     using SeaBotCore.Config;
     using SeaBotCore.Data;
@@ -31,8 +29,9 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
     using SeaBotCore.Localizaion;
     using SeaBotCore.Logger;
     using SeaBotCore.Utils;
+    using SeaBotCore.Data.Extensions;
 
-  public static class SendingHelper
+    public static class SendingHelper
     {
          public static int GetPercentage(int procent, int total)
         {
@@ -40,10 +39,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
             var loccoef = globalkoef * procent;
             return (int) Math.Truncate(loccoef);
         }
-        public static int Capacity(this Ship ship)
-        {
-            return GetCapacity(ship);
-        }
+
         private static int _upgcounter;
         public static bool Between(int num, int lower, int upper, bool inclusive = false)
         {
@@ -51,7 +47,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                        ? lower <= num && num <= upper
                        : lower < num && num < upper;
         }
-        public static int GetUpgItem()
+        public static int GetNextUpgradableItem()
         {
             var ret = 0;
             if(Core.Config.upgradableType== UpgradableType.Manual)
@@ -73,11 +69,11 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                 //todo: Fuel priority
                 //calculate how much is for contractors 
                 int noncontractor = 0;
-                var workingships = Core.LocalPlayer.Ships.Where(n => n.Activated != 0 && n.SourceType == "upgradable" && n.GetTravelTime() > 0);
+                var workingships = Core.LocalPlayer.Ships.Where(n => n.Activated != 0 && n.Type == "upgradeable" && n.TravelTime() > 0);
                 foreach (var ship in workingships)
                 {
                     var destinationid = LocalDefinitions.Upgradables.Where(n => n.DefId == ship.TargetId).First().MaterialId;
-                    if (!Between(destinationid, 1, 6, true))
+                    if (Between(destinationid, 1, 6, true))
                         {
                         noncontractor++;
                     }
@@ -91,9 +87,8 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                 }
                 else
                 {
-                    var neededitems = AutoTools.NeededItemsForUpgradePercentage().Min(n => n.Value) ;
-                    if (neededitems.Count == 0) { return 0; }
-                    return neededitems.Min(n => n.Value);
+                    var neededitems = AutoTools.NeededItemsForUpgradePercentage().OrderByDescending(n => n.Value).Select(b => b.Key).ToList();
+                    return neededitems.FirstOrDefault();
                     //return 
                 }
 
@@ -222,7 +217,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                 return sailors.Value;
             }
 
-            return int.MaxValue;
+            return int.MinValue;
         }
 
         public static ShipDefenitions.Ship GetShipDefId(Ship ship)
@@ -230,7 +225,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
             return LocalDefinitions.Ships.FirstOrDefault(n => n.DefId == ship.DefId);
         }
 
-        public static string GetTravelName(this Ship ship)
+        public static string GetTravelName(Ship ship)
         {
             var pointname = string.Empty;
             switch (ship.Type)
@@ -286,7 +281,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
             return pointname;
         }
 
-        public static int GetTravelTime(this Ship ship)
+        public static int GetTravelTime(Ship ship)
         {
             int? traveltime = null;
             switch (ship.Type)
@@ -434,16 +429,10 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
 
         public static bool IsVoyageCompleted(this Ship ship, int offset = 0)
         {
-            return (TimeUtils.FixedUTCTime - TimeUtils.FromUnixTime(ship.Sent)).TotalSeconds  > ship.GetTravelTime()+offset;
+            return (TimeUtils.FixedUTCTime - TimeUtils.FromUnixTime(ship.Sent)).TotalSeconds  > ship.TravelTime()+offset;
         }
 
-        public static string GetShipName(this Ship ship)
-        {
-
-            return LocalizationCache.GetNameFromLoc(
-                LocalDefinitions.Ships.FirstOrDefault(n => n.DefId == ship.DefId)?.NameLoc,
-                LocalDefinitions.Ships.FirstOrDefault(n => n.DefId == ship.DefId)?.Name);
-        }
+       
         public static void LogUnload(this Ship ship)
         {
             Logger.Info(
@@ -464,10 +453,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
             ship.TargetLevel = 0;
         }
 
-        public static int Sailors(this Ship ship)
-        {
-            return GetSailors(ship);
-        }
+       
 
     }
 }

@@ -92,10 +92,10 @@
     <Compile Include="Data\Definitions\UpgradeableDefenition.cs" />
     <Compile Include="Data\Definitions\WreckDefenitions.cs" />
     <Compile Include="Data\Extensions\DefinitionsExtensions.cs" />
+    <Compile Include="Data\Extensions\PlayerDataExtensions\ShipExtensions.cs" />
     <Compile Include="Data\PlayerData.cs" />
     <Compile Include="Data\Materials\Material.cs" />
     <Compile Include="Data\Materials\MaterialData.cs" />
-    <Compile Include="Data\Extensions\PlayerDataExtensions.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="Events\Events.cs" />
     <Compile Include="Localizaion\Localization.Designer.cs">

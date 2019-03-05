@@ -26,6 +26,7 @@ namespace SeaBotCore
     using SeaBotCore.BotMethods.ShipManagment.SendShip;
     using SeaBotCore.Data;
     using SeaBotCore.Data.Definitions;
+    using SeaBotCore.Data.Extensions;
     using SeaBotCore.Utils;
 
     #endregion

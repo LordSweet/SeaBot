@@ -36,7 +36,7 @@ namespace SeaBotGUI.GUIBinds
     using SeaBotGUI.Localization;
 
     #endregion
-
+    using SeaBotCore.Data.Extensions;
     public static class RichTextBoxExtensions
     {
         public static void AppendText(RichTextBox box, string text, Color color)
@@ -642,7 +642,7 @@ namespace SeaBotGUI.GUIBinds
                 foreach (var ship in Core.LocalPlayer.Ships.Where(n => n.Activated != 0))
                 {
                     
-                    var name = ship.GetShipName();
+                    var name = ship.ShipName();
                     var Ship = new Ship();
                     Ship.ID = ship.InstId;
                     Ship.Name = name;
@@ -652,13 +652,14 @@ namespace SeaBotGUI.GUIBinds
                     {
                         try
                         {
-                            Ship.Route = LocalizationCache.GetNameFromLoc(ship.GetTravelName(), string.Empty);
+                            var target = ship.TargetName();
+                            Ship.Route = LocalizationCache.GetNameFromLoc(target, "def");
                             if (ship.Type == "social_contract")
                             {
                                 Ship.Route = PrivateLocal.SHIPS_SOCIAL_CONTRACT;
                             }
 
-                            var willatportattime = ship.Sent + ship.GetTravelTime();
+                            var willatportattime = ship.Sent + ship.TravelTime();
 
                             // lol xD 
                             if ((TimeUtils.FixedUTCTime - TimeUtils.FromUnixTime(willatportattime)).TotalSeconds > 0)

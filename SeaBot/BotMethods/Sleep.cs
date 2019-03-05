@@ -30,7 +30,7 @@ namespace SeaBotCore.BotMethods
     using SeaBotCore.Utils;
 
     #endregion
-
+    using SeaBotCore.Data.Extensions;
     public class Sleeping
     {
         public static void Sleep()
@@ -53,7 +53,7 @@ namespace SeaBotCore.BotMethods
                         {
                             if (ship.Sent != 0)
                             {
-                                DelayMinList.Add(ship.GetTravelTime() / 60);
+                                DelayMinList.Add(ship.TravelTime() / 60);
                             }
                         }
 
