@@ -84,6 +84,7 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                     var neededitems = AutoTools.NeededItemsForContractor();
                     if(neededitems.Count==0) { return 0; }
                     return neededitems.Min(n => n.Value);
+
                 }
                 else
                 {
