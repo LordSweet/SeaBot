@@ -47,11 +47,15 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
                        ? lower <= num && num <= upper
                        : lower < num && num < upper;
         }
-        public static int GetNextUpgradableItem()
+        public static int GetNextUpgradableItem(int anchors)
         {
-            var ret = 0;
             if(Core.Config.upgradableType== UpgradableType.Manual)
             {
+                //Fuel
+                if(Core.Config.upgitems.Contains(179)&&anchors>2)
+                {
+                    return 179;
+                }
                 if(Core.Config.upgitems.Count==0)
                 {
                     return 0;
@@ -66,35 +70,37 @@ namespace SeaBotCore.BotMethods.ShipManagment.SendShip
             }
             if (Core.Config.upgradableType == UpgradableType.FullAuto)
             {
-                //todo: Fuel priority
-                //calculate how much is for contractors 
+                //Fuel
+                var neededitemspercupg = AutoTools.NeededItemsForUpgradePercentage().OrderByDescending(n => n.Value).Select(b => b.Key).ToList();
+                if (neededitemspercupg.Contains(179) && anchors > 2)
+                {
+                    return 179;
+                }
+                //calculate how much is for contractors
                 int noncontractor = 0;
                 var workingships = Core.LocalPlayer.Ships.Where(n => n.Activated != 0 && n.Type == "upgradeable" && n.TravelTime() > 0);
                 foreach (var ship in workingships)
                 {
                     var destinationid = LocalDefinitions.Upgradables.Where(n => n.DefId == ship.TargetId).First().MaterialId;
                     if (Between(destinationid, 1, 6, true))
-                        {
+                    {
                         noncontractor++;
                     }
                 }
-                if(noncontractor<workingships.Count()/2)
+                var shold = workingships.Count() / 2;
+                if (noncontractor > shold)
                 {
                     //return contractor item
                     var neededitems = AutoTools.NeededItemsForContractor();
-                    if(neededitems.Count==0) { return 0; }
-                    return neededitems.Min(n => n.Value);
-
+                    if (neededitems.Count != 0)
+                    {
+                        return neededitems.Min(n => n.Key);
+                    }
                 }
-                else
-                {
-                    var neededitems = AutoTools.NeededItemsForUpgradePercentage().OrderByDescending(n => n.Value).Select(b => b.Key).ToList();
-                    return neededitems.FirstOrDefault();
+                return neededitemspercupg.SingleOrDefault();
                     //return 
-                }
-
             }
-            return ret;
+            return 0;
         }
         public static Upgradeable GetBestUpgPlace(int id, int sailors, UpgradablyStrategy upgradablestrategy)
         {
